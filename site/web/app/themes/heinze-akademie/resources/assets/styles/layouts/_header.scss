@@ -1,0 +1,37 @@
+header {
+  &.banner {
+    height: 124px;
+    box-shadow: 0 10px 20px -10px $gray-4;
+    background-color: $white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .container {
+      height: 100%;
+
+      .banner__row {
+        flex-grow: 1;
+
+        .banner__wrapper {
+          display: flex;
+          align-items: center;
+          margin-top: 30px;
+
+          .brand {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='175.56' height='44.764' viewBox='0 0 175.56 44.764'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23dd042d;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(56.636 29.71)'%3E%3Cpath d='M339.94,197.788h5.92l-2.906-7.711Zm2.276-9.148h1.6l5.9,15.051h-1.538l-1.838-4.68H339.5l-1.81,4.68h-1.54Z' transform='translate(-336.15 -188.64)'/%3E%3Cpath d='M427.78,188.65h1.43v8.1l8.748-8.1H439.9l-6.717,6.218,7.035,8.828h-1.855l-6.252-7.838-2.9,2.676V203.7h-1.43Z' transform='translate(-410.399 -188.648)'/%3E%3Cpath d='M512.184,197.788h5.922l-2.91-7.711Zm2.274-9.148h1.6l5.9,15.051h-1.538l-1.834-4.68H511.74l-1.811,4.68H508.39Z' transform='translate(-475.719 -188.64)'/%3E%3Cg transform='translate(50.054)'%3E%3Cpath d='M601.464,202.468h3.056c4.321,0,6.2-1.791,6.2-6.3s-1.876-6.3-6.2-6.3h-3.056ZM600.03,188.64h5.207c4.55.106,6.914,2.551,6.914,7.527s-2.362,7.422-6.914,7.527H600.03Z' transform='translate(-600.03 -188.64)'/%3E%3C/g%3E%3Cpath d='M688.76,188.65h10.395v1.223h-8.961v5.436h8.388v1.223h-8.388v5.945h9.063V203.7h-10.5Z' transform='translate(-621.875 -188.648)'/%3E%3Cpath d='M765.82,188.65h2.113l5.2,13.194,5.18-13.194h2.107V203.7h-1.43v-13h-.038l-5.146,13h-1.349l-5.163-13h-.044v13H765.82Z' transform='translate(-684.318 -188.648)'/%3E%3Crect width='1.43' height='15.046' transform='translate(101.563 0.002)'/%3E%3Cpath d='M907.77,188.65h10.389v1.223H909.2v5.436h8.4v1.223h-8.4v5.945h9.069V203.7h-10.5Z' transform='translate(-799.343 -188.648)'/%3E%3C/g%3E%3Cg transform='translate(56.968 0.004)'%3E%3Cpath d='M337.9,32.03h5.656v7.9H351v-7.9h5.654v21.7H351V44.8h-7.445v8.934H337.9Z' transform='translate(-337.9 -32.03)'/%3E%3Cpath d='M460.47,32.03h17.3v4.53H466.124v3.8h10.637v4.38H466.124v4.131h11.946v4.865h-17.6Z' transform='translate(-437.22 -32.03)'/%3E%3Cpath d='M634.47,32.03h5.8L647.816,45.4h.061V32.03h5.317v21.7h-5.8l-7.542-13.526h-.061V53.732H634.47Z' transform='translate(-578.215 -32.03)'/%3E%3Cpath d='M750.86,49.111l11.125-12.218H751.531V32.03H769.28V36.4l-11.4,12.464h11.8V53.73H750.86Z' transform='translate(-672.528 -32.03)'/%3E%3Crect width='5.654' height='15.723' transform='translate(45.733 5.983)'/%3E%3Cpath d='M868.1,32.03h17.3v4.53H873.754v3.8H884.39v4.38H873.754v4.131H885.7v4.865H868.1Z' transform='translate(-767.529 -32.03)'/%3E%3Crect class='a' width='5.715' height='4.533' transform='translate(45.702)'/%3E%3C/g%3E%3Cg transform='translate(0 0)'%3E%3Cpath d='M74.93,33.315a6.1,6.1,0,0,1,6.095,6.095V69.368a6.1,6.1,0,0,1-6.095,6.095H44.97a6.1,6.1,0,0,1-6.095-6.095V39.411a6.1,6.1,0,0,1,6.095-6.095H74.93m0-1.307H44.97a7.421,7.421,0,0,0-7.4,7.4V69.368a7.421,7.421,0,0,0,7.4,7.4H74.93a7.421,7.421,0,0,0,7.4-7.4V39.411a7.423,7.423,0,0,0-7.4-7.4Z' transform='translate(-37.57 -32.01)'/%3E%3Cpath class='a' d='M113.473,76.37h-4.423l-3.312-8.062a5.487,5.487,0,0,0-2.94-8.949,2.026,2.026,0,1,0-2.417,0,5.487,5.487,0,0,0-2.94,8.949l-3.266,7.942H90.36a1,1,0,0,0,0,2h2.993l-3.164,7.7a4.53,4.53,0,0,0,1.734,5.526L97.357,78.25h3.228v.178a1,1,0,0,0,2,0V77.334c0-.028.008-.055.008-.083s-.006-.055-.008-.083V75.983a1,1,0,1,0-2,0v.267H98.178l2.513-6.115a5.454,5.454,0,0,0,1.791,0l2.563,6.237H104a1,1,0,1,0,0,2h1.866l5.385,13.107a4.531,4.531,0,0,0,1.734-5.526l-3.115-7.582h3.6a1,1,0,0,0,0-2ZM98.761,64.718a2.826,2.826,0,1,1,2.826,2.826A2.83,2.83,0,0,1,98.761,64.718Z' transform='translate(-79.536 -51.214)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 176px;
+            height: 45px;
+            display: inline-block;
+          }
+
+          button {
+            margin-left: auto;
+          }
+        }
+      }
+    }
+  }
+}

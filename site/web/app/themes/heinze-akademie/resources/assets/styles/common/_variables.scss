@@ -1,0 +1,28 @@
+/** helper: primary secondary tertiary quaternary quinary senary septenary octonary nonary denary */
+
+/** Import Bootstrap functions */
+
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/** Colors */
+$black:     #000;
+$white:     #fff;
+$gray-1:    #f2f2f2;
+$gray-2:    #00000029;
+$gray-3:    #d3d3d3;
+$gray-4:    #9a9a9a;
+$gray-5:    #848484;
+$gray-6:    #363636;
+$red-1:     #dd042d14;
+$red-2:     #fbe0e5;
+$red-3:     #dd042d;
+$red-4:     #d82d4a;
+$red-5:     #770016;

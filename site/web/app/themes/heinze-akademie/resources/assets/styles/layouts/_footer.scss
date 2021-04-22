@@ -1,0 +1,46 @@
+footer {
+  .footer-top {
+    padding: 110px 0 175px;
+    background-color: $black;
+  }
+
+  .footer-bottom {
+    height: 78px;
+    background-color: $gray-1;
+    display: flex;
+    align-items: center;
+
+    &__copyright {
+      margin-bottom: 0;
+      display: inline-block;
+
+      &--regular {
+        font-family: $HelveticaRegular;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0;
+        font-stretch: normal;
+      }
+
+      &--bold {
+        font-family: $HelveticaBold;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0;
+        font-stretch: normal;
+      }
+    }
+
+    &__to-top {
+      width: 35px;
+      height: 23px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34.472' height='22.37' viewBox='0 0 34.472 22.37'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23dd042d;%7D%3C/style%3E%3C/defs%3E%3Cpath class='a' d='M19.236,24.37,2,7.134,7.134,2l12.1,12.1L31.338,2l5.134,5.134Z' transform='translate(36.472 24.37) rotate(180)'/%3E%3C/svg%3E");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: inline-block;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}

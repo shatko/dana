@@ -1,0 +1,17 @@
+# Created by trellis-cli v0.7.1
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: lVMyFwVYEN3rBAcL6sgC24qm8LFgjTYEcR1PedECwwUpmmGnbWMqWm4Cec7w92gw
+vault_wordpress_sites:
+  heinze-akadamie.test:
+    admin_password: EIAkxEXos7leZIhaf4xwjHHogGygBtQ9JItbj5pJaeqgIwBXeie0mzgzRteBnWQy
+    env:
+      db_password: IeMMVjxdraSvhTt5jMNEQQ7RFCcNaQHmkEiGAUAu9HOhT6lBe4zyfWPRLQcTrIGU
+      auth_key: pZCEYGD2pk64rXNZg6hsIiFviMBw2IGcRjhe7fYe0EVT5P33dfkszfTMkgtkRokt
+      secure_auth_key: agIt5kKlRnFeyULbQnQ3GpuYVvPEG41bgo90RsDV3B8NbF4VriFA5Brahfo7DV77
+      logged_in_key: PA1TCNXqJeamjelooy6dKuApBfhfgPDgijBMpWFruQ06dUi1bcMbjRMKHoJYsnej
+      nonce_key: 8BEWXj2rPZoTqs6r8ToOivcZqWsLnfh82P14JLo2uyhfpa8Qsn1xYwVkIiwCk1iR
+      auth_salt: culOJtfhhz74rj9AXuq2VElt0cIXRckSPkui6eAIOlfYMrgpw07b1NU55mWQ4gsH
+      secure_auth_salt: X0cJQFKc58ywbdBkshtRBtCxS6FJ4qIbatgbNsAYKGauyUA5Jzotd5siDxyr51kl
+      logged_in_salt: Mh9oePVQ7RqGGrj8DhHADIaPveSFIfwH6QXhtXJKexIzrKYjWjo7tHHwdB4fEgU2
+      nonce_salt: vcnLzD2grT1kKuiOtkUDfd4zJosVRhO4FMa0LJUIdTQPVQrpVGeeQ9kfmJ5YmZmY

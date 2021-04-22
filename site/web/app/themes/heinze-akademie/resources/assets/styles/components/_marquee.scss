@@ -1,0 +1,9 @@
+.marquee {
+  background: $red-1 0% 0% no-repeat padding-box;
+  height: 42px;
+  padding-top: 10px;
+
+  &__text {
+    @extend %marquee;
+  }
+}
