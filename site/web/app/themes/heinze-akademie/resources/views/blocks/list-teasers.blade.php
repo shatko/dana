@@ -14,7 +14,7 @@
 
 
 <div class="list-teasers">
-  <div class="container container__inner">
+  <div class="container">
     <div class="row">
       <div class="col-lg-12 list-teasers__title-main">
         @php
@@ -48,10 +48,6 @@
           // Do something...
         endif;
       @endphp
-
-      <div class="col-lg-12 list-teasers__button-wrapper">
-        <a class="button-secondary" href="@php echo esc_url(get_permalink( get_field('button_link'))); @endphp">@php echo get_field('button_text') @endphp</a>
-      </div>
     </div>
   </div>
 </div>

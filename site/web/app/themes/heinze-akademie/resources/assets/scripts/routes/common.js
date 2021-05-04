@@ -5,8 +5,8 @@ export default {
     // Scroll to top
     $('.footer-bottom__to-top').click(function() {
       $('html,body').animate({
-        scrollTop: $('header').offset().top,
-      }, '1000');
+        scrollTop: $('body').offset().top,
+      }, '2000');
     });
 
     // Add Main Menu arrow

@@ -38,15 +38,7 @@
               // Case: Button
               elseif( get_row_layout() == 'button' ):
                 @endphp
-                <div class="button">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <a class="button-secondary arrow" href="{{ get_sub_field('page') }}">{{ get_sub_field('button_text') }}</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  @include('partials.button-sub-field')
                 @php
 
               // Case: Download layout.

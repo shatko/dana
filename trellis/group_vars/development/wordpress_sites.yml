@@ -2,13 +2,13 @@
 # Documentation: https://roots.io/trellis/docs/wordpress-sites/
 
 wordpress_sites:
-  heinze-akadamie.test:
+  heinze-akademie.test:
     site_hosts:
-    - canonical: heinze-akadamie.test
+    - canonical: heinze-akademie.test
       redirects:
       - www.heinze-akadamie.test
     local_path: ../site
-    admin_email: admin@heinze-akadamie.test
+    admin_email: admin@heinze-akademie.test
     multisite:
       enabled: false
     ssl:

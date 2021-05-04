@@ -3,7 +3,7 @@
 
 vault_mysql_root_password: lVMyFwVYEN3rBAcL6sgC24qm8LFgjTYEcR1PedECwwUpmmGnbWMqWm4Cec7w92gw
 vault_wordpress_sites:
-  heinze-akadamie.test:
+  heinze-akademie.test:
     admin_password: EIAkxEXos7leZIhaf4xwjHHogGygBtQ9JItbj5pJaeqgIwBXeie0mzgzRteBnWQy
     env:
       db_password: IeMMVjxdraSvhTt5jMNEQQ7RFCcNaQHmkEiGAUAu9HOhT6lBe4zyfWPRLQcTrIGU

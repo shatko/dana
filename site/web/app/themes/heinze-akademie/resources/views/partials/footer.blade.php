@@ -1,18 +1,3 @@
-<div class="container">
-  <a class="button-primary" href="#">Absenden</a>
-  <a class="button-primary button-primary--disabled" href="#">Absenden</a>
-</div>
-
-<div class="container">
-  <a class="button-secondary" href="#">Absenden</a>
-  <a class="button-secondary button-secondary--disabled" href="#">Absenden</a>
-</div>
-
-<div class="container">
-  <a class="button-tertiary" href="#">Absenden</a>
-  <a class="button-tertiary button-tertiary--disabled" href="#">Absenden</a>
-</div>
-
 <footer class="content-info">
   <div class="footer-top">
     <div class="container container__inner">

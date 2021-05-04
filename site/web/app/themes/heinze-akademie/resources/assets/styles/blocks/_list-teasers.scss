@@ -1,5 +1,4 @@
 .list-teasers {
-  border: 1px solid red;
   background-color: $gray-1;
   padding: 125px 0 120px;
 
@@ -12,6 +11,8 @@
     padding: 50px 25px;
     background-color: $white;
     height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   &__number {
@@ -40,10 +41,5 @@
   &__text {
     margin-left: 35px;
     margin-right: 35px;
-  }
-
-  &__button-wrapper {
-    text-align: center;
-    margin-top: 90px;
   }
 }
