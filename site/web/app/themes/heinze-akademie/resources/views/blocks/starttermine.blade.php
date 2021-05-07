@@ -22,7 +22,7 @@
           $increment  = 0;
 
           if( have_rows($category, 'option') ):
-            while( have_rows('starttermine_techniker', 'option') ): the_row();
+            while( have_rows($category, 'option') ): the_row();
 
             $empty_slots = get_sub_field('free_slots');
             $form = get_sub_field('contact_form_shortcode');
@@ -55,7 +55,6 @@
             @endphp
 
             <div class="starttermine__card">
-
 
               @php
                 if ($empty_slots != 0) {
@@ -111,12 +110,6 @@
                 <div class="starttermine__card-content-wrapper">
                   @php echo the_sub_field('content'); @endphp
                 </div>
-
-
-
-
-
-
               </div>
             </div>
 
