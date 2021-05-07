@@ -6,21 +6,24 @@
 
     > .menu-item {
       margin-left: 40px;
-      position: relative;
 
       &.current-menu-item {
-        &::after {
-          content: "";
-          width: 100%;
-          height: 6px;
-          background-color: $red-3;
-          position: absolute;
-          left: 0;
-          bottom: -50px;
+        > a[aria-current="page"] {
+          position: relative;
+
+          &::after {
+            content: "";
+            width: calc(100% + 30px);
+            height: 6px;
+            background-color: $red-3;
+            position: absolute;
+            left: 0;
+            bottom: -52px;
+          }
         }
       }
 
-      .sub-arrow {
+      > .sub-arrow {
         display: inline-block;
         width: 15px;
         height: 10px;
@@ -29,6 +32,10 @@
         background-repeat: no-repeat;
         margin-left: 10px;
         cursor: pointer;
+
+        &:hover {
+          background-image: url("data:image/svg+xml,%3Csvg id='icon_arrow-down' data-name='icon/arrow-down' xmlns='http://www.w3.org/2000/svg' width='15.4' height='10.1' viewBox='0 0 15.4 10.1'%3E%3Cpath id='Path_268' data-name='Path 268' d='M9.7,12.1,2,4.318,4.294,2,9.7,7.464,15.106,2,17.4,4.318Z' transform='translate(-2 -2)' fill='%23dd042d'/%3E%3C/svg%3E ");
+        }
       }
 
       > a {
@@ -39,6 +46,65 @@
     > .menu-item-has-children {
       .sub-menu {
         display: none;
+        list-style-type: none;
+
+        &.sub-first-active {
+          border-top: 1px solid $gray-3;
+          background: $white;
+          display: inline-block;
+          position: absolute;
+          width: 100%;
+          height: 100vh;
+          left: 0;
+          top: 89px;
+          padding: 150px;
+
+          &::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            width: 1px;
+            height: 100vh;
+            background: $gray-3;
+            top: 0;
+            left: 50%;
+          }
+        }
+
+        .menu-item {
+          width: 745px;
+
+          > a {
+            @extend %main-sub-navigation;
+          }
+
+          &.menu-item-has-children {
+            > .sub-arrow {
+              display: inline-block;
+              width: 10px;
+              height: 15px;
+              background-image: url("data:image/svg+xml,%3Csvg id='icon_arrow_red' data-name='icon/arrow_red' xmlns='http://www.w3.org/2000/svg' width='10.1' height='15.4' viewBox='0 0 10.1 15.4'%3E%3Cpath id='icon_arrow_red-2' data-name='icon/arrow_red' d='M9.7,12.1,2,4.318,4.294,2,9.7,7.464,15.106,2,17.4,4.318Z' transform='translate(-2 17.4) rotate(-90)'/%3E%3C/svg%3E ");
+              background-size: contain;
+              background-repeat: no-repeat;
+              margin-left: 10px;
+              cursor: pointer;
+
+              &:hover {
+                background-image: url("data:image/svg+xml,%3Csvg id='icon_arrow_red' data-name='icon/arrow_red' xmlns='http://www.w3.org/2000/svg' width='10.1' height='15.4' viewBox='0 0 10.1 15.4'%3E%3Cpath id='icon_arrow_red-2' data-name='icon/arrow_red' d='M9.7,12.1,2,4.318,4.294,2,9.7,7.464,15.106,2,17.4,4.318Z' transform='translate(-2 17.4) rotate(-90)' fill='%23dd042d'/%3E%3C/svg%3E ");
+              }
+            }
+
+            > .sub-menu {
+              position: absolute;
+              left: 50%;
+              top: 150px;
+
+              &.sub-second-active {
+                display: block;
+              }
+            }
+          }
+        }
       }
     }
   }

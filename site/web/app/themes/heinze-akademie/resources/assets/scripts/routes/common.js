@@ -9,12 +9,36 @@ export default {
       }, '2000');
     });
 
-    // Add Main Menu arrow
+    // Adds Main Menu arrow
     $('#menu-main-menu > li').each(function() {
       if ($(this).hasClass('menu-item-has-children')) {
-        $(this).append('<div class="sub-arrow"></div>');
+        $(this).append('<div class="sub-arrow sub-arrow__main"></div>');
       }
     });
+
+    // Adds Main Submenu arrow
+    $('#menu-main-menu > li > ul > li').each(function() {
+      if ($(this).hasClass('menu-item-has-children')) {
+        $(this).append('<div class="sub-arrow sub-arrow__submenu"></div>');
+      }
+    });
+
+    // Main Submenu first level
+    $('.sub-arrow__main').click(function() {
+      $('#menu-main-menu > li > .sub-menu').each(function() {
+        $(this).removeClass('sub-first-active');
+      });
+      $(this).siblings('.sub-menu').addClass('sub-first-active');
+    });
+
+    // Main Submenu second level
+    $('.sub-arrow__submenu').click(function() {
+      $('#menu-main-menu > li > ul > li > ul').each(function() {
+        $(this).removeClass('sub-second-active');
+      });
+      $(this).siblings('.sub-menu').addClass('sub-second-active');
+    });
+
 
     // Starttermine Show All
     if ($('.starttermine__show-all-trigger')[0]) {

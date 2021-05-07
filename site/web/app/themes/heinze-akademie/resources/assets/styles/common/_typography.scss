@@ -106,9 +106,28 @@ p {
   letter-spacing: 0;
   font-stretch: normal;
   color: $black;
+  transition: color 0.25s ease;
 
   &:hover {
     text-decoration: none;
+    color: $red-3;
+  }
+}
+
+%main-sub-navigation {
+  font-family: $HelveticaBold;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  color: $black;
+  transition: color 0.25s ease;
+  margin-bottom: 35px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+    color: $red-3;
   }
 }
 
