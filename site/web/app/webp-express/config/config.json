@@ -125,27 +125,27 @@
             {
                 "id": "uploads",
                 "rel-path": "app/uploads",
-                "url": "http://heinze-akadamie.test/app/uploads"
+                "url": "http://heinze-akademie.test/app/uploads"
             },
             {
                 "id": "themes",
                 "rel-path": "app/themes",
-                "url": "http://heinze-akadamie.test/app/themes"
+                "url": "http://heinze-akademie.test/app/themes"
             },
             {
                 "id": "plugins",
                 "rel-path": "app/plugins",
-                "url": "http://heinze-akadamie.test/app/plugins"
+                "url": "http://heinze-akademie.test/app/plugins"
             },
             {
                 "id": "wp-content",
                 "rel-path": "app",
-                "url": "http://heinze-akadamie.test/app"
+                "url": "http://heinze-akademie.test/app"
             },
             {
                 "id": "index",
                 "rel-path": "wp",
-                "url": "http://heinze-akadamie.test"
+                "url": "http://heinze-akademie.test"
             }
         ],
         "document-root": null
@@ -157,7 +157,7 @@
         "canRunTestScriptInWOD": true,
         "canRunTestScriptInWOD2": true
     },
-    "document-root": "/srv/www/heinze-akadamie.test/current/web",
+    "document-root": "/srv/www/heinze-akademie.test/current/web",
     "paths-used-in-htaccess": {
         "wod-url-path": "app/plugins/webp-express/wod/webp-on-demand.php"
     }

@@ -180,6 +180,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/home-header',
         'acf/list-teasers',
         'acf/two-column-content',
+        'acf/starttermine',
     );
 });
 
@@ -208,6 +209,22 @@ add_filter( 'block_categories', function( $categories, $post ) {
  * Sets ACF Options
  */
 if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page(array(
+        'page_title' 	=> 'Heinze Starttermine',
+        'menu_title'	=> 'Heinze Starttermine',
+        'menu_slug' 	=> 'heinze-starttermine',
+        'capability'	=> 'edit_posts',
+        'redirect'		=> true
+    ));
+
+    acf_add_options_page(array(
+        'page_title' 	=> 'Heinze Events',
+        'menu_title'	=> 'Heinze Events',
+        'menu_slug' 	=> 'heinze-events',
+        'capability'	=> 'edit_posts',
+        'redirect'		=> true
+    ));
+
 	acf_add_options_page(array(
 		'page_title' 	=> 'Heinze General Settings',
 		'menu_title'	=> 'Heinze Settings',

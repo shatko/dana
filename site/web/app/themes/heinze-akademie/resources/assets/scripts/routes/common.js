@@ -16,6 +16,17 @@ export default {
       }
     });
 
+    // Starttermine Show All
+    if ($('.starttermine__show-all-trigger')[0]) {
+      $('.starttermine__show-all-trigger').click(function() {
+        $(this).hide();
+
+        $('#starttermine').children('.starttermine__card').each(function () {
+          $(this).addClass('show-all');
+        });
+      });
+    }
+
 
   },
   finalize() {

@@ -26,3 +26,14 @@ $red-2:     #fbe0e5;
 $red-3:     #dd042d;
 $red-4:     #d82d4a;
 $red-5:     #770016;
+
+/** Bottom Spacing **/
+$spacer-120:  120px;
+$spacer-80:   80px;
+$spacer-60:   60px;
+$spacer-40:   40px;
+$spacer-30:   30px;
+
+%bottom-spacing {
+  margin-bottom: $spacer-120;
+}
