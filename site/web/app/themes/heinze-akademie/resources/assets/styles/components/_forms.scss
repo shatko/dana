@@ -149,3 +149,7 @@ span.wpcf7-list-item {
     }
   }
 }
+
+.wpcf7 .wpcf7-submit:disabled {
+  opacity: 0.5;
+}

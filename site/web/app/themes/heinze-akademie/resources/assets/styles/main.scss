@@ -10,6 +10,7 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
+@import "~slick-carousel/slick/slick.scss";
 
 /** Import theme styles */
 @import "common/global";
@@ -32,3 +33,4 @@
 @import "blocks/starttermine";
 @import "blocks/events";
 @import "blocks/call-back";
+@import "blocks/absolventen-slider";

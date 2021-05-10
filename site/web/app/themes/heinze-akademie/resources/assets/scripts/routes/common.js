@@ -68,6 +68,33 @@ export default {
     }
 
 
+    // Slider Absolventen
+    $('.absolventen-slider__slider').slick({
+      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
+      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      responsive: [
+       {
+         breakpoint: 1470,
+         settings: {
+           slidesToShow: 2,
+         },
+       },
+       {
+         breakpoint: 991,
+         settings: {
+           slidesToShow: 1,
+         },
+       },
+      ],
+    });
+
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

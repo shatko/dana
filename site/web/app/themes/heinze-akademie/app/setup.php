@@ -184,6 +184,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/starttermine',
         'acf/events',
         'acf/call-back-form',
+        'acf/absolventen-slider',
     );
 });
 
@@ -224,6 +225,14 @@ if( function_exists('acf_add_options_page') ) {
         'page_title' 	=> 'Heinze Events',
         'menu_title'	=> 'Heinze Events',
         'menu_slug' 	=> 'heinze-events',
+        'capability'	=> 'edit_posts',
+        'redirect'		=> true
+    ));
+
+    acf_add_options_page(array(
+        'page_title' 	=> 'Heinze Absolventen',
+        'menu_title'	=> 'Heinze Absolventen',
+        'menu_slug' 	=> 'heinze-absolventen',
         'capability'	=> 'edit_posts',
         'redirect'		=> true
     ));
