@@ -34,7 +34,7 @@
             @endphp
             <div class="list-teasers__single">
               <div class="list-teasers__number">{{ $num }}</div>
-              <h3 class="list-teasers__title">{{ $title }}</h3>
+              <h5 class="list-teasers__title small">{{ $title }}</h3>
               <hr>
               <div class="list-teasers__text">@php echo get_sub_field('list'); @endphp</div>
             </div>

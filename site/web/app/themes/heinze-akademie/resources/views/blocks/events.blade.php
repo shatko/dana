@@ -28,7 +28,7 @@
             @endphp
 
             <div class="events__card">
-              <div class="events__card-header collapsed" id="heading-{{ $increment }}" data-toggle="collapse" data-target="#collapse-{{ $increment }}" aria-expanded="true" aria-controls="collapse-{{ $increment }}">
+              <div class="events__card-header collapsed" id="events-heading-{{ $increment }}" data-toggle="collapse" data-target="#events-collapse-{{ $increment }}" aria-expanded="true" aria-controls="events-collapse-{{ $increment }}">
                 <div class="events__card-header-text-wrapper">
                   <p class="events__card-header-date big bold">@php echo get_sub_field('date'); @endphp</p>
                   <div class="events__card-header-arrow"></div>
@@ -43,7 +43,7 @@
                 </div>
               </div>
 
-              <div id="collapse-{{ $increment }}" class="events__card-content collapse" aria-labelledby="heading-{{ $increment }}" data-parent="#events">
+              <div id="events-collapse-{{ $increment }}" class="events__card-content collapse" aria-labelledby="events-heading-{{ $increment }}" data-parent="#events">
                 <div class="events__card-content-wrapper">
                   @php echo the_sub_field('content'); @endphp
                 </div>

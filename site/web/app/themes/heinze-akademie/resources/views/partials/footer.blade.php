@@ -18,7 +18,7 @@
             <p><a href="tel:@php the_field('tel_beratung_href', 'option'); @endphp">@php the_field('tel_beratung_text', 'option'); @endphp</a></p>
             <p>@php the_field('mo_do', 'option'); @endphp</p>
             <p>@php the_field('fr', 'option'); @endphp</p>
-            <p><a class="footer-navigation" href="mailto:@php the_field('e-mail_href', 'option'); @endphp">@php the_field('e-mail_text', 'option'); @endphp</a></p>
+            <p><a class="footer-navigation" href="mailto:@php the_field('e_mail_href', 'option'); @endphp">@php the_field('e_mail_text', 'option'); @endphp</a></p>
           </div>
         </div>
         <div class="col-xl-4">

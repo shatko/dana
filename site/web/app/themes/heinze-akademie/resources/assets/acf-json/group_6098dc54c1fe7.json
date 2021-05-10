@@ -154,7 +154,7 @@
         {
             "key": "field_6098ddc8063a0",
             "label": "E-Mail HREF",
-            "name": "e-mail_href",
+            "name": "e_mail_href",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -173,7 +173,7 @@
         {
             "key": "field_6098ddd7063a1",
             "label": "E-Mail TEXT",
-            "name": "e-mail_text",
+            "name": "e_mail_text",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -317,5 +317,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620632407
+    "modified": 1620648543
 }

@@ -75,9 +75,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      @php
-                        echo do_shortcode( $form );
-                      @endphp
+                      @php echo do_shortcode( $form ); @endphp
                     </div>
                   </div>
                 </div>

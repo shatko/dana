@@ -1,0 +1,170 @@
+.call-back {
+  border: 1px solid red;
+
+  &__form-wrapper {
+    padding: 200px 140px 100px 140px;
+    background-color: $red-2;
+
+    h4 {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 60px;
+
+      &::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        right: -60px;
+        top: 10px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39.999' height='39.999' viewBox='0 0 39.999 39.999'%3E%3Cg id='icon_callback' data-name='icon/callback' transform='translate(-781 -9230)'%3E%3Cg id='noun_Phone_2670728' transform='translate(781 9230)'%3E%3Cpath id='Path_235' data-name='Path 235' d='M56.367,12.453A12.378,12.378,0,0,1,68.731,24.817a.9.9,0,1,0,1.8,0A14.177,14.177,0,0,0,56.367,10.655a.9.9,0,0,0,0,1.8Z' transform='translate(-33.03 -8.157)' fill='%23dd042d'/%3E%3Cpath id='Path_236' data-name='Path 236' d='M56.367,25.6a6.528,6.528,0,0,1,6.519,6.519.9.9,0,1,0,1.8,0A8.326,8.326,0,0,0,56.367,23.8a.9.9,0,1,0,0,1.8Z' transform='translate(-33.029 -15.458)' fill='%23dd042d'/%3E%3Cpath id='Path_237' data-name='Path 237' d='M14.09,35.947a30.468,30.468,0,0,0,16.667,8.827,19.212,19.212,0,0,0,12.514-2.029,3.446,3.446,0,0,0,1.706-2.608,5.557,5.557,0,0,0-1.739-4.549l-4.943-4.943A5.68,5.68,0,0,0,34.2,28.877a3.646,3.646,0,0,0-2.658,1.177L28.457,33.5A26.662,26.662,0,0,1,16.534,21.579l3.447-3.087a3.646,3.646,0,0,0,1.177-2.658,5.68,5.68,0,0,0-1.767-4.093L14.448,6.8A5.557,5.557,0,0,0,9.9,5.058,3.448,3.448,0,0,0,7.291,6.764,19.212,19.212,0,0,0,5.262,19.278,30.47,30.47,0,0,0,14.09,35.947ZM8.851,7.657a1.681,1.681,0,0,1,1.286-.816,3.817,3.817,0,0,1,3.039,1.228l4.943,4.943a3.938,3.938,0,0,1,1.241,2.771,1.869,1.869,0,0,1-.579,1.368l-4.442,3.977.276.6A28.369,28.369,0,0,0,28.3,35.419l.6.276,3.977-4.442a1.869,1.869,0,0,1,1.368-.578,3.938,3.938,0,0,1,2.771,1.241l4.943,4.943a3.817,3.817,0,0,1,1.228,3.04,1.682,1.682,0,0,1-.817,1.285A17.441,17.441,0,0,1,31.024,43a28.663,28.663,0,0,1-15.663-8.32A28.665,28.665,0,0,1,7.04,19.011,17.442,17.442,0,0,1,8.851,7.657Z' transform='translate(-5 -5.036)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E ");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .wpcf7 {
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        padding: 15px 20px;
+        background-color: $white;
+        width: 100%;
+        margin-bottom: 30px;
+        border: none;
+
+        &::placeholder {
+          @extend %form-placeholder;
+        }
+      }
+
+      .wpcf7-checkbox,
+      .wpcf7-acceptance {
+        .wpcf7-list-item {
+          margin-bottom: 0;
+
+          > label {
+            margin-bottom: 0;
+
+            .wpcf7-list-item-label {
+              @extend %form-chkbox-bold;
+
+              a {
+                color: $red-3;
+              }
+            }
+          }
+        }
+      }
+
+      input[type="submit"] {
+        @extend %button;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.25s ease;
+        min-width: 228px;
+        height: 58px;
+        border-radius: 29px;
+        padding: 0 30px;
+        background-color: $red-3;
+        color: $white;
+        border: none;
+        margin-top: 70px;
+
+        &:hover {
+          background-color: $red-3;
+        }
+      }
+    }
+  }
+
+  &__contact-persons-wrapper {
+    padding: 80px 140px;
+    background-color: $gray-1;
+  }
+
+  &__contact-persons--top {
+    padding-bottom: 60px;
+    border-bottom: 1px solid $gray-3;
+
+    h4 {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__contact-single {
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+
+    img {
+      display: inline-block;
+      border-radius: 50%;
+      margin-bottom: 35px;
+    }
+  }
+
+  &__name-surname {
+    margin-bottom: 0;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__tel {
+    margin-bottom: 60px;
+  }
+
+  &__tel-link {
+    font-family: $HelveticaBold;
+    color: $red-3;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    &:hover {
+      text-decoration: none;
+      color: $red-3;
+    }
+  }
+
+  &__whatsapp {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.605' height='20.627' viewBox='0 0 20.605 20.627'%3E%3Cg id='whatsapp' transform='translate(-68.494 -68.321)'%3E%3Cg id='icon_whatsapp' data-name='icon/whatsapp' transform='translate(68.494 68.321)'%3E%3Cpath id='Path_283' data-name='Path 283' d='M68.494,88.948l1.443-5.125a10.285,10.285,0,1,1,3.842,3.765Zm5.556-3.232.315.192a8.542,8.542,0,1,0-2.75-2.688l.212.33L71,86.5Z' transform='translate(-68.494 -68.321)'/%3E%3Cpath id='Path_284' data-name='Path 284' d='M149.91,152.863l-.668-.036a.807.807,0,0,0-.574.2,3.042,3.042,0,0,0-1,1.533,4.646,4.646,0,0,0,1.077,3.642,10.833,10.833,0,0,0,5.839,4.245,2.846,2.846,0,0,0,2.41-.3,2.155,2.155,0,0,0,.938-1.368l.107-.5a.346.346,0,0,0-.193-.387l-2.256-1.04a.346.346,0,0,0-.419.1l-.886,1.148a.253.253,0,0,1-.285.085,6.937,6.937,0,0,1-3.754-3.212.256.256,0,0,1,.032-.286l.847-.979a.346.346,0,0,0,.056-.362l-.973-2.276A.346.346,0,0,0,149.91,152.863Z' transform='translate(-142.484 -147.363)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__contact-persons--bottom {
+    padding-top: 30px;
+  }
+
+  &__bottom-left,
+  &__bottom-right {
+    p {
+      margin-bottom: 0;
+
+      &:nth-child(2) {
+        margin-bottom: 90px;
+      }
+    }
+
+    .link {
+      @extend %footer-navigation;
+
+      color: black;
+    }
+  }
+
+  &__bottom-left {
+    float: left;
+    margin-right: 60px;
+  }
+}
