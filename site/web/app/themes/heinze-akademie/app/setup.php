@@ -44,7 +44,8 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage'),
+        'footer_navigation' => __('Footer Navigation', 'sage'),
     ]);
 
     /**
@@ -182,6 +183,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/two-column-content',
         'acf/starttermine',
         'acf/events',
+        'acf/call-back-form',
     );
 });
 

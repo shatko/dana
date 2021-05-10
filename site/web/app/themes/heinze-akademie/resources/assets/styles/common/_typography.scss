@@ -11,6 +11,17 @@
 $HelveticaRegular: "Helvetica Neue LT W05_55 Regular", sans-serif;
 $HelveticaBold: "Helvetica Neue LT W05_75 Bold", sans-serif;
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  strong {
+    font-family: $HelveticaBold;
+  }
+}
+
 h2 {
   font-family: $HelveticaBold;
   font-size: 80px;
@@ -46,6 +57,10 @@ p {
   }
 
   &.bold {
+    font-family: $HelveticaBold;
+  }
+
+  strong {
     font-family: $HelveticaBold;
   }
 }
@@ -128,6 +143,53 @@ p {
   &:hover {
     text-decoration: none;
     color: $red-3;
+  }
+}
+
+// Form Title
+%footer {
+  font-family: $HelveticaRegular;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  font-weight: normal;
+
+  strong {
+    font-family: $HelveticaBold;
+  }
+}
+
+%footer-navigation {
+  font-family: $HelveticaBold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  font-weight: normal;
+  color: $white;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $red-3;
+  margin-bottom: 5px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid $red-3;
+  }
+}
+
+%footer-tel-mail {
+  font-family: $HelveticaRegular;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  font-weight: normal;
+  color: $white;
+
+  &:hover {
+    text-decoration: none;
   }
 }
 

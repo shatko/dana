@@ -1,7 +1,72 @@
 footer {
+  p {
+    @extend %footer;
+  }
+
+  .footer-navigation {
+    @extend %footer-navigation;
+  }
+
   .footer-top {
     padding: 110px 0 175px;
     background-color: $black;
+
+    &__title {
+      color: $gray-4;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+
+    &__info-text {
+      margin-top: 74px;
+
+      p {
+        color: $gray-4;
+      }
+    }
+
+    &__address {
+      display: inline-block;
+      width: 50%;
+      color: $white;
+
+      &--left {
+        float: left;
+
+        p {
+          &:nth-child(1),
+          &:nth-child(5) {
+            margin-bottom: 57px;
+          }
+        }
+      }
+
+      &--right {
+        a {
+          @extend %footer-tel-mail;
+
+          &.footer-navigation {
+            @extend %footer-navigation;
+
+            margin-top: 41px;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-footer {
+    padding-left: 0;
+
+    .menu-item {
+      display: block;
+      margin-bottom: 16px;
+
+      a {
+        @extend %footer-navigation;
+      }
+    }
   }
 
   .footer-bottom {
