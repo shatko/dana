@@ -76,23 +76,12 @@ export default {
       slidesToShow: 2,
       slidesToScroll: 1,
       adaptiveHeight: false,
-      autoplay: true,
+      variableWidth: true,
+      autoplay: false,
       autoplaySpeed: 3000,
       speed: 2000,
-      responsive: [
-       {
-         breakpoint: 1470,
-         settings: {
-           slidesToShow: 2,
-         },
-       },
-       {
-         breakpoint: 991,
-         settings: {
-           slidesToShow: 1,
-         },
-       },
-      ],
+      dots: true,
+      appendDots: $('.absolventen-slider__dots-wrapper'),
     });
 
   },

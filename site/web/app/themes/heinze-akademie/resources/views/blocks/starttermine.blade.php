@@ -60,12 +60,12 @@
                 if ($empty_slots != 0) {
               @endphp
               <!-- Button trigger modal -->
-              <div class="starttermine__card-header-button-modal starttermine__card-header-button-enlist button-wrapper bottom-0" data-toggle="modal" data-target="#exampleModalCenter{{ $increment }}">
+              <div class="starttermine__card-header-button-modal starttermine__card-header-button-enlist button-wrapper bottom-0" data-toggle="modal" data-target="#starttermineModalCenter{{ $increment }}">
                 <a class="button button__secondary {{ $button_state }}" href="javascript:void(0)">{{ $enlist_button_text }}</a>
               </div>
 
               <!-- Modal -->
-              <div class="modal fade" id="exampleModalCenter{{ $increment }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal fade" id="starttermineModalCenter{{ $increment }}" tabindex="-1" role="dialog" aria-labelledby="starttermineModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">

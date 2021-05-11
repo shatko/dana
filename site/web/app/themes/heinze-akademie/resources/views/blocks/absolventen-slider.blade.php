@@ -30,12 +30,38 @@
       </div>
       <div class="col-lg-7 absolventen-slider__right">
         <div class="absolventen-slider__right-wrapper">
-
-          <h1>test</h1>
+          <div class="absolventen-slider__dots-wrapper"></div>
           <div class="absolventen-slider__slider">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+            @php
+
+            if( have_rows('absolventen_slider', 'option') ):
+               while( have_rows('absolventen_slider', 'option') ): the_row();
+               $image     = get_sub_field('image');
+               $size      = 'thumbnail';
+               $name      = get_sub_field('vorname_nachname');
+               $linkedin  = get_sub_field('linkedin');
+               $xing      = get_sub_field('xing');
+               $text      = get_sub_field('text');
+
+               @endphp
+               <div class="absolventen-slider__slide-single">
+                  @php
+                    if( $image ) {
+                      echo wp_get_attachment_image( $image, $size );
+                    }
+                  @endphp
+                  <p class="absolventen-slider__name">{{ $name }}</p>
+                  <div class="absolventen-slider__socials">
+                    @if ($linkedin) <a href="{{ $linkedin }}" target="_blank"></a>@endif
+                    @if ($xing) <a href="{{ $xing }}" target="_blank"></a>@endif
+                  </div>
+                  <p class="absolventen-slider__text">{{$text}}</p>
+               </div>
+              @php
+
+              endwhile;
+            endif;
+            @endphp
           </div>
         </div>
       </div>

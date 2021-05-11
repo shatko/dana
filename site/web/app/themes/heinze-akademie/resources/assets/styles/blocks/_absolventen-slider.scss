@@ -1,17 +1,20 @@
 .absolventen-slider {
-  border: 1px solid red;
   background-color: $gray-1;
   color: $white;
+  padding-top: 160px;
+  padding-bottom: 160px;
 
   &__left-wrapper {
     background-color: $black;
-    margin-top: 160px;
-    margin-bottom: 160px;
     padding: 90px;
 
     h3 {
       margin-bottom: 60px;
     }
+  }
+
+  &__right-wrapper {
+    margin-left: 50px;
   }
 
   &__left-text {
@@ -21,5 +24,142 @@
 
   &__left-first-link {
     margin-bottom: 30px;
+  }
+
+  &__dots-wrapper {
+    .slick-dots {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      padding: 60px 0;
+      list-style-type: none;
+
+      li {
+        margin: 0 15px;
+      }
+
+      button {
+        display: block;
+        width: 13px;
+        height: 13px;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        background-color: $gray-3;
+        text-indent: -9999px;
+      }
+
+      li.slick-active button {
+        background-color: $red-3;
+      }
+    }
+  }
+
+  &__slider {
+    .slick-next {
+      width: 35px;
+      height: 23px;
+      display: inline-block;
+      position: absolute;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.37' height='34.472' viewBox='0 0 22.37 34.472'%3E%3Cpath id='icon_slider-arrow-right' data-name='icon/slider-arrow-right' d='M19.236,24.37,2,7.134,7.134,2l12.1,12.1L31.338,2l5.134,5.134Z' transform='translate(-2 36.472) rotate(-90)'/%3E%3C/svg%3E ");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      cursor: pointer;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 560px;
+      z-index: 1;
+    }
+  }
+
+  &__slide-single {
+    text-align: center;
+    background-color: $white;
+    width: 500px;
+    min-height: 670px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 35px 50px 75px 50px;
+    color: $black;
+    transition: opacity 1s ease-in;
+
+    &:not(.slick-current) {
+      opacity: 0.5;
+    }
+
+    &.slick-current {
+      opacity: 1;
+    }
+
+    img {
+      border-radius: 50%;
+      margin: 0 auto 35px;
+    }
+  }
+
+  &__name {
+    @extend %absolventen-slider-title;
+
+    margin-bottom: 20px;
+  }
+
+  &__socials {
+    margin-bottom: 50px;
+
+    a {
+      &:first-child {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.74' height='23.891' viewBox='0 0 23.74 23.891'%3E%3Cg id='icon_linkedin' data-name='icon/linkedin' transform='translate(-213.882 -1.783)'%3E%3Cpath id='Path_259' data-name='Path 259' d='M213.882,3.494a1.734,1.734,0,0,1,1.755-1.711h20.231a1.734,1.734,0,0,1,1.755,1.711V23.963a1.733,1.733,0,0,1-1.755,1.711H215.637a1.733,1.733,0,0,1-1.755-1.711V3.494Z' fill='%239a9a9a'/%3E%3Cpath id='Path_262' data-name='Path 262' d='M228.528,30.571V19.783h-3.586V30.571h3.586Zm-1.792-12.261a2,2,0,1,0-.023,0h.023Zm3.777,12.261H234.1V24.548a2.457,2.457,0,0,1,.118-.875,1.962,1.962,0,0,1,1.84-1.312c1.3,0,1.816.989,1.816,2.44v5.771h3.585V24.386c0-3.313-1.769-4.855-4.128-4.855a3.572,3.572,0,0,0-3.256,1.817h.024V19.784h-3.585c.047,1.012,0,10.788,0,10.788Z' transform='translate(-7.45 -8.789)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      &:last-child {
+        display: inline-block;
+        width: 21px;
+        height: 25px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.873' height='24.527' viewBox='0 0 20.873 24.527'%3E%3Cg id='icon_xing' data-name='icon/xing' transform='translate(12690 15146)'%3E%3Cg id='xing-icon_1_' data-name='xing-icon (1)' transform='translate(-12690 -15146)'%3E%3Cpath id='Path_263' data-name='Path 263' d='M428.8,142a.542.542,0,0,0-.482.221.548.548,0,0,0,.02.543l2.392,4.14a.018.018,0,0,1,0,.02l-3.759,6.633a.548.548,0,0,0,0,.543.521.521,0,0,0,.462.241h3.537a1.081,1.081,0,0,0,.965-.683l3.819-6.753c-.014-.023-2.432-4.241-2.432-4.241a1.093,1.093,0,0,0-.985-.663H428.8Z' transform='translate(-426.896 -137.155)' fill='%239a9a9a'/%3E%3Cpath id='Path_264' data-name='Path 264' d='M500.482,102.5a1.037,1.037,0,0,0-.947.674s-7.621,13.514-7.872,13.958l5.026,9.221a1.107,1.107,0,0,0,.988.674h3.533a.522.522,0,0,0,.469-.226.551.551,0,0,0-.007-.547l-4.987-9.111a.02.02,0,0,1,0-.023l7.832-13.848a.554.554,0,0,0,.007-.546.525.525,0,0,0-.47-.226h-3.573Z' transform='translate(-483.72 -102.498)' fill='%239a9a9a'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          display: inline-block;
+          height: 30px;
+          left: -15px;
+          top: -2px;
+          border-left: 1px solid $gray-4;
+        }
+      }
+    }
+  }
+
+  &__text {
+    @extend %absolventen-slider-text;
+
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 32px;
+      height: 29px;
+      background-image: url("data:image/svg+xml,%3Csvg id='icon_quote' data-name='icon/quote' xmlns='http://www.w3.org/2000/svg' width='31.958' height='28.8' viewBox='0 0 31.958 28.8'%3E%3Cpath id='icon_quote-2' data-name='icon/quote' d='M4.86-13.86V0H10.8A11.347,11.347,0,0,1,9.54,5.535,7.957,7.957,0,0,1,4.86,9v5.94a14.562,14.562,0,0,0,5.175-1.665,14.271,14.271,0,0,0,4.1-3.33,15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,17.64-.09V-13.86Zm19.17,0V0h5.94a11.347,11.347,0,0,1-1.26,5.535A7.957,7.957,0,0,1,24.03,9v5.94A14.562,14.562,0,0,0,29.2,13.275,14.271,14.271,0,0,0,33.3,9.945a15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,36.81-.09V-13.86Z' transform='translate(-4.86 13.86)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: -35px;
+      top: 0;
+    }
   }
 }
