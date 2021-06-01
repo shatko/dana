@@ -1,10 +1,10 @@
 {
-    "key": "group_6080891b37f10",
-    "title": "Gradient Text",
+    "key": "group_609b932d26f88",
+    "title": "Image",
     "fields": [
         {
-            "key": "field_609b81b7da65e",
-            "label": "Gradient Text",
+            "key": "field_609b936404e43",
+            "label": "Image",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -19,10 +19,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_609b81d0da65f",
-            "label": "Text",
-            "name": "text",
-            "type": "textarea",
+            "key": "field_609b934104e42",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -31,30 +31,19 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": 6,
-            "new_lines": ""
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
-            "key": "field_609b81e9da660",
-            "label": "Settings",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_609b81fdda661",
+            "key": "field_609b937504e44",
             "label": "Settings",
             "name": "settings",
             "type": "clone",
@@ -81,7 +70,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/gradient-text"
+                "value": "acf\/image"
             }
         ]
     ],
@@ -93,5 +82,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620804191
+    "modified": 1620808622
 }

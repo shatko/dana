@@ -65,6 +65,7 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    min-width: calc(100% - 300px);
   }
 
   &__card-header-date {
@@ -92,6 +93,7 @@
     flex-direction: row;
     position: relative;
     z-index: 1;
+    min-width: 291px;
   }
 
   &__card-header-button-slots {

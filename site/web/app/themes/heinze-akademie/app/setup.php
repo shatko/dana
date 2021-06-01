@@ -176,6 +176,8 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         // assets
         'acf/button',
         'acf/gradient-text',
+        'acf/image',
+        'acf/headline',
 
         // sections
         'acf/home-header',

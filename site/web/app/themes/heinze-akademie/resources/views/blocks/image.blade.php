@@ -1,6 +1,6 @@
 {{--
-  Title: Gradient Text
-  Description: Gradient Text
+  Title: Image
+  Description: Image
   Category: assets
   Icon: admin-comments
   Keywords:
@@ -12,4 +12,4 @@
   SupportsMultiple: true
 --}}
 
-@include('partials.gradient-text')
+@include('partials.image')
