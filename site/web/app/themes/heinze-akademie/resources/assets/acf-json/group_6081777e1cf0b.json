@@ -51,6 +51,25 @@
             "button_label": "Add Button",
             "min": "",
             "max": ""
+        },
+        {
+            "key": "field_60b61f9922f83",
+            "label": "Mobile Phone Number",
+            "name": "mobile_phone_number",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "+496170961709",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -70,5 +89,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1619100642
+    "modified": 1622548447
 }

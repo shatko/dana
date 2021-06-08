@@ -1,0 +1,37 @@
+.header-ce {
+  &__text-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__text-wrapper {
+    width: 80%;
+  }
+
+  &__minititle {
+    color: $red;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    color: $red;
+    font-family: $HelveticaRegular;
+  }
+
+  &__text {
+    margin-top: 60px;
+  }
+
+  &__youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    iframe {
+      position: absolute;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}

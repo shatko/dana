@@ -16,7 +16,7 @@
 <div class="absolventen-slider">
   <div class="container container__inner">
     <div class="row">
-      <div class="col-lg-5 absolventen-slider__left">
+      <div class="col-xl-5 absolventen-slider__left">
         <div class="absolventen-slider__left-wrapper">
           {{ the_field('absolventen_title', 'option') }}
           <p class="absolventen-slider__left-text"><strong>{{ the_field('absolventen_text', 'option') }}</strong></p>
@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-7 absolventen-slider__right">
+      <div class="col-xl-7 absolventen-slider__right">
         <div class="absolventen-slider__right-wrapper">
           <div class="absolventen-slider__dots-wrapper"></div>
           <div class="absolventen-slider__slider">

@@ -31,8 +31,10 @@
               <div class="events__card-header collapsed" id="events-heading-{{ $increment }}" data-toggle="collapse" data-target="#events-collapse-{{ $increment }}" aria-expanded="true" aria-controls="events-collapse-{{ $increment }}">
                 <div class="events__card-header-text-wrapper">
                   <p class="events__card-header-date big bold">@php echo get_sub_field('date'); @endphp</p>
-                  <div class="events__card-header-arrow"></div>
-                  <p class="events__card-header-title big bold">@php echo get_sub_field('title'); @endphp</p>
+                  <div class="events__card-header-arrow-wrapper">
+                    <div class="events__card-header-arrow"></div>
+                    <p class="events__card-header-title big bold">@php echo get_sub_field('title'); @endphp</p>
+                  </div>
                   <p class="events__card-header-time big bold">@php echo get_sub_field('time_span'); @endphp</p>
                 </div>
 

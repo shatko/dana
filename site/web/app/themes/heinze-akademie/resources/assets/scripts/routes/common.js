@@ -2,6 +2,16 @@ export default {
   init() {
     // JavaScript to be fired on all pages
 
+
+    // Burger Menu
+    const burger = document.querySelector('.burger'),
+          burgerWrapper = document.querySelector('.burger-wrapper'),
+          mobileNav = document.querySelector('.mobile-nav');
+    burger.addEventListener('click', () => {
+      burgerWrapper.classList.toggle('burger_active');
+      mobileNav.classList.toggle('mobile_nav_active');
+    });
+
     // Scroll to top
     $('.footer-bottom__to-top').click(function() {
       $('html,body').animate({
@@ -13,7 +23,7 @@ export default {
     // Adds Main Menu arrow
     $('#menu-main-menu > li').each(function() {
       if ($(this).hasClass('menu-item-has-children')) {
-        $(this).append('<div class="sub-arrow sub-arrow__main"></div>');
+        $(this).children('.sub-menu').before('<div class="sub-arrow sub-arrow__main"></div>');
       }
     });
 
@@ -21,7 +31,7 @@ export default {
     // Adds Main Submenu arrow
     $('#menu-main-menu > li > ul > li').each(function() {
       if ($(this).hasClass('menu-item-has-children')) {
-        $(this).append('<div class="sub-arrow sub-arrow__submenu"></div>');
+        $(this).children('.sub-menu').before('<div class="sub-arrow sub-arrow__submenu"></div>');
       }
     });
 

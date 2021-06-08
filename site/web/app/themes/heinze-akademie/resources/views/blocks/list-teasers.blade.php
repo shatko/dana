@@ -26,7 +26,7 @@
           while( have_rows('teasers') ) : the_row();
 
           @endphp
-          <div class="col-lg-4">
+          <div class="col-xl-4 list-teasers__single-container">
             @php
             $num = get_sub_field('number');
             $title = get_sub_field('title');

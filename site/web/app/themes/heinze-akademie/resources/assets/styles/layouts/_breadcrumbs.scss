@@ -1,0 +1,27 @@
+.breadcrumb {
+  background-color: transparent;
+  border-radius: 0;
+  padding-left: 0;
+  margin-bottom: 50px;
+
+  .breadcrumb-item {
+    &::before {
+      content: none;
+    }
+
+    a {
+      @extend %marquee;
+
+      margin-right: 5px;
+      color: $gray-4;
+    }
+
+    &.active {
+      span {
+        @extend %marquee;
+
+        color: $black;
+      }
+    }
+  }
+}

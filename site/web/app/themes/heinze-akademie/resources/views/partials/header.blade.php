@@ -26,30 +26,43 @@ if (!empty($activate)) {
     <div class="row banner__row">
       <div class="col-xl-12 banner__wrapper">
         <a class="brand" href="{{ home_url('/') }}"></a>
-        <nav class="nav-primary">
-          @if (has_nav_menu('primary_navigation'))
-            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
-          @endif
-        </nav>
+        <div class="mobile-burger-wrapper">
+          <a class="header-phone" href="tel:{{ get_field('mobile_phone_number', 'option') }}"></a>
 
-        <div class="button-wrapper-outer">
-        @php
-          if( have_rows('header_buttons', 'option') ):
-            while ( have_rows('header_buttons', 'option') ) : the_row();
+          <div class="burger-wrapper">
+            <div class="burger">
+              <span class="burger__line burger__line_first"></span>
+              <span class="burger__line burger__line_second"></span>
+              <span class="burger__line burger__line_third"></span>
+              <span class="burger__line burger__line_fourth"></span>
+            </div>
+          </div>
+        </div>
 
-              // Case: Button
-              if( get_row_layout() == 'buttons' ):
+        <div class="mobile-nav">
+          <nav class="nav-primary">
+            @if (has_nav_menu('primary_navigation'))
+              {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
+            @endif
+          </nav>
 
-              @endphp
-                @include('partials.button-sub-field')
-              @php
+          <div class="button-wrapper-outer">
+          @php
+            if( have_rows('header_buttons', 'option') ):
+              while ( have_rows('header_buttons', 'option') ) : the_row();
+                if( get_row_layout() == 'buttons' ):
 
-              endif;
-            endwhile;
-          else :
-              // Do something...
-          endif;
-        @endphp
+                @endphp
+                  @include('partials.button-sub-field')
+                @php
+
+                endif;
+              endwhile;
+            else :
+                // Do something...
+            endif;
+          @endphp
+          </div>
         </div>
       </div>
     </div>

@@ -168,6 +168,12 @@ p {
   color: $black;
   transition: color 0.25s ease;
 
+  @media only screen and (max-width: 1600px) {
+    font-family: $HelveticaBold;
+    font-size: 24px;
+    line-height: 35px;
+  }
+
   &:hover {
     text-decoration: none;
     color: $red-3;
@@ -184,6 +190,13 @@ p {
   transition: color 0.25s ease;
   margin-bottom: 35px;
   display: inline-block;
+
+  @media only screen and (max-width: 1600px) {
+    font-family: $HelveticaRegular;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
 
   &:hover {
     text-decoration: none;

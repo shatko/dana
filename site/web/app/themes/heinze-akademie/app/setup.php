@@ -181,6 +181,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
 
         // sections
         'acf/home-header',
+        'acf/header',
         'acf/list-teasers',
         'acf/two-column-content',
         'acf/starttermine',

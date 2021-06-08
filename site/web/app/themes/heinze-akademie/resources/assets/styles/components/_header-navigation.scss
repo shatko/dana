@@ -1,11 +1,22 @@
 .nav-primary {
   display: inline-block;
+  margin-top: 15px;
 
   .nav {
     margin-left: 20px;
 
+    @media only screen and (max-width: 1600px) {
+      flex-direction: column;
+    }
+
     > .menu-item {
       margin-left: 40px;
+
+      @media only screen and (max-width: 1600px) {
+        margin-left: 0;
+        min-height: 40px;
+        position: relative;
+      }
 
       &.current-menu-item {
         > a[aria-current="page"] {
@@ -19,6 +30,10 @@
             position: absolute;
             left: 0;
             bottom: -52px;
+
+            @media only screen and (max-width: 1600px) {
+              display: none;
+            }
           }
         }
       }
@@ -47,6 +62,7 @@
       .sub-menu {
         display: none;
         list-style-type: none;
+        overflow-y: auto;
 
         &.sub-first-active {
           border-top: 1px solid $gray-3;
@@ -59,6 +75,17 @@
           top: 89px;
           padding: 150px;
 
+          @media only screen and (max-width: 1600px) {
+            padding: 0;
+            height: inherit;
+            width: inherit;
+            border-top: none;
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+          }
+
           &::after {
             content: "";
             position: absolute;
@@ -68,14 +95,26 @@
             background: $gray-3;
             top: 0;
             left: 50%;
+
+            @media only screen and (max-width: 1600px) {
+              display: none;
+            }
           }
         }
 
         .menu-item {
           width: 745px;
 
+          @media only screen and (max-width: 1600px) {
+            width: inherit;
+          }
+
           > a {
             @extend %main-sub-navigation;
+
+            @media only screen and (max-width: 1600px) {
+              width: calc(100% - 50px);
+            }
           }
 
           &.menu-item-has-children {
@@ -98,6 +137,12 @@
               position: absolute;
               left: 50%;
               top: 150px;
+
+              @media only screen and (max-width: 1600px) {
+                position: relative;
+                left: 0;
+                top: 0;
+              }
 
               &.sub-second-active {
                 display: block;
