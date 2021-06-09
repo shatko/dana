@@ -36,7 +36,7 @@
           <a href="#">Whatsapp</a>
         </div>
       </div>
-      <div class="col-lg-6 downloads__left">
+      <div class="col-lg-6 downloads__right">
         <h3>International Courses at <span class="red">Heinze Academy</span></h3>
         <div class="downloads__youtube"><iframe src="https://www.youtube.com/embed/4z2PyfaoiYk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
         <div class="gradient-text {{ $background_color }} {{ $bottom_margin }}">
