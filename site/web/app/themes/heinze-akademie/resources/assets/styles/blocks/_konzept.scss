@@ -1,0 +1,13 @@
+.konzept {
+  border: 1px solid green;
+  padding: 120px 0 90px;
+  background-color: $gray-1;
+
+  &__text {
+    column-count: 2;
+  }
+
+  &__author-wrapper {
+    float: right;
+  }
+}

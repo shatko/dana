@@ -189,6 +189,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/call-back-form',
         'acf/absolventen-slider',
         'acf/downloads',
+        'acf/konzept',
     );
 });
 
