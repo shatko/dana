@@ -13,6 +13,11 @@
 --}}
 
 @php
+  $minititle = get_field('minititle');
+  $title = get_field('title');
+  $subtitle = get_field('subtitle');
+  $text = get_field('text');
+  $ytcode = get_field('youtube_code');
 
 @endphp
 
@@ -26,14 +31,20 @@
         @endphp
 
         <div class="header-ce__text-wrapper">
-          <p class="header-ce__minititle bold">Die Akademie</p>
-          <h1 class="header-ce__title">TVET</h1>
-          <h4 class="header-ce__subtitle">Technical and Vocational Education and Training</h4>
-          <p class="header-ce__text">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          @php
+            if(!empty($minititle)) {
+              @endphp
+              <p class="header-ce__minititle bold">{{ $minititle  }}</p>
+              @php
+            }
+          @endphp
+          <h1 class="header-ce__title">{{ $title  }}</h1>
+          <h4 class="header-ce__subtitle">{{ $subtitle }}</h4>
+          <p class="header-ce__text">@php echo $text; @endphp</p>
         </div>
       </div>
       <div class="col-lg-6 header-ce__content-area">
-        <div class="header-ce__youtube"><iframe src="https://www.youtube.com/embed/4z2PyfaoiYk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
+        <div class="header-ce__youtube"><iframe src="https://www.youtube.com/embed/{{ $ytcode }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
       </div>
     </div>
   </div>

@@ -34,9 +34,11 @@
           </p>
           <div class="konzept__author-wrapper">
             <img class="konzept__author-image" src="https://heinze.grand-digital.de/app/uploads/2021/06/konzept-author.jpg" alt="">
-            <p class="konzept__author-testimonial">At vero eos et accusam et justo duo dolores et ea rebum.</p>
-            <p class="konzept__author-name">Jan Heinze</p>
-            <p class="konzept__author-position">Jobtitle</p>
+            <div class="konzept__author-text-wrapper">
+              <p class="konzept__author-testimonial">At vero eos et accusam et justo duo dolores et ea rebum.</p>
+              <p class="konzept__author-name">Jan Heinze</p>
+              <p class="konzept__author-position">Jobtitle</p>
+            </div>
           </div>
         </div>
       </div>
