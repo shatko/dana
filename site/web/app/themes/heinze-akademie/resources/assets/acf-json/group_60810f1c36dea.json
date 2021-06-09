@@ -117,6 +117,33 @@
             "placeholder": ""
         },
         {
+            "key": "field_60c07806362cb",
+            "label": "PDF",
+            "name": "pdf",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6081171a16a64",
+                        "operator": "==",
+                        "value": "pdf"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_6081189598361",
             "label": "Settings",
             "name": "",
@@ -333,5 +360,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1619102090
+    "modified": 1623226601
 }

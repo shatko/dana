@@ -7,10 +7,12 @@ export default {
     const burger = document.querySelector('.burger'),
           burgerWrapper = document.querySelector('.burger-wrapper'),
           mobileNav = document.querySelector('.mobile-nav');
+
     burger.addEventListener('click', () => {
       burgerWrapper.classList.toggle('burger_active');
       mobileNav.classList.toggle('mobile_nav_active');
     });
+
 
     // Scroll to top
     $('.footer-bottom__to-top').click(function() {
@@ -19,6 +21,11 @@ export default {
       }, '2000');
     });
 
+
+    // Questions
+    $('.questions__trigger').click(function() {
+      $(this).parent('.questions').toggleClass('questions-active');
+    });
 
     // Adds Main Menu arrow
     $('#menu-main-menu > li').each(function() {

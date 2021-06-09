@@ -110,6 +110,12 @@ p {
   }
 }
 
+span {
+  &.bold {
+    font-family: $HelveticaBold;
+  }
+}
+
 .wrap {
   ul:not(.slick-dots) {
     list-style: none;
