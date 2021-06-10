@@ -55,6 +55,12 @@
               elseif( get_row_layout() == 'download' ):
                 $file = get_sub_field('file');
 
+              // Case: Accordion.
+              elseif( get_row_layout() == 'accordion' ):
+                @endphp
+                  @include('partials.accordion')
+                @php
+
               endif;
             endwhile;
           else :
@@ -95,6 +101,12 @@
               // Case: Download layout.
               elseif( get_row_layout() == 'download' ):
                 $file = get_sub_field('file');
+
+              // Case: Accordion.
+              elseif( get_row_layout() == 'accordion' ):
+                @endphp
+                  @include('partials.accordion')
+                @php
 
               endif;
             endwhile;

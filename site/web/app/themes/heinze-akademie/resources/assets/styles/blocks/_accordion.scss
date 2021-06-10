@@ -1,0 +1,60 @@
+.accordion {
+  margin-bottom: 140px;
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__card {
+    margin-bottom: 30px;
+  }
+
+  &__card-header {
+    background: $gray-3;
+    font-weight: bold;
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    > div {
+      padding: 40px 30px;
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 12px;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      &[aria-expanded="false"] {
+        &::before {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18.337' height='11.9' viewBox='0 0 18.337 11.9'%3E%3Cpath id='Pfad_253' data-name='Pfad 253' d='M11.169,13.9,2,4.731,4.731,2l6.438,6.438L17.606,2l2.731,2.731Z' transform='translate(-2 -2)'/%3E%3C/svg%3E%0A");
+        }
+      }
+
+      &[aria-expanded="true"] {
+        &::before {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18.337' height='11.9' viewBox='0 0 18.337 11.9'%3E%3Cpath id='Pfad_203' data-name='Pfad 203' d='M11.169,13.9,2,4.731,4.731,2l6.438,6.438L17.606,2l2.731,2.731Z' transform='translate(20.337 13.9) rotate(180)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
+        }
+      }
+    }
+
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  &__card-body {
+    background: $gray-1;
+    padding: 40px 30px;
+  }
+}

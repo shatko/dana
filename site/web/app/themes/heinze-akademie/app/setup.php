@@ -190,6 +190,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/absolventen-slider',
         'acf/downloads',
         'acf/konzept',
+        'acf/accordion',
     );
 });
 

@@ -171,6 +171,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_60c1f0a27ec52": {
+                    "key": "layout_60c1f0a27ec52",
+                    "name": "accordion",
+                    "label": "Accordion",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c1f0a27ec53",
+                            "label": "Accordion",
+                            "name": "accordion",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c1d3c573314"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Asset",
@@ -331,6 +362,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_60c1f3d7bf2da": {
+                    "key": "layout_60c1f3d7bf2da",
+                    "name": "accordion",
+                    "label": "Accordion",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c1f3d7bf2db",
+                            "label": "Accordion",
+                            "name": "accordion",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c1d3c573314"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Asset",
@@ -393,5 +455,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620811363
+    "modified": 1623323497
 }
