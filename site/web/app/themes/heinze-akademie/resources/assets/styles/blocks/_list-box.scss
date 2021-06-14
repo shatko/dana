@@ -1,0 +1,15 @@
+.list-box {
+  padding: 60px;
+
+  // &:not(.gray-3) {
+  //   background: $gray-1;
+  // }
+
+  &__title {
+    font-family: $HelveticaBold;
+    font-size: 30px;
+    border-bottom: 1px solid $gray-4;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+  }
+}

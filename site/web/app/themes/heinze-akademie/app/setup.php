@@ -191,6 +191,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/downloads',
         'acf/konzept',
         'acf/accordion',
+        'acf/list-box',
     );
 });
 

@@ -22,7 +22,7 @@
 @endphp
 
 
-<div class="header-ce">
+<div class="header-ce gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 header-ce__text-area">
@@ -55,13 +55,24 @@
         </div>
       </div>
       <div class="col-lg-6 header-ce__content-area">
-        @php
+        {{-- @php
           if(!empty($ytcode)) {
             @endphp
             <div class="header-ce__youtube"><iframe src="https://www.youtube.com/embed/{{ $ytcode }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
             @php
           }
-        @endphp
+        @endphp --}}
+
+        <div class="header-ce__slider">
+          <div class="header-ce__slide">
+
+            <img src="https://heinze.grand-digital.de/app/uploads/2021/05/AdobeStock_16122007_Preview.jpeg" alt="">
+
+          </div>
+          <div class="header-ce__slide">your content</div>
+          <div class="header-ce__slide">your content</div>
+        </div>
+
       </div>
     </div>
   </div>

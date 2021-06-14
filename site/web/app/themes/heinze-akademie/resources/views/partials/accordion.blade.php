@@ -36,7 +36,7 @@
 
               <div id="collapse{{ $rand }}" class="collapse" aria-labelledby="heading{{ $rand }}" data-parent="#accordion{{ $global }}">
                 <div class="accordion__card-body">
-                  <p>@php echo $content; @endphp</p>
+                  @php echo $content; @endphp
                 </div>
               </div>
               </div>

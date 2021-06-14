@@ -22,6 +22,22 @@ export default {
     });
 
 
+    // Header Slider
+    $('.header-ce__slider').slick({
+      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
+      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      variableWidth: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      dots: false,
+    });
+
+
     // Questions
     $('.questions__trigger').click(function() {
       $(this).parent('.questions').toggleClass('questions-active');

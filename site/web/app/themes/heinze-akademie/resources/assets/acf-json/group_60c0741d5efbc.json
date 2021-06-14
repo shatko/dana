@@ -16,6 +16,22 @@
                 "id": ""
             },
             "placement": "top",
+            "endpoint": 1
+        },
+        {
+            "key": "field_60c726b9d1bd1",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
             "endpoint": 0
         },
         {
@@ -112,6 +128,48 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_60c72590d1bcf",
+            "label": "Right Segment",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60c725aed1bd0",
+            "label": "Select Content",
+            "name": "select_content",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image": "Image",
+                "yt_video": "YT Video",
+                "image_slider": "Image slider"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -131,5 +189,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623259131
+    "modified": 1623664402
 }

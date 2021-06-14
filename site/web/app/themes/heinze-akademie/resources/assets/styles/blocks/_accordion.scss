@@ -21,6 +21,10 @@
     > div {
       padding: 40px 30px;
 
+      .big {
+        margin-bottom: 0;
+      }
+
       &::before {
         display: block;
         content: "";
