@@ -8,8 +8,8 @@
             <p><strong>Adresse</strong></p>
             <p><strong>Tel. Zentrale</strong></p>
             <p><strong>Tel. Beratung</strong></p>
-            <p><strong>Mo – Do</strong></p>
-            <p><strong>Fr</strong></p>
+            <p><strong>Mo. – Fr.</strong></p>
+            {{-- <p><strong>Fr</strong></p> --}}
             <p><strong>E-Mail</strong></p>
           </div>
           <div class="footer-top__address footer-top__address--right">
@@ -17,7 +17,7 @@
             <p><a href="tel:@php the_field('tel_zentrale_href', 'option'); @endphp">@php the_field('tel_zentrale_text', 'option'); @endphp</a></p>
             <p><a href="tel:@php the_field('tel_beratung_href', 'option'); @endphp">@php the_field('tel_beratung_text', 'option'); @endphp</a></p>
             <p>@php the_field('mo_do', 'option'); @endphp</p>
-            <p>@php the_field('fr', 'option'); @endphp</p>
+            {{-- <p>@php the_field('fr', 'option'); @endphp</p> --}}
             <p><a class="footer-navigation footer-top__email" href="mailto:@php the_field('e_mail_href', 'option'); @endphp"><span>@php the_field('e_mail_text', 'option'); @endphp</span></a></p>
           </div>
         </div>

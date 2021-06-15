@@ -62,19 +62,14 @@
         </div>
         <div class="call-back__contact-persons--bottom">
           <div class="call-back__bottom-left">
-            <p>Mo – Do</p>
-            <p>Fr</p>
+            <p>Mo. – Fr.</p>
             <p>E-Mail</p>
           </div>
 
           <div class="call-back__bottom-right">
-            <p>@php the_field('mo_do', 'option'); @endphp</p>
-            <p>@php the_field('fr', 'option'); @endphp</p>
+            <p><span>@php the_field('mo_do', 'option'); @endphp</span></p>
             <a class="link" href="mailto:@php the_field('e_mail_href'); @endphp">@php the_field('e_mail_text'); @endphp</a>
           </div>
-
-
-
         </div>
       </div>
     </div>

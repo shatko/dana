@@ -2,6 +2,16 @@
   display: inline-block;
   margin-top: 15px;
 
+  .close-desktop-menu {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background: red;
+    z-index: 1;
+  }
+
   .nav {
     margin-left: 20px;
 
@@ -95,9 +105,9 @@
             content: "";
             position: absolute;
             display: inline-block;
-            width: 1px;
+            width: 50%;
             height: 100vh;
-            background: $gray-3;
+            background: $gray-1;
             top: 0;
             left: 50%;
 
@@ -146,6 +156,7 @@
               position: absolute;
               left: 50%;
               top: 150px;
+              z-index: 1;
 
               @media only screen and (max-width: 1600px) {
                 position: relative;

@@ -26,12 +26,10 @@
 <div class="header-ce gray">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 header-ce__text-area">
-
+      <div class="col-xl-6 col-lg-12 header-ce__text-area">
           @php
             echo do_shortcode( '[seopress_breadcrumbs]' );
           @endphp
-
         <div class="header-ce__text-wrapper">
           @php
             if(!empty($minititle)) {
@@ -51,7 +49,7 @@
           <p class="header-ce__text">@php echo $text; @endphp</p>
         </div>
       </div>
-      <div class="col-lg-6 header-ce__content-area">
+      <div class="col-xl-6 col-lg-12 header-ce__content-area">
         @php
           if ($contentSelect === 'yt_video') {
             if(!empty($ytcode)) {

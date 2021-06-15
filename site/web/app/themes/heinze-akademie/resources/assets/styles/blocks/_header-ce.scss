@@ -3,7 +3,11 @@
 
   &__text-area {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 30px;
+
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 80px;
+    }
   }
 
   &__text-wrapper {
@@ -21,7 +25,18 @@
   }
 
   &__text {
-    margin-top: 60px;
+    margin-top: 30px;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 60px;
+    }
+  }
+
+  &__image-wrapper {
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   &__youtube {
@@ -39,22 +54,36 @@
 
   &__slider-wrapper {
     position: relative;
+
+    @include media-breakpoint-down(lg) {
+      background: $gray-1;
+    }
   }
 
   &__slider {
     position: relative;
-    padding-bottom: 120px;
+
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 120px;
+    }
 
     .slick-arrow {
       background: $red-3;
-      width: 120px;
-      height: 120px;
+      width: 50px;
+      height: 50px;
       background-repeat: no-repeat;
       background-position: center;
       position: absolute;
-      bottom: 0;
-      border-top: 1px solid $white;
+      top: calc(50% - 25px);
       z-index: 2;
+
+      @include media-breakpoint-up(lg) {
+        border-top: 1px solid $white;
+        width: 120px;
+        height: 120px;
+        bottom: 0;
+        top: auto;
+      }
 
       &.prev {
         left: 0;
@@ -62,8 +91,14 @@
       }
 
       &.next {
-        left: 121px;
+        left: auto;
         background-image: url("data:image/svg+xml,%3Csvg id='icon_arrow_big' data-name='icon/arrow_big' xmlns='http://www.w3.org/2000/svg' width='10.1' height='15.4' viewBox='0 0 10.1 15.4'%3E%3Cpath id='Pfad_215' data-name='Pfad 215' d='M9.7,12.1,2,4.318,4.294,2,9.7,7.464,15.106,2,17.4,4.318Z' transform='translate(-2 17.4) rotate(-90)' fill='%23fff'/%3E%3C/svg%3E%0A");
+        right: 0;
+
+        @include media-breakpoint-up(lg) {
+          left: 121px;
+          right: auto;
+        }
       }
 
       &:hover {
@@ -74,18 +109,33 @@
 
   &__slider--slide-content {
     position: relative;
+    overflow: hidden;
+
+    img {
+      margin: 0 auto;
+      min-width: 100%;
+      height: auto;
+
+      @include media-breakpoint-down(lg) {
+        max-width: 100%;
+      }
+    }
   }
 
   &__slider--slide-description {
-    position: absolute;
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 50px;
+      color: $white;
+      height: 120px;
+      display: flex;
+      align-items: center;
+    }
+
+    padding: 10px 20px;
     width: 100%;
-    bottom: 0;
-    height: 120px;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    padding: 10px 50px;
-    color: $white;
 
     p {
       margin-bottom: 0;
@@ -93,16 +143,22 @@
   }
 
   &__slider-second {
-    background: $gray-1;
-    height: 120px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 240px;
-    display: flex;
-    align-items: center;
-    padding: 10px 30px;
-    width: calc(100% - 240px);
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: 120px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 240px;
+      width: calc(100% - 240px);
+      background: $gray-1;
+      display: flex;
+      align-items: center;
+      padding: 10px 30px;
+    }
 
     .slick-track {
       display: flex;
