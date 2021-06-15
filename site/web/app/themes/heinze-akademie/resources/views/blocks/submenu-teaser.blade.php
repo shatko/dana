@@ -26,12 +26,12 @@
       <div class="col-xl-6 gray">
         <h5 class="submenu-teaser__title">@php echo $submenu_taser_main -> post_title; @endphp</h5>
         <p>@php echo $submenu_taser_text; @endphp</p>
-        <div class="button-wrapper bottom-0" data-toggle="modal">
+        <div class="button-wrapper bottom-0">
           <a class="button button__secondary button__enabled" href="@php echo get_permalink($submenu_taser_main -> ID); @endphp">Mehr erfahren</a>
         </div>
       </div>
       <div class="col-xl-6 gray">
-        <p class="big">@php echo $submenu_teaser_links_title; @endphp</h1>
+        <p class="big">@php echo $submenu_teaser_links_title; @endphp</p>
         @php
         foreach ($submenu_taser_links as $submenu_taser_link) {
           @endphp

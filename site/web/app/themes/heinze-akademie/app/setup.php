@@ -193,6 +193,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/accordion',
         'acf/list-box',
         'acf/submenu-teaser',
+        'acf/three-page-teasers',
     );
 });
 

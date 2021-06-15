@@ -312,3 +312,21 @@ span {
   font-stretch: normal;
   color: $black;
 }
+
+%three-page-teasers-title {
+  font-family: $HelveticaBold;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  color: $black;
+}
+
+%three-page-teasers-subtitle {
+  font-family: $HelveticaRegular;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  color: $black;
+}

@@ -218,7 +218,15 @@
             "type": "gallery",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60c725aed1bd0",
+                        "operator": "==",
+                        "value": "image_slider"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -256,5 +264,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623668077
+    "modified": 1623745137
 }
