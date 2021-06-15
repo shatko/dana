@@ -12,6 +12,11 @@
     > .menu-item {
       margin-left: 40px;
 
+      @include media-breakpoint-down(xl) {
+        padding-bottom: 30px;
+        display: inline-block;
+      }
+
       @media only screen and (max-width: 1600px) {
         margin-left: 0;
         min-height: 40px;
@@ -114,6 +119,10 @@
 
             @media only screen and (max-width: 1600px) {
               width: calc(100% - 50px);
+            }
+
+            @include media-breakpoint-down(xl) {
+              padding-top: 20px;
             }
           }
 

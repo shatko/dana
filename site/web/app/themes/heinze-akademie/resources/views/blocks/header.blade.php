@@ -62,15 +62,45 @@
             @php
           }
         @endphp --}}
+        <div class="header-ce__slider-wrapper">
 
-        <div class="header-ce__slider">
-          <div class="header-ce__slide">
-
-            <img src="https://heinze.grand-digital.de/app/uploads/2021/05/AdobeStock_16122007_Preview.jpeg" alt="">
-
+          <div class="header-ce__slider">
+            <div class="header-ce__slider--slide">
+              <div  class="header-ce__slider--slide-content">
+                <img src="https://heinze.grand-digital.de/app/uploads/2021/05/AdobeStock_16122007_Preview.jpeg" alt="">
+                <div class="header-ce__slider--slide-description">
+                  <p>1 Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            <div class="header-ce__slider--slide">
+              <div  class="header-ce__slider--slide-content">
+                <img src="https://heinze.grand-digital.de/app/uploads/2021/05/AdobeStock_16122007_Preview.jpeg" alt="">
+                <div class="header-ce__slider--slide-description">
+                  <p>2 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+              </div>
+            </div>
+            <div class="header-ce__slider--slide">
+              <div  class="header-ce__slider--slide-content">
+                <img src="https://heinze.grand-digital.de/app/uploads/2021/05/AdobeStock_16122007_Preview.jpeg" alt="">
+                <div class="header-ce__slider--slide-description">
+                  <p>3 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="header-ce__slide">your content</div>
-          <div class="header-ce__slide">your content</div>
+          <div class="header-ce__slider-second">
+            <div class="header-ce__slider-second--slide">
+              <p>1 Lorem ipsum dolor sit amet,.</p>
+            </div>
+            <div class="header-ce__slider-second--slide">
+              <p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet augue. Vivamus quis quam purus.</p>
+            </div>
+            <div class="header-ce__slider-second--slide">
+              <p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec laoreet augue. Vivamus quis quam purus.</p>
+            </div>
+          </div>
         </div>
 
       </div>

@@ -21,7 +21,7 @@
 
 <div class="two-column-content  {{ $background_color }}  {{ $bottom_margin }}">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-lg-6">
         @php
           if( have_rows('content_left') ):
@@ -51,14 +51,20 @@
                   @include('partials.headline')
                 @php
 
-              // Case: Download layout.
+              // Case: Download layout
               elseif( get_row_layout() == 'download' ):
                 $file = get_sub_field('file');
 
-              // Case: Accordion.
+              // Case: Accordion
               elseif( get_row_layout() == 'accordion' ):
                 @endphp
                   @include('partials.accordion')
+                @php
+
+              // Case: List Box
+              elseif( get_row_layout() == 'list_box' ):
+                @endphp
+                  @include('partials.list-box')
                 @php
 
               endif;
@@ -98,14 +104,20 @@
                   @include('partials.headline')
                 @php
 
-              // Case: Download layout.
+              // Case: Download layout
               elseif( get_row_layout() == 'download' ):
                 $file = get_sub_field('file');
 
-              // Case: Accordion.
+              // Case: Accordion
               elseif( get_row_layout() == 'accordion' ):
                 @endphp
                   @include('partials.accordion')
+                @php
+
+              // Case: List Box
+              elseif( get_row_layout() == 'list_box' ):
+                @endphp
+                  @include('partials.list-box')
                 @php
 
               endif;

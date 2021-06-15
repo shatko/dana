@@ -14,7 +14,14 @@ footer {
     &__title {
       color: $gray-4;
       text-transform: uppercase;
-      margin-bottom: 50px;
+
+      @include media-breakpoint-up(xl) {
+        margin-bottom: 50px;
+      }
+
+      @include media-breakpoint-down(xl) {
+        margin-top: 50px;
+      }
     }
 
     &__info-text {
@@ -50,6 +57,14 @@ footer {
 
             margin-top: 41px;
             display: inline-block;
+            border: none;
+
+            span {
+              @extend %footer-navigation;
+
+              border-bottom: 1px solid $red;
+              display: inline;
+            }
           }
         }
       }

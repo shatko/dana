@@ -310,7 +310,7 @@
                 "bottom-90": "90px",
                 "bottom-120": "120px"
             },
-            "default_value": false,
+            "default_value": "bottom-0",
             "allow_null": 0,
             "multiple": 0,
             "ui": 0,
@@ -360,5 +360,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623226601
+    "modified": 1623669544
 }

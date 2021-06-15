@@ -202,6 +202,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_60c73cee7bc18": {
+                    "key": "layout_60c73cee7bc18",
+                    "name": "list_box",
+                    "label": "List Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c73cee7bc19",
+                            "label": "List Box",
+                            "name": "list_box",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c20a8097c5e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Asset",
@@ -393,6 +424,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_60c73d007bc1a": {
+                    "key": "layout_60c73d007bc1a",
+                    "name": "list_box",
+                    "label": "List Box",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c73d007bc1b",
+                            "label": "List Box",
+                            "name": "list_box",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_60c20a8097c5e"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Asset",
@@ -455,5 +517,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623323497
+    "modified": 1623670166
 }

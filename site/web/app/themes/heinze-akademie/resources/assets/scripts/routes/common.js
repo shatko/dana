@@ -24,8 +24,8 @@ export default {
 
     // Header Slider
     $('.header-ce__slider').slick({
-      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
-      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
+      prevArrow: '<div class="header-ce__slider--arrow prev" aria-label="Prev"></div>',
+      nextArrow: '<div class="header-ce__slider--arrow next" aria-label="Next"></div>',
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -35,6 +35,20 @@ export default {
       autoplaySpeed: 3000,
       speed: 2000,
       dots: false,
+      asNavFor: '.header-ce__slider-second',
+    });
+
+    $('.header-ce__slider-second').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      dots: false,
+      asNavFor: '.header-ce__slider',
+      arrows: false,
+      fade: true,
     });
 
 

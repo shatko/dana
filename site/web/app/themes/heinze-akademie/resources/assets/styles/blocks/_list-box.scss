@@ -1,9 +1,7 @@
 .list-box {
-  padding: 60px;
-
-  // &:not(.gray-3) {
-  //   background: $gray-1;
-  // }
+  .row {
+    padding: 80px 60px 60px 60px;
+  }
 
   &__title {
     font-family: $HelveticaBold;

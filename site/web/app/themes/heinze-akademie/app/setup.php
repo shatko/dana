@@ -192,6 +192,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/konzept',
         'acf/accordion',
         'acf/list-box',
+        'acf/submenu-teaser',
     );
 });
 
@@ -240,6 +241,14 @@ if( function_exists('acf_add_options_page') ) {
         'page_title' 	=> 'Heinze Absolventen',
         'menu_title'	=> 'Heinze Absolventen',
         'menu_slug' 	=> 'heinze-absolventen',
+        'capability'	=> 'edit_posts',
+        'redirect'		=> true
+    ));
+
+    acf_add_options_page(array(
+        'page_title' 	=> 'Heinze Team',
+        'menu_title'	=> 'Heinze Team',
+        'menu_slug' 	=> 'heinze-team',
         'capability'	=> 'edit_posts',
         'redirect'		=> true
     ));
