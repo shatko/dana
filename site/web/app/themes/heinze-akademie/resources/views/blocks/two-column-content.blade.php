@@ -21,7 +21,7 @@
 
 <div class="two-column-content  {{ $background_color }}  {{ $bottom_margin }}">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-lg-6">
         @php
           if( have_rows('content_left') ):

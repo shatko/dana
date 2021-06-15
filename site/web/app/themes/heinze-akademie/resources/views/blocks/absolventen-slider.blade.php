@@ -36,12 +36,14 @@
 
             if( have_rows('absolventen_slider', 'option') ):
                while( have_rows('absolventen_slider', 'option') ): the_row();
-               $image     = get_sub_field('image');
-               $size      = 'thumbnail';
-               $name      = get_sub_field('vorname_nachname');
-               $linkedin  = get_sub_field('linkedin');
-               $xing      = get_sub_field('xing');
-               $text      = get_sub_field('text');
+               $image           = get_sub_field('image');
+               $size            = 'thumbnail';
+               $name            = get_sub_field('vorname_nachname');
+               $position        = get_sub_field('position');
+               $additional_text = get_sub_field('additional_text');
+               $linkedin        = get_sub_field('linkedin');
+               $xing            = get_sub_field('xing');
+               $text            = get_sub_field('text');
 
                @endphp
                <div class="absolventen-slider__slide-single">
@@ -51,6 +53,8 @@
                     }
                   @endphp
                   <p class="absolventen-slider__name">{{ $name }}</p>
+                  <p class="absolventen-slider__position">{{ $position }}</p>
+                  <p class="absolventen-slider__additional">@php echo $additional_text; @endphp</p>
                   <div class="absolventen-slider__socials">
                     @if ($linkedin) <a href="{{ $linkedin }}" target="_blank"></a>@endif
                     @if ($xing) <a href="{{ $xing }}" target="_blank"></a>@endif

@@ -215,6 +215,44 @@
                     "maxlength": ""
                 },
                 {
+                    "key": "field_60c88ed4d1e2a",
+                    "label": "Position",
+                    "name": "position",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60c88ef2d1e2b",
+                    "label": "Additional Text",
+                    "name": "additional_text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br"
+                },
+                {
                     "key": "field_6099343a62b5a",
                     "label": "LinkedIn",
                     "name": "linkedin",
@@ -291,5 +329,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1620717585
+    "modified": 1623759872
 }

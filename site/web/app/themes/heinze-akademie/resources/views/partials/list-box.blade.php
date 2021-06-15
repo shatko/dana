@@ -34,9 +34,16 @@ if (get_field('list_bottom_margin_bottom_margin')) {
 <div class="list-box {{ $list_bottom_margin }}">
   <div class="container">
     <div class="row {{ $background_color_list }}">
-      <div class="col-lg-12">
-        <h5 class="list-box__title">@php echo $title; @endphp</h5>
-      </div>
+      @php
+      if ($title !== false) {
+        @endphp
+          <div class="col-lg-12">
+          <h5 class="list-box__title">@php echo $title; @endphp</h5>
+          </div>
+        @php
+      }
+      @endphp
+
       <div class="col-lg-12 {{ $column_count }} column-gap-50">
         @php echo $list; @endphp
       </div>

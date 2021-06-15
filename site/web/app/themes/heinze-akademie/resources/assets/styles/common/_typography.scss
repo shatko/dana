@@ -297,8 +297,26 @@ span {
 // Absolventen slider
 %absolventen-slider-title {
   font-family: $HelveticaBold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  color: $black;
+}
+
+%absolventen-slider-position {
+  font-family: $HelveticaRegular;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 22px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  color: $black;
+}
+
+%absolventen-slider-additional {
+  font-family: $HelveticaBold;
+  font-size: 16px;
+  line-height: 22px;
   letter-spacing: 0;
   font-stretch: normal;
   color: $black;

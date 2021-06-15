@@ -111,6 +111,29 @@
             "delay": 0
         },
         {
+            "key": "field_60c86e9c5735e",
+            "label": "Disable Contact element",
+            "name": "disable_contact_element",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "yes": "Yes"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
             "key": "field_60c72590d1bcf",
             "label": "Right Segment",
             "name": "",
@@ -200,7 +223,7 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
+            "return_format": "id",
             "preview_size": "medium",
             "library": "all",
             "min_width": "",
@@ -264,5 +287,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623745137
+    "modified": 1623753105
 }
