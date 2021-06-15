@@ -20,9 +20,9 @@
         },
         {
             "key": "field_60c759ee3f235",
-            "label": "Submenu Taser Main",
-            "name": "submenu_taser_main",
-            "type": "page_link",
+            "label": "Submenu Teaser Main",
+            "name": "submenu_teaser_main",
+            "type": "post_object",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -36,8 +36,9 @@
             ],
             "taxonomy": "",
             "allow_null": 0,
-            "allow_archives": 0,
-            "multiple": 0
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
         },
         {
             "key": "field_60c77e1f9cac6",
@@ -59,10 +60,10 @@
             "new_lines": ""
         },
         {
-            "key": "field_60c77eb29cac8",
-            "label": "Submenu Teaser Links",
-            "name": "submenu_teaser_links",
-            "type": "page_link",
+            "key": "field_60c84fc9cc064",
+            "label": "Submenu Teaser Links Title",
+            "name": "submenu_teaser_links_title",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -71,13 +72,31 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [
-                "page"
-            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60c77eb29cac8",
+            "label": "Submenu Teaser Links",
+            "name": "submenu_teaser_links",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
             "taxonomy": "",
             "allow_null": 0,
-            "allow_archives": 0,
-            "multiple": 1
+            "multiple": 1,
+            "return_format": "object",
+            "ui": 1
         }
     ],
     "location": [
@@ -97,5 +116,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623687855
+    "modified": 1623740398
 }
