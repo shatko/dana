@@ -1,7 +1,7 @@
 {{--
-  Title: Downloads
-  Description: Downloads
-  Category: sections
+  Title: Author
+  Description: Author
+  Category: assets
   Icon: admin-comments
   Keywords:
   Mode: edit
@@ -13,4 +13,4 @@
 --}}
 
 
-@include('partials.downloads')
+@include('partials.author')

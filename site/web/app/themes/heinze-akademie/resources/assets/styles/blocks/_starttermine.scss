@@ -1,5 +1,5 @@
 .starttermine {
-  @extend %bottom-spacing;
+  // @extend %bottom-spacing;
 
   #starttermine {
     margin-bottom: 70px;
@@ -83,6 +83,7 @@
       flex-direction: column;
       align-items: flex-start;
       width: 100%;
+      margin-bottom: 20px;
     }
   }
 
@@ -90,6 +91,11 @@
     margin-bottom: 0;
     margin-right: 40px;
     min-width: 200px;
+
+    @media only screen and (max-width: 1199px) {
+      margin-bottom: 20px;
+      width: 100%;
+    }
 
     &.disable {
       color: $gray-4;
@@ -133,6 +139,7 @@
 
     @media only screen and (max-width: 1199px) {
       margin-right: 0;
+      margin-bottom: 20px;
     }
 
     &::after {
@@ -187,10 +194,59 @@
   }
 
   &__card-content-wrapper {
-    padding: 30px 0 30px 320px;
+    @media only screen and (min-width: 1600px) {
+      padding: 30px 550px 30px 320px;
+    }
+
+    padding: 20px 0;
     margin-right: 35px;
     margin-left: 40px;
     border-top: 1px solid $gray-4;
     display: inline-block;
+  }
+
+  .button-wrapper {
+    @media only screen and (max-width: 1199px) {
+      margin: 20px 0;
+    }
+
+    .button {
+      @media only screen and (max-width: 1199px) {
+        display: block;
+        width: 310px;
+        line-height: 48px;
+        text-align: center;
+      }
+    }
+  }
+
+  &.gray {
+    padding: 100px 0;
+
+    .starttermine__card-header {
+      background: $gray-1;
+
+      &:hover {
+        background: $white;
+      }
+
+      &:not(.collapsed) {
+        background: $white;
+      }
+    }
+
+    .starttermine__card-header-button-slots {
+      background: transparent;
+    }
+
+    .starttermine__card-content {
+      &:not(.collapsed) {
+        background: $white;
+      }
+    }
+
+    .button-wrapper {
+      background: transparent;
+    }
   }
 }

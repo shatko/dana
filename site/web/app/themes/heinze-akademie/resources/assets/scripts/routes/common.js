@@ -57,6 +57,20 @@ export default {
       $(this).parent('.questions').toggleClass('questions-active');
     });
 
+    var fixedQuestions = $('.questions');
+    var fixedQuestionsWin = $(window);
+    var fixedQuestionsWinHeight = fixedQuestionsWin.height();
+
+    fixedQuestionsWin.on('scroll', function () {
+      if ($(this).scrollTop() > fixedQuestionsWinHeight ) {
+        fixedQuestions.addClass('questions-active');
+        fixedQuestionsWin.off('scroll');
+      }
+    }).on('resize', function() {
+       fixedQuestionsWinHeight = $(this).height();
+    });
+
+
     // Adds Main Menu arrow
     $('#menu-main-menu > li').each(function() {
       if ($(this).hasClass('menu-item-has-children')) {
@@ -73,7 +87,7 @@ export default {
     });
 
     // $('#menu-main-menu').before('<div class="close-desktop-menu"></div>');
-    $('.sub-menu').mouseleave(function() {
+    $('.nav > .menu-item-has-children > .sub-menu').mouseleave(function() {
       $('#menu-main-menu > li > .sub-menu').each(function() {
         $(this).removeClass('sub-first-active');
       });

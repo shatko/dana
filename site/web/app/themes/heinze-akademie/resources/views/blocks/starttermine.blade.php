@@ -12,8 +12,15 @@
   SupportsMultiple: true
 --}}
 
+@php
+  if (get_field('gray_background')[0] == 'yes') {
+    $background = 'gray';
+  } else {
+    $background = '';
+  }
+@endphp
 
-<div class="starttermine">
+<div class="starttermine @php _e($background); @endphp @php _e(get_field('starttermine_bottom_margin')); @endphp">
   <div class="container">
     <div class="row">
       <div class="col-lg-12" id="starttermine">

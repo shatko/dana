@@ -23,10 +23,8 @@
 <div class="submenu-teaser">
   <div class="container">
     <div class="row">
-      <div class="col-xl-6 gray submenu-teaser__left-wrapper">
-        <div class="submenu-teaser__left-wrapper-title">
-          <h5 class="submenu-teaser__title">@php echo $submenu_taser_main -> post_title; @endphp</h5>
-        </div>
+      <div class="col-xl-6 gray">
+        <h5 class="submenu-teaser__title">@php echo $submenu_taser_main -> post_title; @endphp</h5>
         <div class="submenu-teaser__text">
           <p>@php echo $submenu_taser_text; @endphp</p>
         </div>
@@ -34,8 +32,8 @@
           <a class="button button__secondary button__enabled" href="@php echo get_permalink($submenu_taser_main -> ID); @endphp">Mehr erfahren</a>
         </div>
       </div>
-      <div class="col-xl-6 gray submenu-teaser__right-wrapper">
-        <div class="submenu-teaser__right-wrapper-title links">
+      <div class="col-xl-6 gray">
+        <div class="submenu-teaser__text links">
           <p class="big">@php echo $submenu_teaser_links_title; @endphp</p>
         </div>
         @php

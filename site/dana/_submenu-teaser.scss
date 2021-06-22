@@ -1,0 +1,21 @@
+.submenu-teaser {
+  border: 1px solid red;
+
+  &__title,
+  .big {
+    margin-bottom: 50px;
+    border-bottom: 1px solid $gray-4;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+
+    a {
+      border-bottom: 1px solid $red-1;
+    }
+  }
+
+  .button-wrapper {
+    margin-bottom: 50px;
+  }
+}

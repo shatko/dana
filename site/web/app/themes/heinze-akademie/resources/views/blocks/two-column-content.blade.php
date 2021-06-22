@@ -16,12 +16,19 @@
 @php
   $background_color = get_field('background_color');
   $bottom_margin    = get_field('bottom_margin');
+  // $align            = get_field('align_items_vertically')[0];
+
+  if (!empty(get_field('align_items_vertically')[0])) {
+    $align = '';
+  } else {
+    $align = 'align-items-center';
+  }
 @endphp
 
 
 <div class="two-column-content  {{ $background_color }}  {{ $bottom_margin }}">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row {{ $align }}">
       <div class="col-lg-6">
         @php
           if( have_rows('content_left') ):
@@ -52,8 +59,10 @@
                 @php
 
               // Case: Download layout
-              elseif( get_row_layout() == 'download' ):
-                $file = get_sub_field('file');
+              elseif( get_row_layout() == 'downloads' ):
+                @endphp
+                  @include('partials.downloads')
+                @php
 
               // Case: Accordion
               elseif( get_row_layout() == 'accordion' ):
@@ -65,6 +74,12 @@
               elseif( get_row_layout() == 'list_box' ):
                 @endphp
                   @include('partials.list-box')
+                @php
+
+              // Case: List Box
+              elseif( get_row_layout() == 'author' ):
+                @endphp
+                  @include('partials.author')
                 @php
 
               endif;

@@ -33,6 +33,11 @@ h2 {
   font-weight: normal;
   // text-transform: uppercase;
 
+  @media only screen and (max-width: 1199px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
   &.small {
     font-size: 40px;
     line-height: 50px;
@@ -48,6 +53,11 @@ h3 {
   font-style: normal;
   font-weight: normal;
   // text-transform: uppercase;
+
+  @media only screen and (max-width: 1199px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
 
   &.small {
     font-size: 40px;
@@ -65,6 +75,11 @@ h4 {
   font-weight: normal;
   // text-transform: uppercase;
 
+  @media only screen and (max-width: 1199px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
   &.small {
     font-size: 40px;
     line-height: 55px;
@@ -81,10 +96,25 @@ h5 {
   font-weight: normal;
   // text-transform: uppercase;
 
+  @media only screen and (max-width: 1199px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
   &.small {
     font-size: 30px;
     line-height: 45px;
   }
+}
+
+h6 {
+  font-family: $HelveticaBold;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
 }
 
 p {
@@ -346,5 +376,5 @@ span {
   line-height: 45px;
   letter-spacing: 0;
   font-stretch: normal;
-  color: $black;
+  color: $red-3;
 }

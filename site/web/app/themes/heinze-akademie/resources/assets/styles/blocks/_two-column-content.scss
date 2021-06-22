@@ -1,0 +1,17 @@
+.two-column-content {
+  .list-box {
+    display: flex;
+    height: 100%;
+
+    .container {
+      display: flex;
+      height: 100%;
+
+      .row {
+        display: flex;
+        height: 100%;
+        align-content: baseline;
+      }
+    }
+  }
+}

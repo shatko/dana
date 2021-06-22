@@ -12,7 +12,15 @@
   SupportsMultiple: true
 --}}
 
-<div class="events">
+@php
+  if (get_field('gray_background')[0] == 'yes') {
+    $background = 'gray';
+  } else {
+    $background = '';
+  }
+@endphp
+
+<div class="events @php echo $background;  @endphp">
   <div class="container">
     <div class="row">
       <div class="col-lg-12" id="events">
