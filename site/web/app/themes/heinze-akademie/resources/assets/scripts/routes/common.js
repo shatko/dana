@@ -165,6 +165,35 @@ export default {
       appendDots: $('.absolventen-slider__dots-wrapper'),
     });
 
+
+    // Team Member Info Click
+    $('.team-member__icon--info').click(function() {
+      $(this).parent().parent().find('.team-member__hover-text').toggleClass('open');
+    });
+
+
+    // Remove questions when footer appears
+    var questions = $('.questions');
+
+    $(document).on('scroll', function() {
+      var scrollHeight = $(document).height();
+      var scrollPosition = $(window).height() + $(window).scrollTop();
+
+      console.log(((scrollHeight - scrollPosition) / scrollHeight));
+
+      if (((scrollHeight - scrollPosition) / scrollHeight) * 100 < 10) {
+        questions.addClass('remove');
+      } else {
+        questions.removeClass('remove');
+      }
+    });
+
+
+
+
+
+
+
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

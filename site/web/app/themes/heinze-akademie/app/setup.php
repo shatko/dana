@@ -195,6 +195,7 @@ add_filter( 'allowed_block_types', function ( $allowed_blocks ) {
         'acf/submenu-teaser',
         'acf/page-teasers',
         'acf/author',
+        'acf/team-and-jobs',
     );
 });
 
@@ -300,3 +301,24 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment = 
     }
     return $attr;
 }, 10, 2);
+
+
+
+/**
+ * Populates Options Team members select field
+ */
+add_filter('acf/load_field/name=team_member', function( $field ) {
+    $field['choices'] = array();
+
+    if( have_rows('team_heinze', 'option') ) {
+        while( have_rows('team_heinze', 'option') ) {
+
+            the_row();
+            $value = get_sub_field('vorname_nachname');
+            $label = get_sub_field('position');
+            $field['choices'][ $value ] = $label;
+        }
+    }
+
+    return $field;
+});

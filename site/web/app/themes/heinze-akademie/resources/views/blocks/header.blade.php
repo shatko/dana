@@ -114,37 +114,43 @@
       </div>
     </div>
   </div>
-    <div class="questions">
-      <div class="questions__button-wrapper">
-        <div class="button-wrapper bottom-0">
-          <a class="button button__tertiary button__enabled" href="mailto:info@heinze-akademie.de">Schreiben Sie uns.</a>
+  @php
+    if (empty(get_field('disable_contact_element'))) {
+      @endphp
+      <div class="questions">
+        <div class="questions__button-wrapper">
+          <div class="button-wrapper bottom-0">
+            <a class="button button__tertiary button__enabled" href="mailto:info@heinze-akademie.de">Schreiben Sie uns.</a>
+          </div>
+        </div>
+
+        <div class="questions__first-contact">
+          @php
+            echo wp_get_attachment_image( get_field('image_first', 'option'), 'medium', '', array( "class" => "attachment-thumbnail size-thumbnail" ));
+          @endphp
+          <p class="bold">@php echo get_field('name_and_surname_first', 'option'); @endphp</p>
+          <p><a href="tel:@php echo get_field('telephone_href_first', 'option'); @endphp">Tel: <span class="bold">@php echo get_field('telephone_text_first', 'option'); @endphp</span></a></p>
+          <p><a class="questions__whatsapp" data-action="open" data-phone="@php echo get_field('whatsapp_number_first', 'option'); @endphp" data-message="Hallo! Ich interessiere mich für" href="https://web.whatsapp.com/send?phone=@php echo get_field('whatsapp_number_first', 'option'); @endphp&amp;text=Hallo! Ich interessiere mich für" target="_blank">Whatsapp</a></p>
+        </div>
+
+        <div class="questions__second-contact">
+          @php
+            echo wp_get_attachment_image( get_field('image_second', 'option'), 'medium', '', array( "class" => "attachment-thumbnail size-thumbnail" ));
+          @endphp
+          <p class="bold">@php echo get_field('name_and_surname_second', 'option'); @endphp</p>
+          <p><a href="tel:@php echo get_field('telephone_href_second', 'option'); @endphp">Tel: <span class="bold">@php echo get_field('telephone_text_second', 'option'); @endphp</span></a></p>
+          <p><a class="questions__whatsapp" data-action="open" data-phone="@php echo get_field('whatsapp_number_second', 'option'); @endphp" data-message="Hallo! Ich interessiere mich für" href="https://web.whatsapp.com/send?phone=@php echo get_field('whatsapp_number_second', 'option'); @endphp&amp;text=Hallo! Ich interessiere mich für" target="_blank">Whatsapp</a></p>
+        </div>
+
+        <div class="questions__trigger">
+          <div class="arrow"></div>
+          <div class="text">
+            <p class="bold">Sie haben Fragen?</p>
+            <p>Wir helfen weiter.</p>
+          </div>
         </div>
       </div>
-
-      <div class="questions__first-contact">
-        @php
-          echo wp_get_attachment_image( get_field('image_first', 'option'), 'medium', '', array( "class" => "attachment-thumbnail size-thumbnail" ));
-        @endphp
-        <p class="bold">@php echo get_field('name_and_surname_first', 'option'); @endphp</p>
-        <p><a href="tel:@php echo get_field('telephone_href_first', 'option'); @endphp">Tel: <span class="bold">@php echo get_field('telephone_text_first', 'option'); @endphp</span></a></p>
-        <p><a class="questions__whatsapp" data-action="open" data-phone="@php echo get_field('whatsapp_number_first', 'option'); @endphp" data-message="Hallo! Ich interessiere mich für" href="https://web.whatsapp.com/send?phone=@php echo get_field('whatsapp_number_first', 'option'); @endphp&amp;text=Hallo! Ich interessiere mich für" target="_blank">Whatsapp</a></p>
-      </div>
-
-      <div class="questions__second-contact">
-        @php
-          echo wp_get_attachment_image( get_field('image_second', 'option'), 'medium', '', array( "class" => "attachment-thumbnail size-thumbnail" ));
-        @endphp
-        <p class="bold">@php echo get_field('name_and_surname_second', 'option'); @endphp</p>
-        <p><a href="tel:@php echo get_field('telephone_href_second', 'option'); @endphp">Tel: <span class="bold">@php echo get_field('telephone_text_second', 'option'); @endphp</span></a></p>
-        <p><a class="questions__whatsapp" data-action="open" data-phone="@php echo get_field('whatsapp_number_second', 'option'); @endphp" data-message="Hallo! Ich interessiere mich für" href="https://web.whatsapp.com/send?phone=@php echo get_field('whatsapp_number_second', 'option'); @endphp&amp;text=Hallo! Ich interessiere mich für" target="_blank">Whatsapp</a></p>
-      </div>
-
-      <div class="questions__trigger">
-        <div class="arrow"></div>
-        <div class="text">
-          <p class="bold">Sie haben Fragen?</p>
-          <p>Wir helfen weiter.</p>
-        </div>
-      </div>
-    </div>
+      @php
+    }
+  @endphp
 </div>
