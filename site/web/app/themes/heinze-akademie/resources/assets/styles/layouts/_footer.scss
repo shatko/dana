@@ -8,8 +8,28 @@ footer {
   }
 
   .footer-top {
-    padding: 110px 0 175px;
+    padding: 50px 0 50px 0;
     background-color: $black;
+
+    @media only screen and (min-width: 1400px) {
+      padding: 110px 0 175px;
+    }
+
+    .col-xl-4 {
+      @media only screen and (max-width: 1400px) {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+      }
+    }
+
+    .col-xl-2 {
+      @media only screen and (max-width: 1400px) {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+      }
+    }
 
     &__title {
       color: $gray-4;
@@ -25,7 +45,9 @@ footer {
     }
 
     &__info-text {
-      margin-top: 74px;
+      @media only screen and (min-width: 1400px) {
+        margin-top: 74px;
+      }
 
       p {
         color: $gray-4;
@@ -33,12 +55,16 @@ footer {
     }
 
     &__address {
-      display: inline-block;
       width: 50%;
+      display: inline-block;
       color: $white;
 
       &--left {
         float: left;
+
+        @media only screen and (max-width: 1400px) {
+          width: 30%;
+        }
 
         p {
           &:nth-child(1),

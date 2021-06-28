@@ -1,7 +1,24 @@
 .call-back {
+  .container {
+    @media only screen and (max-width: 1300px) {
+      max-width: 100%;
+    }
+
+    .col-lg-6 {
+      @media only screen and (max-width: 1300px) {
+        max-width: 100%;
+        flex: none;
+      }
+    }
+  }
+
   &__form-wrapper {
-    padding: 200px 140px 100px 140px;
+    padding: 40px;
     background-color: $red-2;
+
+    @media only screen and (min-width: 900px) {
+      padding: 200px 140px 100px 140px;
+    }
 
     h4 {
       position: relative;
@@ -81,8 +98,12 @@
   }
 
   &__contact-persons-wrapper {
-    padding: 80px 140px;
     background-color: $gray-1;
+    padding: 80px 40px;
+
+    @media only screen and (min-width: 900px) {
+      padding: 80px;
+    }
   }
 
   &__contact-persons--top {
@@ -91,18 +112,35 @@
 
     h4 {
       margin-bottom: 50px;
+
+      @media only screen and (max-width: 900px) {
+        text-align: center;
+      }
     }
   }
 
   &__contact-single {
-    display: inline-block;
     text-align: center;
-    margin-right: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+
+    &:first-of-type {
+      margin-bottom: 50px;
+    }
+
+    @media only screen and (min-width: 900px) {
+      width: 49%;
+    }
 
     img {
       display: inline-block;
       border-radius: 50%;
-      margin-bottom: 35px;
+      margin-bottom: 10px;
+
+      @media only screen and (min-width: 1300px) {
+        margin-bottom: 35px;
+      }
     }
   }
 
@@ -111,11 +149,15 @@
   }
 
   &__text {
-    margin-bottom: 30px;
+    @media only screen and (min-width: 1300px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__tel {
-    margin-bottom: 60px;
+    @media only screen and (min-width: 1300px) {
+      margin-bottom: 60px;
+    }
   }
 
   &__tel-link {
