@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34e9e536-5f6b-4836-8974-c17a38afdd6f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_events.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_events.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_starttermine.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_starttermine.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_submenu-teaser.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_submenu-teaser.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/events.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/events.blade.php" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/starttermine.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/starttermine.blade.php" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/submenu-teaser.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/submenu-teaser.blade.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/site/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starttermine.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/starttermine.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1665">
+              <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+              <folding>
+                <marker date="1623840735661" expanded="true" signature="379:1683" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="516:1683" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="569:1683" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="757:983" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="1014:1211" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="1242:1467" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="1475:1682" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="1791:1815" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="2071:2083" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="2141:2156" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="2188:2209" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="2334:2346" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="2697:2725" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3033:3060" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3301:3313" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3365:3377" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3428:3440" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3657:3666" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3675:3702" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3932:3941" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="3950:3978" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4262:4277" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4309:4329" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4514:4529" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4561:4582" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4693:4705" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4780:4792" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="4913:4943" ph="..." />
+                <marker date="1623840735661" expanded="true" signature="5047:5097" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/events.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <marker date="1623842325346" expanded="true" signature="354:603" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="418:603" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="470:603" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="743:755" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="814:826" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="884:896" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1032:1059" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1275:1303" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1409:1441" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1710:1728" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1883:1895" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="1971:1983" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="2092:2122" ph="..." />
+                <marker date="1623842325346" expanded="true" signature="2226:2276" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_starttermine.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_starttermine.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="215" column="8" lean-forward="false" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/Transmit/085AD677-4652-41E6-8F87-62E95B3F078D/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="175" column="23" lean-forward="false" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Library/Caches/Transmit/AC18B875-C5C7-4694-B212-D54BD29E4702/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_events.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_events.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="188" column="27" lean-forward="false" selection-start-line="188" selection-start-column="27" selection-end-line="188" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ext</find>
+      <find>Boze</find>
+      <find>sli</find>
+      <find>title</find>
+      <find>footer-navigation</find>
+      <find>__address</find>
+      <find>slide-content</find>
+      <find>descripti</find>
+      <find>sub-menu</find>
+      <find>sub-first-active</find>
+      <find>include</find>
+      <find>#DD042D</find>
+      <find>g-toplevel</find>
+      <find>left-menu</find>
+      <find>main-sub-navigation</find>
+      <find>filter</find>
+      <find>card-header</find>
+      <find>button button__tertiary button</find>
+      <find>start</find>
+      <find>button-slots</find>
+      <find>slots</find>
+      <find>wrapper</find>
+      <find>card-conten</find>
+      <find>card-content</find>
+      <find>card-header-text-wrapper</find>
+      <find>header-arrow-wrapper</find>
+      <find>transparent-bg</find>
+      <find>date</find>
+      <find>hamburger</find>
+      <find>toggle</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/config.json" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/downloads.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_downloads.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_konzept.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/konzept.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/accordion.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_accordion.scss" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.css" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_global.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/list-box.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_list-box.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/main.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/app/setup.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_20.html" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/team-member.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_team-member.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/layouts/_footer.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_absolventen-slider.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_header-ce.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/header.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/components/_header-navigation.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/scripts/routes/common.js" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_typography.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/page-teasers.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_page-teasers.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/submenu-teaser.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_submenu-teaser.scss" />
+        <option value="$USER_HOME$/Library/Caches/Transmit/A48CCCA3-9139-4B81-8237-C60019097912/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/plugins/lr-customized/lr-customized.php" />
+        <option value="$USER_HOME$/Library/Caches/Transmit/665D0286-50F5-4812-8E4A-C38084D52BF9/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/custom/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/starttermine.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/events.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_starttermine.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_events.scss" />
+        <option value="$USER_HOME$/Library/Caches/Transmit/085AD677-4652-41E6-8F87-62E95B3F078D/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js" />
+        <option value="$USER_HOME$/Library/Caches/Transmit/AC18B875-C5C7-4694-B212-D54BD29E4702/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/site/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/site/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/site/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/wp-config" />
+      <path value="$PROJECT_DIR$/site/vendor/composer" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/bedrock-autoloader" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/site/vendor/roots/wp-password-bcrypt" />
+      <path value="$PROJECT_DIR$/site/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/site/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/site/vendor/oscarotero/env" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2062" />
+    <option name="y" value="-480" />
+    <option name="width" value="2038" />
+    <option name="height" value="1495" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dana" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dana" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="heinze-akademie" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Less" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/site/web/app/themes/heinze-akademie/node_modules/eslint" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML&#10;CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34e9e536-5f6b-4836-8974-c17a38afdd6f" name="Default" comment="" />
+      <created>1623240399114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623240399114</updated>
+      <workItem from="1623240401441" duration="3745000" />
+      <workItem from="1623250203891" duration="14370000" />
+      <workItem from="1623315646058" duration="13764000" />
+      <workItem from="1623662601078" duration="64280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="96159000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2062" y="-480" width="2038" height="1495" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15931864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05357143" sideWeight="0.50501" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05357143" sideWeight="0.49499" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_list-box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_konzept.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/downloads.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="41" column="80" lean-forward="true" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/button.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623666735363" expanded="true" signature="222:245" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/list-teasers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <marker date="1623666735365" expanded="true" signature="381:405" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="454:534" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="481:534" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="647:723" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="842:848" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="911:919" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="997:1024" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="1101:1191" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/list-box.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1623745823827" expanded="true" signature="222:423" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="247:279" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="287:323" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="350:380" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="388:422" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="582:594" ph="..." />
+            <marker date="1623745823827" expanded="true" signature="693:704" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/accordion.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1623666585875" expanded="true" signature="230:250" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/components/_marquee.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/layouts/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_three-page-teasers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/home-header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623666735365" expanded="true" signature="232:335" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="566:582" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="700:727" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="882:907" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="913:939" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="1056:1222" ph="..." />
+            <marker date="1623666735365" expanded="true" signature="1143:1221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/scripts/customizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_header-ce.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="76" column="3" lean-forward="false" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding>
+            <marker date="1623778484048" expanded="true" signature="222:394" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="222:442" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="609:655" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="748:772" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="848:861" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="946:966" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1034:1043" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1146:1157" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1207:1218" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1353:1423" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1537:1546" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1653:1704" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1811:1977" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1898:1976" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2044:2167" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2319:2382" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2333:2382" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2585:2640" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2776:2812" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2945:2977" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="3107:3170" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="3121:3170" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="3289:3329" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="3406:3438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623230496013" expanded="true" signature="184:193" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1623230496011" expanded="true" signature="25:52" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="68:83" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="98:110" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="129:152" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="174:191" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="305:314" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="365:388" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="410:427" ph="..." />
+            <marker date="1623230496011" expanded="true" signature="438:449" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/components/_header-navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="118" column="20" lean-forward="true" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/scripts/routes/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/080B28E3-8F97-4A37-8DB4-C3ECDC302E1A/185.88.215.40/heinze.grand-digital.de/dana/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623770130646" expanded="true" signature="222:442" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="609:630" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="682:728" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="867:891" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="967:980" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1065:1085" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1153:1162" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1265:1276" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1326:1337" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1464:1534" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1648:1657" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1764:1815" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="1892:1938" ph="..." />
+            <marker date="1623770130646" expanded="true" signature="4281:4302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/E7C08631-7414-4CF5-BCA2-96A8292873A3/185.88.215.40/heinze.grand-digital.de/dana/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623770034229" expanded="true" signature="222:442" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="609:630" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="682:728" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="867:891" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="967:980" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1065:1085" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1153:1162" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1265:1276" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1326:1337" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1464:1534" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1648:1657" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1764:1815" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="1892:1938" ph="..." />
+            <marker date="1623770034229" expanded="true" signature="4281:4302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <marker date="1623778462885" expanded="true" signature="5:74" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="432:461" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="755:770" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="869:913" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1407:1441" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1460:1540" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1653:1825" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1697:1825" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1761:1825" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1878:1905" ph="..." />
+            <marker date="1623778462885" expanded="true" signature="1945:2048" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/968F8368-AD5E-4961-8C0B-F907B50A09D9/185.88.215.40/heinze.grand-digital.de/dana/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1623775369064" expanded="true" signature="222:442" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="609:630" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="682:728" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="867:891" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="967:980" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1065:1085" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1153:1162" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1265:1276" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1326:1337" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1464:1534" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1648:1657" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1764:1815" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="1892:1938" ph="..." />
+            <marker date="1623775369064" expanded="true" signature="4281:4302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1623778484048" expanded="true" signature="670:701" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="743:784" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="799:840" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="890:931" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="946:987" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1024:1053" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1086:1112" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1205:1240" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1261:1296" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1467:1501" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1468:1501" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1657:1758" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1694:1758" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1836:1863" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1894:1921" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1967:1993" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2165:2198" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2217:2303" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="2639:2654" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/partials/page-header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <marker date="1623230496014" expanded="true" signature="35:49" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_page-teasers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/page-teasers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <marker date="1623778484048" expanded="true" signature="347:492" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="379:492" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="429:492" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="692:915" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="816:914" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1086:1126" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1201:1244" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1428:1491" ph="..." />
+            <marker date="1623778484048" expanded="true" signature="1609:1698" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/665D0286-50F5-4812-8E4A-C38084D52BF9/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/custom/scss/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="2578" column="38" lean-forward="false" selection-start-line="2578" selection-start-column="38" selection-end-line="2578" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/A48CCCA3-9139-4B81-8237-C60019097912/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/plugins/lr-customized/lr-customized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_submenu-teaser.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/submenu-teaser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <marker date="1623779702641" expanded="true" signature="238:484" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="653:692" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="767:792" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="939:985" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="1154:1187" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="1236:1291" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="1336:1382" ph="..." />
+            <marker date="1623779702641" expanded="true" signature="1397:1436" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/BFFA5667-5F1A-4541-A16D-8DA562D0646A/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/plugins/lr-customized/lr-customized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="103" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/95B2EADF-C735-453E-9F9B-31D4D340BE9E/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/plugins/lr-customized/lr-customized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/D9F2C4D6-CFF8-42E0-ABEE-D82D678AEACB/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/custom/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/8A46745F-B0B8-4DB9-A412-87E9D7A59F95/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/plugins/lr-customized/lr-customized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/0FE70B49-C52B-461C-B71C-DD7B59417EB6/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_accordion.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/common/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_downloads.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_absolventen-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_events.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="188" column="27" lean-forward="false" selection-start-line="188" selection-start-column="27" selection-end-line="188" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/starttermine.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+          <folding>
+            <marker date="1623840735661" expanded="true" signature="379:1683" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="516:1683" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="569:1683" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="757:983" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="1014:1211" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="1242:1467" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="1475:1682" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="1791:1815" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="2071:2083" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="2141:2156" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="2188:2209" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="2334:2346" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="2697:2725" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3033:3060" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3301:3313" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3365:3377" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3428:3440" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3657:3666" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3675:3702" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3932:3941" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="3950:3978" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4262:4277" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4309:4329" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4514:4529" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4561:4582" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4693:4705" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4780:4792" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="4913:4943" ph="..." />
+            <marker date="1623840735661" expanded="true" signature="5047:5097" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/views/blocks/events.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <marker date="1623842325346" expanded="true" signature="354:603" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="418:603" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="470:603" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="743:755" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="814:826" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="884:896" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1032:1059" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1275:1303" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1409:1441" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1710:1728" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1883:1895" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="1971:1983" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="2092:2122" ph="..." />
+            <marker date="1623842325346" expanded="true" signature="2226:2276" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/heinze-akademie/resources/assets/styles/blocks/_starttermine.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="215" column="8" lean-forward="false" selection-start-line="215" selection-start-column="8" selection-end-line="215" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/085AD677-4652-41E6-8F87-62E95B3F078D/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="175" column="23" lean-forward="false" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/Transmit/AC18B875-C5C7-4694-B212-D54BD29E4702/sftp.raidboxes.de/95820_lieblingsring_de/wordpress/wp-content/themes/lieblingsringe/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
