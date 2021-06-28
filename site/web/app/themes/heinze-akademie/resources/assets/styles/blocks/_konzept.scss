@@ -21,7 +21,7 @@
   }
 
   &__author-wrapper {
-    margin-top: 40px;
+    margin: 40px 0;
     display: flex;
 
     img {
@@ -31,8 +31,13 @@
 
   &__author-text-wrapper {
     position: relative;
-    transform: translateX(-50px);
     padding-top: 50px;
+    margin-left: 20px;
+
+    @media only screen and (min-width: 990px) {
+      transform: translateX(-50px);
+      margin-left: 0;
+    }
 
     &::before {
       display: block;
@@ -50,7 +55,10 @@
 
   &__author-testimonial {
     margin: 20px 0 30px;
-    max-width: 280px;
+
+    @media only screen and (min-width: 990px) {
+      max-width: 280px;
+    }
   }
 
   &__author-name-position {

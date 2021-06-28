@@ -95,10 +95,10 @@
               <div class="starttermine__card-header collapsed" id="heading-{{ $increment }}" data-toggle="collapse" data-target="#collapse-{{ $increment }}" aria-expanded="true" aria-controls="collapse-{{ $increment }}">
                 {{-- <div class="starttermine__card-trigger"></div> --}}
                 <div class="starttermine__card-header-text-wrapper">
-                  <p class="starttermine__card-header-date big bold {{ $status }}">@php echo get_sub_field('date'); @endphp</p>
+                  <p class="starttermine__card-header-date bold {{ $status }}">@php echo get_sub_field('date'); @endphp</p>
                   <div class="starttermine__card-header-arrow-wrapper">
                     <div class="starttermine__card-header-arrow"></div>
-                    <p class="starttermine__card-header-title big bold {{ $status }}">@php echo get_sub_field('title'); @endphp</p>
+                    <p class="starttermine__card-header-title bold {{ $status }}">@php echo get_sub_field('title'); @endphp</p>
                   </div>
                 </div>
 
