@@ -29,7 +29,7 @@
     letter-spacing: 0;
     font-stretch: normal;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
     @media only screen and (min-width: 800px) {
       margin-bottom: 85px;
@@ -44,10 +44,11 @@
     background: $white;
     text-align: center;
     padding: 50px;
-    border-radius: 162px;
+    border-radius: 50px;
 
     @media only screen and (min-width: 800px) {
       padding: 50px 100px;
+      border-radius: 162px;
     }
 
     h1,
@@ -69,7 +70,7 @@
     h2 {
       @media only screen and (max-width: 800px) {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 30px;
       }
     }
   }

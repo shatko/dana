@@ -299,6 +299,7 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment = 
         $attr['alt'] = $img_title;
         $attr['title'] = $img_title;
     }
+
     return $attr;
 }, 10, 2);
 
@@ -307,18 +308,20 @@ add_filter('wp_get_attachment_image_attributes', function ($attr, $attachment = 
 /**
  * Populates Options Team members select field
  */
-add_filter('acf/load_field/name=team_member', function( $field ) {
-    $field['choices'] = array();
-
-    if( have_rows('team_heinze', 'option') ) {
-        while( have_rows('team_heinze', 'option') ) {
-
-            the_row();
-            $value = get_sub_field('vorname_nachname');
-            $label = get_sub_field('position');
-            $field['choices'][ $value ] = $label;
-        }
-    }
-
-    return $field;
-});
+// add_filter('acf/load_field/name=team_member', function( $field ) {
+//     $field['choices'] = array();
+//     $position = 0;
+//
+//     if( have_rows('team_heinze', 'option') ) {
+//         while( have_rows('team_heinze', 'option') ) {
+//             $position++;
+//
+//             the_row();
+//             $value = $position;
+//             $label = get_sub_field('position');
+//             $field['choices'][ $value ] = $label;
+//         }
+//     }
+//
+//     return $field;
+// });

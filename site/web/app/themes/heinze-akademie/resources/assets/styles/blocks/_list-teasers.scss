@@ -1,10 +1,18 @@
 .list-teasers {
   background-color: $gray-1;
-  padding: 125px 0 120px;
+  padding: 50px 0 50px;
+
+  @media only screen and (min-width: 500px) {
+    padding: 125px 0 120px;
+  }
 
   &__title-main {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+
+    @media only screen and (min-width: 500px) {
+      margin-bottom: 60px;
+    }
   }
 
   &__single-container {
@@ -14,11 +22,15 @@
   }
 
   &__single {
-    padding: 50px 25px;
+    padding: 15px 25px;
     background-color: $white;
     height: 100%;
     max-width: 500px;
     margin: 0 auto;
+
+    @media only screen and (min-width: 500px) {
+      padding: 50px 25px;
+    }
   }
 
   &__number {
@@ -28,16 +40,23 @@
     letter-spacing: 0;
     font-stretch: normal;
     color: $gray-3;
-    margin-left: 35px;
     margin-bottom: 10px;
+
+    @media only screen and (min-width: 500px) {
+      margin-left: 35px;
+    }
   }
 
   &__title {
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-    min-height: 90px;
     text-transform: initial;
+    margin-bottom: 20px;
+
+    @media only screen and (min-width: 500px) {
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-bottom: 35px;
+      min-height: 90px;
+    }
   }
 
   hr {
@@ -46,7 +65,9 @@
   }
 
   &__text {
-    margin-left: 35px;
-    margin-right: 35px;
+    @media only screen and (min-width: 500px) {
+      margin-left: 35px;
+      margin-right: 35px;
+    }
   }
 }
