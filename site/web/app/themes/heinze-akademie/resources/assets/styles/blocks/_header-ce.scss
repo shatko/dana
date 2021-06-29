@@ -74,7 +74,7 @@
       background-repeat: no-repeat;
       background-position: center;
       position: absolute;
-      top: calc(50% - 25px);
+      top: calc(50% - 50px);
       z-index: 2;
 
       @include media-breakpoint-up(lg) {
@@ -123,19 +123,19 @@
   }
 
   &__slider--slide-description {
-    @include media-breakpoint-up(lg) {
-      position: absolute;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 10px 50px;
-      color: $white;
-      height: 120px;
-      display: flex;
-      align-items: center;
-    }
-
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
+    color: $white;
+    display: flex;
+    align-items: center;
     width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      padding: 10px 50px;
+      height: 120px;
+    }
 
     p {
       margin-bottom: 0;
