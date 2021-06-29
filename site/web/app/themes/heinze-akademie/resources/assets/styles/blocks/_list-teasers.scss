@@ -2,7 +2,7 @@
   background-color: $gray-1;
   padding: 50px 0 50px;
 
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     padding: 125px 0 120px;
   }
 
@@ -16,20 +16,25 @@
   }
 
   &__single-container {
+    padding: 0 30px;
+
     @media only screen and (max-width: 1199px) {
-      margin-bottom: 30px;
+      margin-bottom: 50px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
   &__single {
-    padding: 15px 25px;
+    padding: 50px 25px;
     background-color: $white;
     height: 100%;
-    max-width: 500px;
-    margin: 0 auto;
 
     @media only screen and (min-width: 500px) {
-      padding: 50px 25px;
+      max-width: 500px;
+      margin: 0 auto;
     }
   }
 
@@ -68,6 +73,10 @@
     @media only screen and (min-width: 500px) {
       margin-left: 35px;
       margin-right: 35px;
+    }
+
+    ul {
+      margin-bottom: 0;
     }
   }
 }

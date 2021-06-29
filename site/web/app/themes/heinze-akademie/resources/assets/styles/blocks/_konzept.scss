@@ -22,21 +22,31 @@
 
   &__author-wrapper {
     margin: 40px 0;
-    display: flex;
+
+    @media only screen and (min-width: 600px) {
+      display: flex;
+    }
 
     img {
       align-self: center;
+
+      @media only screen and (max-width: 600px) {
+        margin: 0 30px;
+        display: block;
+        width: calc(100% - 60px);
+        height: auto;
+      }
     }
   }
 
   &__author-text-wrapper {
     position: relative;
     padding-top: 50px;
-    margin-left: 20px;
+    margin: 0 30px;
 
     @media only screen and (min-width: 990px) {
       transform: translateX(-50px);
-      margin-left: 0;
+      margin: 0;
     }
 
     &::before {

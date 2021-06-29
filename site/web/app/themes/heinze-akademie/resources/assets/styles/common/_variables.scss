@@ -31,9 +31,14 @@ $red-5:     #770016;
 $spacer-120:  120px;
 $spacer-80:   80px;
 $spacer-60:   60px;
+$spacer-50:   50px;
 $spacer-40:   40px;
 $spacer-30:   30px;
 
 %bottom-spacing {
-  margin-bottom: $spacer-120;
+  margin-bottom: $spacer-50;
+
+  @media only screen and (min-width: 800px) {
+    margin-bottom: $spacer-120;
+  }
 }

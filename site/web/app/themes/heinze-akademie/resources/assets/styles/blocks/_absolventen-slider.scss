@@ -1,8 +1,11 @@
 .absolventen-slider {
   background-color: $gray-1;
   color: $white;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding: 50px 15px;
+
+  @media only screen and (min-width: 900px) {
+    padding: 160px 0;
+  }
 
   &__left {
     @media only screen and (max-width: 1600px) {
@@ -14,11 +17,19 @@
 
   &__left-wrapper {
     background-color: $black;
-    padding: 90px;
     height: 100%;
+    padding: 50px 20px;
+
+    @media only screen and (min-width: 800px) {
+      padding: 90px;
+    }
 
     h3 {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
+
+      @media only screen and (min-width: 800px) {
+        margin-bottom: 60px;
+      }
     }
   }
 
@@ -31,14 +42,25 @@
   }
 
   &__right-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
     @media only screen and (min-width: 1600px) {
       margin-left: 50px;
+    }
+
+    @media only screen and (min-width: 800px) {
+      display: block;
     }
   }
 
   &__left-text {
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     color: $gray-4;
+
+    @media only screen and (min-width: 800px) {
+      margin-bottom: 90px;
+    }
   }
 
   &__left-first-link {
@@ -55,13 +77,17 @@
 
       justify-content: center;
 
-      @include media-breakpoint-up(sm) {
+      @media only screen and (min-width: 900px) {
         justify-content: flex-start;
+      }
+
+      @media only screen and (min-width: 900px) {
+        padding: 60px 0;
       }
 
       display: flex;
       margin: 0;
-      padding: 60px 0;
+      padding: 20px 0;
       list-style-type: none;
 
       li {
@@ -86,23 +112,25 @@
   }
 
   &__slider {
-    .slick-next {
-      width: 35px;
-      height: 23px;
-      display: inline-block;
-      position: absolute;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.37' height='34.472' viewBox='0 0 22.37 34.472'%3E%3Cpath id='icon_slider-arrow-right' data-name='icon/slider-arrow-right' d='M19.236,24.37,2,7.134,7.134,2l12.1,12.1L31.338,2l5.134,5.134Z' transform='translate(-2 36.472) rotate(-90)'/%3E%3C/svg%3E ");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      cursor: pointer;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 560px;
-      z-index: 1;
+    @media only screen and (max-width: 900px) {
+      padding-top: 50px;
+    }
 
-      @include media-breakpoint-down(sm) {
-        display: none;
+    .slick-next {
+      @media only screen and (min-width: 760px) {
+        width: 35px;
+        height: 23px;
+        display: inline-block;
+        position: absolute;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.37' height='34.472' viewBox='0 0 22.37 34.472'%3E%3Cpath id='icon_slider-arrow-right' data-name='icon/slider-arrow-right' d='M19.236,24.37,2,7.134,7.134,2l12.1,12.1L31.338,2l5.134,5.134Z' transform='translate(-2 36.472) rotate(-90)'/%3E%3C/svg%3E ");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 560px;
+        z-index: 1;
       }
     }
 
@@ -114,14 +142,19 @@
   &__slide-single {
     text-align: center;
     background-color: $white;
-    width: 500px;
     min-height: 670px;
-    height: inherit;
     margin-left: 75px;
     margin-right: 75px;
-    padding: 35px 50px 75px 50px;
+    padding: 50px 10px;
     color: $black;
     transition: opacity 1s ease-in;
+    width: 400px;
+
+    @media only screen and (min-width: 500px) {
+      padding: 35px 50px 75px 50px;
+      width: 500px;
+      height: inherit;
+    }
 
     &:not(.slick-current) {
       opacity: 0.5;
@@ -197,20 +230,26 @@
     @extend %absolventen-slider-text;
 
     position: relative;
-    width: 95%;
+    width: 82%;
     margin: 0 auto;
 
+    @media only screen and (min-width: 500px) {
+      width: 95%;
+    }
+
     &::before {
-      content: "";
-      display: inline-block;
-      width: 32px;
-      height: 29px;
-      background-image: url("data:image/svg+xml,%3Csvg id='icon_quote' data-name='icon/quote' xmlns='http://www.w3.org/2000/svg' width='31.958' height='28.8' viewBox='0 0 31.958 28.8'%3E%3Cpath id='icon_quote-2' data-name='icon/quote' d='M4.86-13.86V0H10.8A11.347,11.347,0,0,1,9.54,5.535,7.957,7.957,0,0,1,4.86,9v5.94a14.562,14.562,0,0,0,5.175-1.665,14.271,14.271,0,0,0,4.1-3.33,15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,17.64-.09V-13.86Zm19.17,0V0h5.94a11.347,11.347,0,0,1-1.26,5.535A7.957,7.957,0,0,1,24.03,9v5.94A14.562,14.562,0,0,0,29.2,13.275,14.271,14.271,0,0,0,33.3,9.945a15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,36.81-.09V-13.86Z' transform='translate(-4.86 13.86)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -35px;
-      top: 0;
+      @media only screen and (min-width: 800px) {
+        content: "";
+        display: inline-block;
+        width: 32px;
+        height: 29px;
+        background-image: url("data:image/svg+xml,%3Csvg id='icon_quote' data-name='icon/quote' xmlns='http://www.w3.org/2000/svg' width='31.958' height='28.8' viewBox='0 0 31.958 28.8'%3E%3Cpath id='icon_quote-2' data-name='icon/quote' d='M4.86-13.86V0H10.8A11.347,11.347,0,0,1,9.54,5.535,7.957,7.957,0,0,1,4.86,9v5.94a14.562,14.562,0,0,0,5.175-1.665,14.271,14.271,0,0,0,4.1-3.33,15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,17.64-.09V-13.86Zm19.17,0V0h5.94a11.347,11.347,0,0,1-1.26,5.535A7.957,7.957,0,0,1,24.03,9v5.94A14.562,14.562,0,0,0,29.2,13.275,14.271,14.271,0,0,0,33.3,9.945a15.191,15.191,0,0,0,2.655-4.59A14.309,14.309,0,0,0,36.81-.09V-13.86Z' transform='translate(-4.86 13.86)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -35px;
+        top: 0;
+      }
     }
   }
 }

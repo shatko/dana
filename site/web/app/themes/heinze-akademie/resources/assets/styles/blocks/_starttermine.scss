@@ -1,6 +1,5 @@
 .starttermine {
   // @extend %bottom-spacing;
-  background: red;
 
   #starttermine {
     margin-bottom: 70px;
@@ -221,15 +220,22 @@
     .button {
       @media only screen and (max-width: 1199px) {
         display: block;
-        width: 310px;
         line-height: 48px;
         text-align: center;
+      }
+
+      @media only screen and (min-width: 600px) and (max-width: 1199px) {
+        width: 310px;
       }
     }
   }
 
   &.gray {
-    padding: 100px 0;
+    padding: 50px 0;
+
+    @media only screen and (min-width: 800px) {
+      padding: 100px 0;
+    }
 
     .starttermine__card-header {
       background: $gray-1;
