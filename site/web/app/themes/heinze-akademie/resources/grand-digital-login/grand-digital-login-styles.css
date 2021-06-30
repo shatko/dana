@@ -1,0 +1,33 @@
+.login h1 a {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44.76' height='44.758' viewBox='0 0 44.76 44.758'%3E%3Cg id='Zirkel' transform='translate(0 0)'%3E%3Cpath id='Path_228' data-name='Path 228' d='M74.93,33.315a6.1,6.1,0,0,1,6.095,6.095V69.368a6.1,6.1,0,0,1-6.095,6.095H44.97a6.1,6.1,0,0,1-6.095-6.095V39.411a6.1,6.1,0,0,1,6.095-6.095H74.93m0-1.307H44.97a7.421,7.421,0,0,0-7.4,7.4V69.368a7.421,7.421,0,0,0,7.4,7.4H74.93a7.421,7.421,0,0,0,7.4-7.4V39.411a7.423,7.423,0,0,0-7.4-7.4Z' transform='translate(-37.57 -32.01)'/%3E%3Cpath id='Path_229' data-name='Path 229' d='M113.473,76.37h-4.423l-3.312-8.062a5.487,5.487,0,0,0-2.94-8.949,2.026,2.026,0,1,0-2.417,0,5.487,5.487,0,0,0-2.94,8.949l-3.266,7.942H90.36a1,1,0,0,0,0,2h2.993l-3.164,7.7a4.53,4.53,0,0,0,1.734,5.526L97.357,78.25h3.228v.178a1,1,0,0,0,2,0V77.334c0-.028.008-.055.008-.083s-.006-.055-.008-.083V75.983a1,1,0,1,0-2,0v.267H98.178l2.513-6.115a5.454,5.454,0,0,0,1.791,0l2.563,6.237H104a1,1,0,1,0,0,2h1.866l5.385,13.107a4.531,4.531,0,0,0,1.734-5.526l-3.115-7.582h3.6a1,1,0,0,0,0-2ZM98.761,64.718a2.826,2.826,0,1,1,2.826,2.826A2.83,2.83,0,0,1,98.761,64.718Z' transform='translate(-79.536 -51.214)' fill='%23dd042d'/%3E%3C/g%3E%3C/svg%3E ");
+  background-size: contain;
+  width: 200px;
+}
+.login #login .message {
+  border-left: 4px solid #dd042d;
+}
+.login #login #nav a {
+  color: #dd042d;
+  text-shadow: 0px 0px 5px #fff;
+  font-weight: bold;
+}
+.login #login #backtoblog a {
+  color: #dd042d;
+  text-shadow: 0px 0px 5px #fff;
+  font-weight: bold;
+}
+#loginform {
+  background: #dd042d;
+  border: 3px solid #000;
+  border-radius: 20px;
+}
+#loginform label {
+  color: #fff;
+}
+#loginform .submit #wp-submit {
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: 1px solid #fff;
+}

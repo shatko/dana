@@ -165,7 +165,7 @@ add_action('admin_head', function() {
  * Back-End Personalization
  */
 add_action('login_head', function() {
-    echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/wortwerkstatt-login/wortwerkstatt-login-styles.css" />';
+    echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/grand-digital-login/grand-digital-login-styles.css" />';
 });
 
 /**
