@@ -570,7 +570,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
@@ -583,6 +583,34 @@
             "toggle": 0,
             "return_format": "value",
             "save_custom": 0
+        },
+        {
+            "key": "field_60dc62a030c06",
+            "label": "Padding Top",
+            "name": "padding_top",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "top-0": "Top Padding 0px",
+                "top-30": "Top Padding 30px",
+                "top-60": "Top Padding 60px",
+                "top-90": "Top Padding 90px",
+                "top-120": "Top Padding 120px"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -602,5 +630,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623842321
+    "modified": 1625056287
 }

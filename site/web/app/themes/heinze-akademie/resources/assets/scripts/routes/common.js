@@ -163,6 +163,18 @@ export default {
       speed: 2000,
       dots: true,
       appendDots: $('.absolventen-slider__dots-wrapper'),
+      responsive: [
+        {
+          breakpoint: 500,
+          settings: {
+            adaptiveHeight: true,
+            variableWidth: false,
+            slidesToShow: 1,
+            centerMode: true,
+            centerPadding: '20px',
+          },
+        },
+      ],
     });
 
 

@@ -15,10 +15,10 @@ body {
   @media (min-width: 1200px) {
     max-width: 1890px;
 
-    &__inner {
-      padding-left: 140px;
-      padding-right: 140px;
-    }
+    // &__inner {
+    //   padding-left: 140px;
+    //   padding-right: 140px;
+    // }
   }
 }
 
@@ -40,18 +40,50 @@ body {
 
 .bottom-60 {
   padding-bottom: 60px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 30px;
+  }
 }
 
 .bottom-90 {
   padding-bottom: 90px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 30px;
+  }
 }
 
 .bottom-120 {
   padding-bottom: 120px;
+
+  @media (max-width: 1200px) {
+    padding-bottom: 45px;
+  }
+}
+
+.top-0 {
+  padding-top: 0;
+}
+
+.top-30 {
+  padding-top: 30px;
+}
+
+.top-60 {
+  padding-top: 60px;
+}
+
+.top-90 {
+  padding-top: 90px;
+}
+
+.top-120 {
+  padding-top: 120px;
 }
 
 .left {
-  text-align: center;
+  text-align: left;
 }
 
 .center {
@@ -59,7 +91,7 @@ body {
 }
 
 .right {
-  text-align: center;
+  text-align: right;
 }
 
 .white {
@@ -112,4 +144,8 @@ body {
 
 .column-gap-50 {
   column-gap: 50px;
+}
+
+.column-gap-100 {
+  column-gap: 100px;
 }

@@ -35,7 +35,7 @@ if (get_field('list_bottom_margin_bottom_margin')) {
   <div class="container">
     <div class="row {{ $background_color_list }}">
       @php
-      if ($title !== false) {
+      if (!empty($title)) {
         @endphp
           <div class="col-lg-12">
           <h5 class="list-box__title">@php echo $title; @endphp</h5>

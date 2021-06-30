@@ -1,10 +1,4 @@
 .two-column-content {
-  margin: 50px 0;
-
-  @media only screen and (min-width: 800px) {
-    margin: 100px 0;
-  }
-
   .list-box {
     display: flex;
     height: 100%;
@@ -17,6 +11,37 @@
         display: flex;
         height: 100%;
         align-content: baseline;
+        padding: 0;
+
+        > .column-count-2 {
+          position: relative;
+          column-gap: 100px;
+
+          &::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            height: 100%;
+            width: 1px;
+            background-color: $gray-4;
+            right: 50%;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .image {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+
+      .row {
+        > div {
+          padding-left: 0;
+          padding-right: 0;
+        }
       }
     }
   }

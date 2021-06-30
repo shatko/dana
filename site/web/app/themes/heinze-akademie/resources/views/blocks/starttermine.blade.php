@@ -67,7 +67,7 @@
                 if ($empty_slots != 0) {
               @endphp
               <!-- Button trigger modal -->
-              <div class="starttermine__card-header-button-modal starttermine__card-header-button-enlist button-wrapper bottom-0" data-toggle="modal" data-target="#starttermineModalCenter{{ $increment }}">
+              <div class="starttermine__card-header-button-modal button-wrapper bottom-0" data-toggle="modal" data-target="#starttermineModalCenter{{ $increment }}">
                 <a class="button button__secondary {{ $button_state }}" href="javascript:void(0)">{{ $enlist_button_text }}</a>
               </div>
 
@@ -92,7 +92,7 @@
               }
               @endphp
 
-              <div class="starttermine__card-header collapsed" id="heading-{{ $increment }}" data-toggle="collapse" data-target="#collapse-{{ $increment }}" aria-expanded="true" aria-controls="collapse-{{ $increment }}">
+              <div class="starttermine__card-header collapsed" id="heading-{{ $increment }}" data-toggle="collapse" data-target="#collapse-{{ $increment }}" aria-expanded="false" aria-controls="collapse-{{ $increment }}">
                 {{-- <div class="starttermine__card-trigger"></div> --}}
                 <div class="starttermine__card-header-text-wrapper">
                   <p class="starttermine__card-header-date bold {{ $status }}">@php echo get_sub_field('date'); @endphp</p>
@@ -106,7 +106,7 @@
                   <div class="starttermine__card-header-button-slots button-wrapper bottom-0">
                     <a class="button button__tertiary {{ $button_state }}" href="javascript:void(0)">{{ $slots_button_text }}</a>
                   </div>
-                  <div class="starttermine__card-header-button-enlist button-wrapper bottom-0">
+                  <div class="starttermine__card-header-button-enlist button-wrapper bottom-0 {{ $status }}">
                     <a class="button button__secondary {{ $button_state }}" href="javascript:void(0)">{{ $enlist_button_text }}</a>
                   </div>
                 </div>
@@ -127,11 +127,19 @@
         @endphp
       </div>
 
-      <div class="col-lg-12 center">
-        <div class="button-wrapper white bottom-0">
-          <a class="starttermine__show-all-trigger button button__tertiary button__plus button__enabled" href="javascript:void(0)">Mehr anzeigen</a>
-        </div>
-      </div>
+      @php
+        if ($increment >= 4) {
+          @endphp
+          <div class="col-lg-12 center">
+            <div class="button-wrapper white bottom-0">
+              <a class="starttermine__show-all-trigger button button__tertiary button__plus button__enabled" href="javascript:void(0)">Mehr anzeigen</a>
+            </div>
+          </div>
+          @php
+        }
+      @endphp
+
+
     </div>
   </div>
 </div>

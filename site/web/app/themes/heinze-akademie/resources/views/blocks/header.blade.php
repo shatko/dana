@@ -20,10 +20,15 @@
   $ytcode = get_field('youtube_code');
   $contentSelect = get_field('select_content');
 
+  if ($contentSelect === 'image_slider') {
+    $bg = 'white';
+  } else {
+    $bg = 'gray';
+  }
 @endphp
 
 
-<div class="header-ce gray">
+<div class="header-ce {{ $bg }}">
   <div class="container">
     <div class="row">
       <div class="col-xl-6 col-lg-12 header-ce__text-area">

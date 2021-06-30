@@ -68,11 +68,17 @@
         @endphp
       </div>
 
-      <div class="col-lg-12 center">
-        <div class="button-wrapper white bottom-0">
-          <a class="events__show-all-trigger button button__tertiary button__plus button__enabled" href="javascript:void(0)">Mehr anzeigen</a>
-        </div>
-      </div>
+      @php
+        if ($increment >= 4) {
+          @endphp
+          <div class="col-lg-12 center">
+            <div class="button-wrapper white bottom-0">
+              <a class="events__show-all-trigger button button__tertiary button__plus button__enabled" href="javascript:void(0)">Mehr anzeigen</a>
+            </div>
+          </div>
+          @php
+        }
+      @endphp
     </div>
   </div>
 </div>

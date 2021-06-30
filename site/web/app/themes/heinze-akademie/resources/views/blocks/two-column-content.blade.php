@@ -16,9 +16,9 @@
 @php
   $background_color = get_field('background_color');
   $bottom_margin    = get_field('bottom_margin');
-  // $align            = get_field('align_items_vertically')[0];
+  $padding_top    = get_field('padding_top');
 
-  if (!empty(get_field('align_items_vertically')[0])) {
+  if (!empty(get_field('align_items_vertically'))) {
     $align = '';
   } else {
     $align = 'align-items-center';
@@ -26,10 +26,10 @@
 @endphp
 
 
-<div class="two-column-content  {{ $background_color }}  {{ $bottom_margin }}">
+<div class="two-column-content {{ $background_color }} {{ $bottom_margin }} {{ $padding_top }}">
   <div class="container">
     <div class="row {{ $align }}">
-      <div class="col-lg-6">
+      <div class="col-xl-6">
         @php
           if( have_rows('content_left') ):
             while ( have_rows('content_left') ) : the_row();
@@ -90,7 +90,7 @@
         @endphp
 
       </div>
-      <div class="col-lg-6">
+      <div class="col-xl-6">
         @php
           if( have_rows('content_right') ):
             while ( have_rows('content_right') ) : the_row();

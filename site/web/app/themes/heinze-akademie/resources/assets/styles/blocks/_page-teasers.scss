@@ -39,17 +39,11 @@
   }
 
   &__image-wrapper {
-    // width: 100%;
-    // overflow: hidden;
-    // position: relative;
-
     img {
       width: 100%;
       height: auto;
       height: 300px;
       object-fit: cover;
-      // top: 50%;
-      // transform: translateY(-50%);
     }
   }
 

@@ -1,11 +1,11 @@
 .events {
-  @extend %bottom-spacing;
+  // @extend %bottom-spacing;
 
   #events {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
     @media only screen and (min-width: 800px) {
-      margin-bottom: 70px;
+      padding-bottom: 70px;
     }
   }
 
@@ -121,6 +121,7 @@
 
   &__card-header-time {
     margin-bottom: 0;
+    margin-right: 20px;
     color: $gray-4;
     padding-left: 20px;
     margin-left: 20px;
@@ -205,11 +206,11 @@
   }
 
   &.gray {
-    padding: 50px 0;
-
-    @media only screen and (min-width: 800px) {
-      padding: 100px 0;
-    }
+    // padding: 50px 0;
+    //
+    // @media only screen and (min-width: 800px) {
+    //   padding: 100px 0;
+    // }
 
     .events__card-header {
       background: $gray-1;
