@@ -176,7 +176,7 @@
             "key": "field_60c78a794d18a",
             "label": "Linkedin",
             "name": "linkedin",
-            "type": "text",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -186,16 +186,13 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "e.g. https:\/\/www.linkedin.com\/in\/mladen-%C5%A1alaj-45436411a\/",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "placeholder": ""
         },
         {
             "key": "field_60c78a8f4d18b",
             "label": "Xing",
             "name": "xing",
-            "type": "text",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -205,10 +202,7 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "placeholder": ""
         }
     ],
     "location": [
@@ -228,5 +222,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1624874090
+    "modified": 1624967654
 }

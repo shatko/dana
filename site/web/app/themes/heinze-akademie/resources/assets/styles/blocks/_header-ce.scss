@@ -1,5 +1,10 @@
 .header-ce {
   position: relative;
+  margin-bottom: 40px;
+
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 60px;
+  }
 
   &__text-area {
     padding-top: 80px;
