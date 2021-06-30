@@ -89,8 +89,11 @@
 
   &__card-header-date {
     margin-bottom: 0;
-    margin-right: 40px;
     min-width: 200px;
+
+    @media only screen and (min-width: 900px) {
+      font-size: 24px;
+    }
 
     @media only screen and (max-width: 1199px) {
       margin-bottom: 20px;
@@ -106,13 +109,17 @@
     display: flex;
     align-items: center;
     width: 100%;
+
+    @media only screen and (max-width: 1199px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__card-header-title {
-    margin-bottom: 0;
     color: $red-3;
     display: inline;
     width: calc(100% - 80px);
+    margin-bottom: 0;
 
     &.disable {
       color: $gray-4;
@@ -207,21 +214,28 @@
 
   .button-wrapper {
     @media only screen and (max-width: 1199px) {
-      margin: 20px 0;
+      margin-bottom: 10px;
     }
 
     .button {
       @media only screen and (max-width: 1199px) {
         display: block;
-        width: 310px;
         line-height: 48px;
         text-align: center;
+      }
+
+      @media only screen and (min-width: 600px) and (max-width: 1199px) {
+        width: 310px;
       }
     }
   }
 
   &.gray {
-    padding: 100px 0;
+    padding: 50px 0;
+
+    @media only screen and (min-width: 800px) {
+      padding: 100px 0;
+    }
 
     .starttermine__card-header {
       background: $gray-1;

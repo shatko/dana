@@ -23,3 +23,7 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# Remove
+.DS_Store
+web/app/webp-express/*

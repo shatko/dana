@@ -21,18 +21,33 @@
   }
 
   &__author-wrapper {
-    margin-top: 40px;
-    display: flex;
+    margin: 40px 0;
+
+    @media only screen and (min-width: 600px) {
+      display: flex;
+    }
 
     img {
       align-self: center;
+
+      @media only screen and (max-width: 600px) {
+        margin: 0 30px;
+        display: block;
+        width: calc(100% - 60px);
+        height: auto;
+      }
     }
   }
 
   &__author-text-wrapper {
     position: relative;
-    transform: translateX(-50px);
     padding-top: 50px;
+    margin: 0 30px;
+
+    @media only screen and (min-width: 990px) {
+      transform: translateX(-50px);
+      margin: 0;
+    }
 
     &::before {
       display: block;
@@ -50,7 +65,10 @@
 
   &__author-testimonial {
     margin: 20px 0 30px;
-    max-width: 280px;
+
+    @media only screen and (min-width: 990px) {
+      max-width: 280px;
+    }
   }
 
   &__author-name-position {

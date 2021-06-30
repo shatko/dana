@@ -13,7 +13,7 @@
 --}}
 
 @php
-  if (get_field('gray_background')[0] == 'yes') {
+  if (!empty(get_field('gray_background'))) {
     $background = 'gray';
   } else {
     $background = '';
