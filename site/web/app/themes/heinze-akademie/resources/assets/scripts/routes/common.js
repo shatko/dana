@@ -2,7 +2,6 @@ export default {
   init() {
     // JavaScript to be fired on all pages
 
-
     // Burger Menu
     const burger = document.querySelector('.burger'),
           burgerWrapper = document.querySelector('.burger-wrapper'),
@@ -191,8 +190,6 @@ export default {
       var scrollHeight = $(document).height();
       var scrollPosition = $(window).height() + $(window).scrollTop();
 
-      console.log(((scrollHeight - scrollPosition) / scrollHeight));
-
       if (((scrollHeight - scrollPosition) / scrollHeight) * 100 < 10) {
         questions.addClass('remove');
       } else {
@@ -201,10 +198,18 @@ export default {
     });
 
 
-
-
-
-
+    // List teasers title same height magic
+     if ($('.list-teasers')[0]) {
+       var count = 0;
+       $('.list-teasers').each(function() {
+         $(this).children('.container').find('.list-teasers__single-container').each(function() {
+           count = count + 1;
+           var currentHeight = $(this).children('.list-teasers__single').children('.list-teasers__title').height();
+           console.log(count + ' = ' + currentHeight);
+           $(this).children('.list-teasers__single').children('.list-teasers__title').addClass('count' + currentHeight);
+         });
+       });
+     }
 
   },
   finalize() {
