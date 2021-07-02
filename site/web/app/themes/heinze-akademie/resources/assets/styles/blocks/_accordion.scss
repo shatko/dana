@@ -23,6 +23,8 @@
 
       .big {
         margin-bottom: 0;
+        min-height: 60px;
+        width: calc(100% - 50px);
       }
 
       &::before {

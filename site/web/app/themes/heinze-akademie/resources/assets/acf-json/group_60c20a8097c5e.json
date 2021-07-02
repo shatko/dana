@@ -57,6 +57,31 @@
             "delay": 0
         },
         {
+            "key": "field_60ddb455c16d6",
+            "label": "Button",
+            "name": "button",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_60810f3616a63",
+                "field_6081171a16a64",
+                "field_608118151a4b3",
+                "field_6081184a1a4b4",
+                "field_60c07806362cb"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
             "key": "field_60c735cd30dbd",
             "label": "Settings",
             "name": "",
@@ -163,5 +188,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1623671647
+    "modified": 1625142458
 }

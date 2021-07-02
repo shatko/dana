@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 call-back__form-wrapper">
-        <h4>Rückruf-Service<span class="red">.</span></h4>
+        <h4>Rückruf-Service<span class="red phone-logo">.</span></h4>
         @php echo do_shortcode( $form ); @endphp
       </div>
       <div class="col-lg-6 call-back__contact-persons-wrapper">

@@ -1,6 +1,17 @@
 // import external dependencies
 import 'jquery';
 import 'slick-carousel/slick/slick.min.js';
+import 'mmenu-light/dist/mmenu-light.js';
+import 'mmenu-light/dist/mmenu-light.polyfills.js';
+import MmenuLight from 'mmenu-light';
+
+// mmenu
+document.addEventListener(
+  'DOMContentLoaded', () => {
+    new MmenuLight( '.nav-primary' );
+  }
+);
+
 
 // Import everything from autoload
 import './autoload/**/*'

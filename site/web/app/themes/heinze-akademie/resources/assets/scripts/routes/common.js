@@ -199,17 +199,23 @@ export default {
 
 
     // List teasers title same height magic
-     if ($('.list-teasers')[0]) {
-       var count = 0;
+     if ($('.list-teasers')[0] && window.matchMedia('(min-width: 1200px)').matches) {
+       var highest = 0;
        $('.list-teasers').each(function() {
          $(this).children('.container').find('.list-teasers__single-container').each(function() {
-           count = count + 1;
            var currentHeight = $(this).children('.list-teasers__single').children('.list-teasers__title').height();
-           console.log(count + ' = ' + currentHeight);
-           $(this).children('.list-teasers__single').children('.list-teasers__title').addClass('count' + currentHeight);
+
+           if (highest < currentHeight) {
+             highest = currentHeight;
+           }
+         });
+
+         $(this).children('.container').find('.list-teasers__single-container').each(function() {
+            $(this).children('.list-teasers__single').children('.list-teasers__title').css('min-height', highest);
          });
        });
      }
+
 
   },
   finalize() {

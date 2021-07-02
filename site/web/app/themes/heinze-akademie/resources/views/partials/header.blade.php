@@ -25,6 +25,7 @@ if (!empty($activate)) {
   <div class="container">
     <div class="row banner__row">
       <div class="col-xl-12 banner__wrapper">
+        <a id="test" href="#">test</a>
         <a class="brand" href="{{ home_url('/') }}"></a>
         <div class="mobile-burger-wrapper">
           <a class="header-phone" href="tel:{{ get_field('mobile_phone_number', 'option') }}"></a>

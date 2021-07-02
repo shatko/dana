@@ -6344,6 +6344,11 @@
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
+"mmenu-light@^3.0.9":
+  "integrity" "sha512-xV/ECoqYE+NLuiLYQXkwDJQT+YukBwQ58KWFtEQQhKxjKe1RLRMTneSLZmWLLJdUBw5R4Zt9ogpIz+Uzi8ByjQ=="
+  "resolved" "https://registry.npmjs.org/mmenu-light/-/mmenu-light-3.0.9.tgz"
+  "version" "3.0.9"
+
 "move-concurrently@^1.0.1":
   "integrity" "sha1-viwAX9oy4LKa8fBdfEszIUxwH5I="
   "resolved" "https://registry.npmjs.org/move-concurrently/-/move-concurrently-1.0.1.tgz"

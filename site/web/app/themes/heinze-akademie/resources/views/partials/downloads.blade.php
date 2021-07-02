@@ -24,7 +24,7 @@
 
         </div>
         <div class="downloads__share">
-          <h5 class="small">Diese Seite Teilen</h5>
+          <h5 class="small">Diese Seite teilen</h5>
 
           @php
             echo do_shortcode( '[erechtshare]' );
