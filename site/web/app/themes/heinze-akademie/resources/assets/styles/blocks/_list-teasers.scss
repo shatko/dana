@@ -1,8 +1,11 @@
 .list-teasers {
-  background-color: $gray-1;
   padding: 50px 0 50px;
 
   @media only screen and (min-width: 600px) {
+    padding: 70px 0 70px;
+  }
+
+  @media only screen and (min-width: 1199px) {
     padding: 125px 0 120px;
   }
 
@@ -29,7 +32,6 @@
 
   &__single {
     padding: 50px 25px;
-    background-color: $white;
     height: 100%;
 
     @media only screen and (min-width: 500px) {
@@ -76,6 +78,23 @@
 
     ul {
       margin-bottom: 0;
+    }
+
+    p {
+      position: relative;
+
+      &::before {
+        content: "";
+        background-image: url("data:image/svg+xml,%3Csvg id='icon_checkmark' data-name='icon/checkmark' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect id='Rectangle_460' data-name='Rectangle 460' width='24' height='24' transform='translate(0)' fill='none'/%3E%3Cpath id='Checkbox' d='M9.517,16.552,0,7.034,1.931,5.1l7.586,7.448L22.069,0,24,1.931Z' transform='translate(0 2)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 6px;
+        left: -40px;
+      }
     }
   }
 }

@@ -20,10 +20,16 @@
   $ytcode = get_field('youtube_code');
   $contentSelect = get_field('select_content');
 
-  if ($contentSelect === 'image_slider') {
+  if ($contentSelect === 'image_slider' || $contentSelect === 'none') {
     $bg = 'white';
   } else {
     $bg = 'gray';
+  }
+
+  if ($contentSelect === 'none') {
+    $rows = 'col-xl-8 col-lg-12';
+  } else {
+    $rows = 'col-xl-6 col-lg-12';
   }
 @endphp
 
@@ -31,7 +37,7 @@
 <div class="header-ce {{ $bg }}">
   <div class="container">
     <div class="row">
-      <div class="col-xl-6 col-lg-12 header-ce__text-area">
+      <div class="{{ $rows }} header-ce__text-area">
           @php
             echo do_shortcode( '[seopress_breadcrumbs]' );
           @endphp
@@ -52,6 +58,22 @@
           @endphp
           <h4 class="header-ce__subtitle">{{ $subtitle }}</h4>
           <p class="header-ce__text">@php echo $text; @endphp</p>
+
+
+          @php
+            if (!empty(get_field('insert_button'))) {
+             if( have_rows('button') ):
+                while( have_rows('button') ): the_row();
+                  @endphp
+                    @include('partials.button-sub-field')
+                  @php
+
+                endwhile;
+              endif;
+            }
+          @endphp
+
+
         </div>
       </div>
       <div class="col-xl-6 col-lg-12 header-ce__content-area">
@@ -59,7 +81,31 @@
           if ($contentSelect === 'yt_video') {
             if(!empty($ytcode)) {
               @endphp
-              <div class="header-ce__youtube"><iframe src="https://www.youtube.com/embed/{{ $ytcode }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div>
+              <div class="header-ce__video-wrapper">
+                <!-- Button trigger modal -->
+                <div class="header-ce__image-wrapper" data-toggle="modal" data-target="#header-video">
+                  @php
+                    $image = get_field('video_cover');
+                    $size = 'full';
+                    if( $image ) {
+                      echo wp_get_attachment_image( $image, $size );
+                    }
+                  @endphp
+
+                  <div class="play"></div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade header-ce__video-modal" id="header-video" tabindex="-1" role="dialog" aria-labelledby="starttermineModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <iframe class="video-if" src="https://www.youtube.com/embed/{{ $ytcode }}?version=3&enablejsapi=1" frameborder="0" allowfullscreen=""></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               @php
             }
           } elseif ($contentSelect === 'image') {

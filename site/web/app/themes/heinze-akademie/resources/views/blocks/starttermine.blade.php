@@ -36,19 +36,19 @@
 
             if ($empty_slots <= 4 && $empty_slots >= 2) {
               $slots_button_text = 'Noch ' . $empty_slots . ' Plätze verfügbar';
-              $enlist_button_text = 'Anmelden';
+              $enlist_button_text = 'Platz anfragen';
               $status = 'enable';
               $button_state = 'button__enabled';
 
             } else if ($empty_slots >= 5) {
               $slots_button_text = 'Startgarantie';
-              $enlist_button_text = 'Anmelden';
+              $enlist_button_text = 'Platz anfragen';
               $status = 'enable';
               $button_state = 'button__enabled';
 
             } else if ($empty_slots == 1) {
               $slots_button_text = 'Noch ' . $empty_slots . ' Platz verfügbar';
-              $enlist_button_text = 'Anmelden';
+              $enlist_button_text = 'Platz anfragen';
               $status = 'enable';
               $button_state = 'button__enabled';
 

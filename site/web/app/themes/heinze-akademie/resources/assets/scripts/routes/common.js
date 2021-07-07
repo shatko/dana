@@ -51,6 +51,64 @@ export default {
     });
 
 
+    // Slider Absolventen
+    $('.absolventen-slider__slider').slick({
+      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
+      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      variableWidth: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      dots: true,
+      appendDots: $('.absolventen-slider__dots-wrapper'),
+      responsive: [
+        {
+          breakpoint: 500,
+          settings: {
+            adaptiveHeight: true,
+            variableWidth: false,
+            slidesToShow: 1,
+            centerMode: true,
+            centerPadding: '20px',
+          },
+        },
+      ],
+    });
+
+
+    // Slider Dozenten
+    $('.dozenten-slider__slider').slick({
+      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
+      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      variableWidth: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      speed: 2000,
+      dots: true,
+      appendDots: $('.dozenten-slider__dots-wrapper'),
+      responsive: [
+        {
+          breakpoint: 500,
+          settings: {
+            adaptiveHeight: true,
+            variableWidth: false,
+            slidesToShow: 1,
+            centerMode: true,
+            centerPadding: '20px',
+          },
+        },
+      ],
+    });
+
+
     // Questions
     $('.questions__trigger').click(function() {
       $(this).parent('.questions').toggleClass('questions-active');
@@ -148,35 +206,6 @@ export default {
     }
 
 
-    // Slider Absolventen
-    $('.absolventen-slider__slider').slick({
-      prevArrow: '<div class="slick-prev slick-arrow" aria-label="Prev"></div>',
-      nextArrow: '<div class="slick-next slick-arrow" aria-label="Next"></div>',
-      infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      adaptiveHeight: false,
-      variableWidth: true,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      speed: 2000,
-      dots: true,
-      appendDots: $('.absolventen-slider__dots-wrapper'),
-      responsive: [
-        {
-          breakpoint: 500,
-          settings: {
-            adaptiveHeight: true,
-            variableWidth: false,
-            slidesToShow: 1,
-            centerMode: true,
-            centerPadding: '20px',
-          },
-        },
-      ],
-    });
-
-
     // Team Member Info Click
     $('.team-member__icon--info').click(function() {
       $(this).parent().parent().find('.team-member__hover-text').toggleClass('open');
@@ -215,6 +244,14 @@ export default {
          });
        });
      }
+
+
+    // Youtube pause
+    $('#header-video').on('hide.bs.modal', function () {
+      $('.video-if').each(function(){
+        this.contentWindow.postMessage('{"event":"command", "func":"stopVideo", "args":""}', '*')
+      });
+    })
 
 
   },

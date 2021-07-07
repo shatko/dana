@@ -1,4 +1,12 @@
 .two-column-content {
+  > .container {
+    > .row {
+      > .col-xl-6 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
   .list-box {
     display: flex;
     height: 100%;
@@ -11,7 +19,7 @@
         display: flex;
         height: 100%;
         align-content: baseline;
-        padding: 0;
+        padding: 30px;
 
         > .column-count-2 {
           position: relative;
@@ -26,6 +34,10 @@
             background-color: $gray-4;
             right: 50%;
             top: 0;
+
+            @media only screen and (max-width: 1199px) {
+              display: none;
+            }
           }
         }
       }
@@ -41,6 +53,29 @@
         > div {
           padding-left: 0;
           padding-right: 0;
+
+          // img {
+          //   @media only screen and (min-width: 1200px) {
+          //     width: 85%;
+          //     float: right;
+          //   }
+          // }
+        }
+      }
+    }
+  }
+
+  .downloads {
+    @media only screen and (max-width: 1199px) {
+      .container {
+        padding-left: 0;
+        padding-right: 0;
+
+        .row {
+          > div {
+            padding-left: 0;
+            padding-right: 0;
+          }
         }
       }
     }

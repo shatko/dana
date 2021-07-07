@@ -41,7 +41,8 @@
         @php
         foreach ($submenu_taser_links as $submenu_taser_link) {
           @endphp
-            <a href="@php echo get_permalink($submenu_taser_link -> ID); @endphp">@php echo $submenu_taser_link -> post_title; @endphp</a>
+            <a class="submenu-teaser__right-wrapper-links" href="@php echo get_permalink($submenu_taser_link -> ID); @endphp"><span>@php echo $submenu_taser_link -> post_title; @endphp</span></a>
+            <br />
           @php
         }
         @endphp

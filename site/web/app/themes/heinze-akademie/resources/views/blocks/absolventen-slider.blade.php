@@ -1,6 +1,6 @@
 {{--
   Title: Absolventen slider
-  Description: absolventen Slider
+  Description: Absolventen Slider
   Category: sections
   Icon: admin-comments
   Keywords:

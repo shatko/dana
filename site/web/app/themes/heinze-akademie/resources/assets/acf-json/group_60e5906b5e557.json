@@ -1,10 +1,10 @@
 {
-    "key": "group_60992dc031ca2",
-    "title": "Heinze Absolventen - Options",
+    "key": "group_60e5906b5e557",
+    "title": "Heinze Dozenten - Options",
     "fields": [
         {
-            "key": "field_60992dd850af5",
-            "label": "Absolventen General",
+            "key": "field_60e5906b612df",
+            "label": "Dozenten General",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -19,9 +19,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_60992ff750af7",
-            "label": "Absolventen Title",
-            "name": "absolventen_title",
+            "key": "field_60e5906b61306",
+            "label": "Dozenten Title",
+            "name": "dozenten_title",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -38,9 +38,9 @@
             "delay": 0
         },
         {
-            "key": "field_6099303f50af8",
-            "label": "Absolventen Text",
-            "name": "absolventen_text",
+            "key": "field_60e5906b61325",
+            "label": "Dozenten Text",
+            "name": "dozenten_text",
             "type": "textarea",
             "instructions": "",
             "required": 0,
@@ -57,9 +57,9 @@
             "new_lines": ""
         },
         {
-            "key": "field_609932631e4c1",
-            "label": "Absolventen first link HREF",
-            "name": "absolventen_first_link_href",
+            "key": "field_60e5906b61342",
+            "label": "Dozenten first link HREF",
+            "name": "dozenten_first_link_href",
             "type": "page_link",
             "instructions": "",
             "required": 0,
@@ -78,9 +78,9 @@
             "multiple": 0
         },
         {
-            "key": "field_609932c11e4c2",
-            "label": "Absolventen first link TEXT",
-            "name": "absolventen_first_link_text",
+            "key": "field_60e5906b6135f",
+            "label": "Dozenten first link TEXT",
+            "name": "dozenten_first_link_text",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -97,9 +97,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_6099332e85b60",
-            "label": "Absolventen second link HREF",
-            "name": "absolventen_second_link_href",
+            "key": "field_60e5906b6137d",
+            "label": "Dozenten second link HREF",
+            "name": "dozenten_second_link_href",
             "type": "page_link",
             "instructions": "",
             "required": 0,
@@ -118,9 +118,9 @@
             "multiple": 0
         },
         {
-            "key": "field_6099335885b61",
-            "label": "Absolventen second link TEXT",
-            "name": "absolventen_second_link_text",
+            "key": "field_60e5906b6139a",
+            "label": "Dozenten second link TEXT",
+            "name": "dozenten_second_link_text",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -137,8 +137,8 @@
             "maxlength": ""
         },
         {
-            "key": "field_6099339df4acd",
-            "label": "Absolventen Slider",
+            "key": "field_60e5906b613b7",
+            "label": "Dozenten Slider",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -153,9 +153,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_609933b7f4ace",
-            "label": "Absolventen Slider",
-            "name": "absolventen_slider",
+            "key": "field_60e5906b613d4",
+            "label": "Dozenten Slider",
+            "name": "dozenten_slider",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -172,7 +172,7 @@
             "button_label": "Add Slide",
             "sub_fields": [
                 {
-                    "key": "field_609933cff4acf",
+                    "key": "field_60e5906b6ea33",
                     "label": "Image",
                     "name": "image",
                     "type": "image",
@@ -196,7 +196,7 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_609933e4f4ad0",
+                    "key": "field_60e5906b6ea59",
                     "label": "Vorname Nachname",
                     "name": "vorname_nachname",
                     "type": "text",
@@ -215,7 +215,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_60c88ed4d1e2a",
+                    "key": "field_60e5906b6ea7b",
                     "label": "Position",
                     "name": "position",
                     "type": "text",
@@ -234,7 +234,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_60c88ef2d1e2b",
+                    "key": "field_60e5906b6ea9b",
                     "label": "Additional Text",
                     "name": "additional_text",
                     "type": "textarea",
@@ -253,7 +253,7 @@
                     "new_lines": "br"
                 },
                 {
-                    "key": "field_6099343a62b5a",
+                    "key": "field_60e5906b6eaba",
                     "label": "LinkedIn",
                     "name": "linkedin",
                     "type": "text",
@@ -272,7 +272,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_6099344662b5b",
+                    "key": "field_60e5906b6ead8",
                     "label": "Xing",
                     "name": "xing",
                     "type": "text",
@@ -291,7 +291,7 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_6099340662b59",
+                    "key": "field_60e5906b6eaf6",
                     "label": "Text",
                     "name": "text",
                     "type": "textarea",
@@ -317,7 +317,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "heinze-absolventen"
+                "value": "heinze-dozenten"
             }
         ]
     ],
@@ -329,5 +329,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1625657773
+    "modified": 1625658287
 }

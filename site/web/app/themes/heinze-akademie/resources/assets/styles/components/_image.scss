@@ -5,4 +5,20 @@
     width: 100%;
     height: auto;
   }
+
+  .smaller-image {
+    text-align: right;
+
+    @media only screen and (max-width: 1199px) {
+      text-align: center;
+    }
+
+    img {
+      width: 85%;
+
+      @media only screen and (max-width: 1199px) {
+        width: 100%;
+      }
+    }
+  }
 }

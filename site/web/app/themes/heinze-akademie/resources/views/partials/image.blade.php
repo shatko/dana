@@ -7,6 +7,12 @@ if (get_field('image')) {
   $size  = 'large';
 }
 
+if ( !empty(get_field('smaller_image')) || !empty(get_sub_field('smaller_image')) ) {
+  $smaller_image = 'smaller-image';
+} else {
+  $smaller_image = '';
+}
+
 if (get_field('bottom_margin')) {
   $bottom_margin = get_field('bottom_margin');
 } else {
@@ -23,7 +29,7 @@ if (get_field('background_color')) {
 <div class="image {{ $background_color }}  {{ $bottom_margin }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 {{ $smaller_image }}">
         @php
           if( $image ) {
             echo wp_get_attachment_image( $image, $size );

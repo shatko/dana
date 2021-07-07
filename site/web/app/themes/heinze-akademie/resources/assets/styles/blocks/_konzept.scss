@@ -29,6 +29,8 @@
 
     img {
       align-self: center;
+      max-width: 270px;
+      max-height: 270px;
 
       @media only screen and (max-width: 600px) {
         margin: 0 30px;

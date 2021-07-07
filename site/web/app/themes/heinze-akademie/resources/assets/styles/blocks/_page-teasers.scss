@@ -1,4 +1,10 @@
 .page-teasers {
+  margin-bottom: 90px;
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 60px;
+  }
+
   &__wrapper {
     margin-bottom: 15px;
 
@@ -41,9 +47,9 @@
   &__image-wrapper {
     img {
       width: 100%;
-      height: auto;
       height: 300px;
       object-fit: cover;
+      object-position: top;
     }
   }
 
@@ -57,9 +63,13 @@
 
   &__title {
     @extend %page-teasers-title;
+
+    hyphens: auto;
   }
 
   &__subtitle {
     @extend %page-teasers-subtitle;
+
+    hyphens: auto;
   }
 }

@@ -142,10 +142,18 @@ body {
 
 .column-count-2 {
   column-count: 2;
+
+  @media only screen and (max-width: 1199px) {
+    column-count: 1;
+  }
 }
 
 .column-count-3 {
   column-count: 3;
+
+  @media only screen and (max-width: 1199px) {
+    column-count: 1;
+  }
 }
 
 .column-gap-50 {
