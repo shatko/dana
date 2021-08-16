@@ -1,12 +1,21 @@
 .home-header {
+  .container {
+    max-width: 100%;
+  }
+
   &__content {
-    height: calc(100vh - 166px);
+    height: calc(80vh - 166px);
     min-height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 15px;
+
+    @media only screen and (max-width: 799px) {
+      height: calc(80vh - 120px);
+      min-height: 450px;
+    }
   }
 
   &__image {
@@ -31,6 +40,13 @@
     font-stretch: normal;
     text-align: center;
     margin-bottom: 40px;
+    font-size: 80px;
+    line-height: 97px;
+
+    @media only screen and (max-width: 1150px) {
+      font-size: 6vw;
+      line-height: 10vw;
+    }
 
     @media only screen and (min-width: 800px) {
       margin-bottom: 85px;
@@ -49,7 +65,7 @@
 
     @media only screen and (min-width: 800px) {
       padding: 50px 100px;
-      border-radius: 162px;
+      border-radius: 9999px;
     }
 
     h1,
@@ -63,15 +79,19 @@
       margin-bottom: 50px;
       text-transform: initial;
 
+      @media only screen and (max-width: 799px) {
+        margin-bottom: 30px;
+      }
+
       span {
         font-family: $HelveticaBold;
       }
     }
 
     h2 {
-      @media only screen and (max-width: 800px) {
-        font-size: 30px;
-        line-height: 30px;
+      @media only screen and (max-width: 1150px) {
+        font-size: 4.5vw;
+        line-height: 4.8vw;
       }
     }
   }

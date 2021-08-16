@@ -1,6 +1,10 @@
 .accordion {
   margin-bottom: 140px;
 
+  @media only screen and (max-width: 1199px) {
+    margin-bottom: 0;
+  }
+
   &__title {
     margin-bottom: 80px;
   }
@@ -10,21 +14,31 @@
   }
 
   &__card-header {
-    background: $gray-3;
+    background: $gray-1;
     font-weight: bold;
     position: relative;
+    transition: background 0.25s ease-in-out;
 
     &:hover {
       cursor: pointer;
+      background: $gray-3;
     }
 
     > div {
       padding: 40px 30px;
+      min-height: 140px;
+      display: flex;
+      align-items: center;
 
       .big {
         margin-bottom: 0;
-        min-height: 60px;
+        // min-height: 60px;
         width: calc(100% - 50px);
+
+        @media only screen and (max-width: 1500px) {
+          font-size: 20px;
+          line-height: 25px;
+        }
       }
 
       &::before {
@@ -47,6 +61,8 @@
       }
 
       &[aria-expanded="true"] {
+        background: $gray-3;
+
         &::before {
           background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18.337' height='11.9' viewBox='0 0 18.337 11.9'%3E%3Cpath id='Pfad_203' data-name='Pfad 203' d='M11.169,13.9,2,4.731,4.731,2l6.438,6.438L17.606,2l2.731,2.731Z' transform='translate(20.337 13.9) rotate(180)' fill='%23dd042d'/%3E%3C/svg%3E%0A");
         }

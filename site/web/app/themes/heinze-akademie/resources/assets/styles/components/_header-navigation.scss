@@ -15,19 +15,23 @@
   .nav {
     margin-left: 20px;
 
-    @media only screen and (max-width: 1600px) {
+    @media only screen and (max-width: 1400px) {
       flex-direction: column;
     }
 
     > .menu-item {
       margin-left: 40px;
 
+      @media only screen and (max-width: 1599px) {
+        margin-left: 30px;
+      }
+
       @include media-breakpoint-down(xl) {
         padding-bottom: 30px;
         display: inline-block;
       }
 
-      @media only screen and (max-width: 1600px) {
+      @media only screen and (max-width: 1400px) {
         margin-left: 0;
         min-height: 40px;
         position: relative;
@@ -39,14 +43,14 @@
 
           &::after {
             content: "";
-            width: calc(100% + 30px);
+            width: calc(100%);
             height: 6px;
             background-color: $red-3;
             position: absolute;
             left: 0;
             bottom: -52px;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               display: none;
             }
           }
@@ -90,7 +94,7 @@
           top: 89px;
           padding: 150px;
 
-          @media only screen and (max-width: 1600px) {
+          @media only screen and (max-width: 1400px) {
             padding: 0;
             height: inherit;
             width: inherit;
@@ -111,7 +115,7 @@
             top: 0;
             left: 50%;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               display: none;
             }
           }
@@ -120,14 +124,14 @@
         .menu-item {
           width: 745px;
 
-          @media only screen and (max-width: 1600px) {
+          @media only screen and (max-width: 1400px) {
             width: inherit;
           }
 
           > a {
             @extend %main-sub-navigation;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               width: calc(100% - 50px);
             }
 
@@ -158,7 +162,7 @@
               top: 150px;
               z-index: 1;
 
-              @media only screen and (max-width: 1600px) {
+              @media only screen and (max-width: 1400px) {
                 position: relative;
                 left: 0;
                 top: 0;

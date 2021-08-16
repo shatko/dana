@@ -70,7 +70,7 @@ export default {
           breakpoint: 500,
           settings: {
             adaptiveHeight: true,
-            variableWidth: false,
+            variableWidth: true,
             slidesToShow: 1,
             centerMode: true,
             centerPadding: '20px',
@@ -114,18 +114,18 @@ export default {
       $(this).parent('.questions').toggleClass('questions-active');
     });
 
-    var fixedQuestions = $('.questions');
-    var fixedQuestionsWin = $(window);
-    var fixedQuestionsWinHeight = fixedQuestionsWin.height();
-
-    fixedQuestionsWin.on('scroll', function () {
-      if ($(this).scrollTop() > fixedQuestionsWinHeight ) {
-        fixedQuestions.addClass('questions-active');
-        fixedQuestionsWin.off('scroll');
-      }
-    }).on('resize', function() {
-       fixedQuestionsWinHeight = $(this).height();
-    });
+    // var fixedQuestions = $('.questions');
+    // var fixedQuestionsWin = $(window);
+    // var fixedQuestionsWinHeight = fixedQuestionsWin.height();
+    //
+    // fixedQuestionsWin.on('scroll', function () {
+    //   if ($(this).scrollTop() > fixedQuestionsWinHeight ) {
+    //     fixedQuestions.addClass('questions-active');
+    //     fixedQuestionsWin.off('scroll');
+    //   }
+    // }).on('resize', function() {
+    //    fixedQuestionsWinHeight = $(this).height();
+    // });
 
 
     // Adds Main Menu arrow

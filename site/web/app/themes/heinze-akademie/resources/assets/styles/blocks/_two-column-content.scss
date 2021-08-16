@@ -3,7 +3,18 @@
     > .row {
       > .col-xl-6 {
         margin-bottom: 15px;
+
+        @media only screen and (max-width: 1199px) {
+          margin-bottom: 0;
+        }
       }
+    }
+  }
+
+  .headline {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
@@ -14,16 +25,36 @@
     .container {
       display: flex;
       height: 100%;
+      padding-right: 0;
+      padding-left: 0;
 
       .row {
         display: flex;
         height: 100%;
         align-content: baseline;
-        padding: 30px;
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+
+        > .col,
+        > [class*="col-"] {
+          padding-right: 0;
+          padding-left: 0;
+        }
+
+        &.white {
+          background-color: transparent;
+        }
+
+        &.gray,
+        &.gray-3 {
+          padding: 80px 60px;
+        }
 
         > .column-count-2 {
           position: relative;
           column-gap: 100px;
+          margin: 30px 0 60px;
 
           &::after {
             content: "";
@@ -46,9 +77,6 @@
 
   .image {
     .container {
-      padding-left: 0;
-      padding-right: 0;
-
       .row {
         > div {
           padding-left: 0;
@@ -83,13 +111,27 @@
 
   .accordion {
     .container {
-      padding-left: 0;
+      // padding-left: 0;
 
       .row {
         > div {
           padding-left: 0;
         }
       }
+    }
+  }
+
+  .gradient-text {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .button-wrapper {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }

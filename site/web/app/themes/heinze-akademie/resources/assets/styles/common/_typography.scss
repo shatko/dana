@@ -131,12 +131,31 @@ p {
     line-height: 30px;
   }
 
+  &.small {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
   &.bold {
     font-family: $HelveticaBold;
   }
 
   strong {
     font-family: $HelveticaBold;
+  }
+}
+
+.accordion__card-body {
+  a {
+    color: $black;
+    text-decoration: none;
+    font-family: $HelveticaBold;
+    border-bottom: 1px solid $red-4;
+
+    &:hover {
+      text-decoration: none;
+      color: $black;
+    }
   }
 }
 
@@ -158,7 +177,11 @@ span {
       letter-spacing: 0;
       font-stretch: normal;
       color: $black;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
+
+      strong {
+        font-family: $HelveticaBold;
+      }
 
       &:last-child {
         margin: 0;
@@ -196,22 +219,27 @@ span {
   line-height: 25px;
   letter-spacing: 0.32px;
   font-stretch: normal;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 4vw;
+    line-height: 4.3vw;
+  }
 }
 
 // Navigation
 %main-navigation {
   font-family: $HelveticaRegular;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 20px;
   letter-spacing: 0;
   font-stretch: normal;
   color: $black;
   transition: color 0.25s ease;
 
-  @media only screen and (max-width: 1600px) {
-    font-family: $HelveticaBold;
-    font-size: 24px;
-    line-height: 35px;
+  @media only screen and (min-width: 1600px) {
+    font-family: $HelveticaRegular;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   &:hover {
@@ -273,7 +301,12 @@ span {
 
   &:hover {
     text-decoration: none;
-    border-bottom: 1px solid $red-3;
+    // border-bottom: 1px solid $red-3;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 

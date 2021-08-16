@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="col-xl-2">
-          <p class="footer-top__title">folgen sie uns</p>
+          <p class="footer-top__title"><strong>folgen sie uns</strong></p>
 
           @php
           if( have_rows('socials', 'option') ):
@@ -40,7 +40,7 @@
           @endphp
         </div>
         <div class="col-xl-2">
-          <p class="footer-top__title">rechtliches</p>
+          <p class="footer-top__title"><strong>rechtliches</strong></p>
           <nav class="nav-footer">
             @if (has_nav_menu('footer_navigation'))
               {!! wp_nav_menu(['theme_location' => 'footer_navigation', 'menu_class' => 'nav-footer']) !!}

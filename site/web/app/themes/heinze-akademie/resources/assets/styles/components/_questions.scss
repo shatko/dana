@@ -109,7 +109,8 @@
       flex-direction: column;
 
       p {
-        margin-bottom: 5px;
+        margin-bottom: 0;
+        line-height: 25px;
         color: $white;
       }
     }

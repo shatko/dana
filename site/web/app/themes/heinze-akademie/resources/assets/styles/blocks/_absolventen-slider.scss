@@ -9,11 +9,23 @@
     padding: 160px 0;
   }
 
+  .container__inner {
+    @media only screen and (min-width: 575px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   &__left {
     @media only screen and (max-width: 1600px) {
       width: 100%;
       max-width: 100%;
       flex: 0 100%;
+    }
+
+    @media only screen and (max-width: 575px) {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
@@ -41,6 +53,11 @@
       max-width: 100%;
       flex: 0 100%;
     }
+
+    @media only screen and (max-width: 575px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__right-wrapper {
@@ -67,6 +84,18 @@
 
   &__left-first-link {
     margin-bottom: 30px;
+
+    .button {
+      min-width: 271px;
+    }
+  }
+
+  .button-wrapper {
+    .button {
+      @media only screen and (max-width: 1199px) {
+        min-width: 100%;
+      }
+    }
   }
 
   &__dots-wrapper {
@@ -150,13 +179,15 @@
     padding: 50px 10px;
     color: $black;
     transition: opacity 1s ease-in;
-    width: 400px;
+    // width: 400px;
+    max-width: inherit;
+    width: 100vw;
 
     @media only screen and (min-width: 500px) {
       padding: 35px 50px 75px 50px;
       margin-left: 75px;
       margin-right: 75px;
-      width: 500px;
+      max-width: 500px;
       height: inherit;
     }
 
@@ -238,11 +269,16 @@
     @extend %absolventen-slider-text;
 
     position: relative;
-    width: 82%;
+    width: 70%;
     margin: 0 auto;
 
     @media only screen and (min-width: 500px) {
       width: 95%;
+    }
+
+    @media only screen and (max-width: 1199px) {
+      font-size: 20px;
+      line-height: 35px;
     }
 
     &::before {

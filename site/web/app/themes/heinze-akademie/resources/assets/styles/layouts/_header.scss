@@ -7,7 +7,7 @@ header {
     top: 0;
     z-index: 100;
 
-    @media only screen and (max-width: 1600px) {
+    @media only screen and (max-width: 1400px) {
       height: 80px;
     }
 
@@ -22,7 +22,7 @@ header {
           align-items: center;
           margin-top: 35px;
 
-          @media only screen and (max-width: 1600px) {
+          @media only screen and (max-width: 1400px) {
             margin-top: 20px;
           }
 
@@ -34,8 +34,10 @@ header {
             width: 176px;
             height: 45px;
             display: inline-block;
+            position: relative;
+            top: -5px;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               width: 118px;
               height: 30px;
             }
@@ -44,7 +46,7 @@ header {
           .mobile-burger-wrapper {
             margin-left: auto;
 
-            @media only screen and (min-width: 1601px) {
+            @media only screen and (min-width: 1401px) {
               display: none;
             }
 
@@ -129,7 +131,7 @@ header {
           .button-wrapper-outer {
             margin-left: auto;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               text-align: center;
               margin-top: 60px;
             }
@@ -143,10 +145,20 @@ header {
 
                 .button {
                   height: 54px;
-                  border-radius: 27px;
+                  border-radius: 9999px;
 
                   &__secondary {
                     min-width: 140px;
+
+                    @media only screen and (max-width: 1599px) {
+                      min-height: inherit;
+                    }
+                  }
+
+                  &__tertiary {
+                    @media only screen and (max-width: 1599px) {
+                      min-height: inherit;
+                    }
                   }
                 }
               }
@@ -157,7 +169,7 @@ header {
             width: 100%;
             display: inline-flex;
 
-            @media only screen and (max-width: 1600px) {
+            @media only screen and (max-width: 1400px) {
               &.mobile_nav_active {
                 display: block;
               }

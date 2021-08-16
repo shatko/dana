@@ -29,6 +29,14 @@
     padding: 50px 0 70px;
     position: relative;
 
+    .shariff {
+      .shariff-buttons {
+        .shariff-button {
+          width: 45px !important;
+        }
+      }
+    }
+
     @media only screen and (max-width: 1199px) {
       padding: 50px 15px 70px 15px;
     }

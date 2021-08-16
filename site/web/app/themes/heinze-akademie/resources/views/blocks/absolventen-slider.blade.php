@@ -14,7 +14,7 @@
 
 
 <div class="absolventen-slider">
-  <div class="container container__inner">
+  <div class="container">
     <div class="row">
       <div class="col-xl-5 absolventen-slider__left">
         <div class="absolventen-slider__left-wrapper">

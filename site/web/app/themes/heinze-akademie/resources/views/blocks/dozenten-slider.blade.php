@@ -14,7 +14,7 @@
 
 
 <div class="dozenten-slider">
-  <div class="container container__inner">
+  <div class="container">
     <div class="row">
       <div class="col-xl-5 dozenten-slider__left">
         <div class="dozenten-slider__left-wrapper">

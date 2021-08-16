@@ -33,7 +33,7 @@
               echo get_field('subtitle');
             @endphp
             <div class="button-wrapper">
-              <a class="button button__secondary button__arrow-down button__enabled" href="{{ get_field('button_url') }}">{{ get_field('button_text') }}</a>
+              <a class="button button__secondary button__enabled" href="{{ get_field('button_url') }}">{{ get_field('button_text') }}</a>
             </div>
           </div>
           <div class="home-header__image">

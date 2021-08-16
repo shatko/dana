@@ -31,6 +31,18 @@
   } else {
     $rows = 'col-xl-6 col-lg-12';
   }
+
+  if (!empty(get_field('title_smaller_for_long_titles'))) {
+    $title_smaller = 'title-smaller';
+  } else {
+    $title_smaller = '';
+  }
+
+  if (!empty(get_field('follow_the_content_size'))) {
+    $follow_the_content_size = 'follow-the-content-size';
+  } else {
+    $follow_the_content_size = '';
+  }
 @endphp
 
 
@@ -41,7 +53,7 @@
           @php
             echo do_shortcode( '[seopress_breadcrumbs]' );
           @endphp
-        <div class="header-ce__text-wrapper">
+        <div class="header-ce__text-wrapper {{ $title_smaller }}">
           @php
             if(!empty($minititle)) {
               @endphp
@@ -52,12 +64,12 @@
           @php
             if(!empty($title)) {
               @endphp
-              <h1 class="header-ce__title">{{ $title  }}</h1>
+              <h1 class="header-ce__title {{ $title_smaller }}">{{ $title  }}</h1>
               @php
             }
           @endphp
-          <h4 class="header-ce__subtitle">{{ $subtitle }}</h4>
-          <p class="header-ce__text">@php echo $text; @endphp</p>
+          <h4 class="header-ce__subtitle {{ $title_smaller }}">{{ $subtitle }}</h4>
+          <div class="header-ce__text">@php echo get_field('text'); @endphp</div>
 
 
           @php
@@ -81,14 +93,14 @@
           if ($contentSelect === 'yt_video') {
             if(!empty($ytcode)) {
               @endphp
-              <div class="header-ce__video-wrapper">
+              <div class="header-ce__video-wrapper {{ $follow_the_content_size }}">
                 <!-- Button trigger modal -->
                 <div class="header-ce__image-wrapper" data-toggle="modal" data-target="#header-video">
                   @php
                     $image = get_field('video_cover');
                     $size = 'full';
                     if( $image ) {
-                      echo wp_get_attachment_image( $image, $size );
+                      echo wp_get_attachment_image( $image, $size,"", ["class" => $follow_the_content_size]  );
                     }
                   @endphp
 
@@ -110,12 +122,12 @@
             }
           } elseif ($contentSelect === 'image') {
             @endphp
-              <div class="header-ce__image-wrapper">
+              <div class="header-ce__image-wrapper {{ $follow_the_content_size }}">
               @php
               $image = get_field('image');
               $size = 'full';
               if( $image ) {
-                echo wp_get_attachment_image( $image, $size );
+                echo wp_get_attachment_image( $image, $size,"", ["class" => $follow_the_content_size] );
               }
               @endphp
             </div>
