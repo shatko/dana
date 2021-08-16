@@ -21,12 +21,34 @@
             <p><a class="footer-navigation footer-top__email" href="mailto:@php the_field('e_mail_href', 'option'); @endphp"><span>@php the_field('e_mail_text', 'option'); @endphp</span></a></p>
           </div>
         </div>
-        <div class="col-xl-4">
-          <div class="footer-top__info-text">
-            @php the_field('info_text', 'option'); @endphp
+        @php
+          if (the_field('info_text', 'option')) {
+        @endphp
+          <div class="col-xl-4">
+            <div class="footer-top__info-text">
+              @php the_field('info_text', 'option'); @endphp
+            </div>
           </div>
-        </div>
-        <div class="col-xl-2">
+        @php
+      } else {
+        @endphp
+          <div class="col-xl-2">
+          </div>
+        @php
+      }
+        @endphp
+
+        @php
+          if (the_field('info_text', 'option')) {
+        @endphp
+          <div class="col-xl-2">
+        @php
+      } else {
+        @endphp
+          <div class="col-xl-3">
+        @php
+      }
+        @endphp
           <p class="footer-top__title"><strong>folgen sie uns</strong></p>
 
           @php

@@ -23,13 +23,40 @@
   } else {
     $align = 'align-items-center';
   }
+
+  if (!empty(get_field('no_gutters'))) {
+    $no_gutters = 'no-gutters';
+  } else {
+    $no_gutters = '';
+  }
 @endphp
 
 
 <div class="two-column-content {{ $background_color }} {{ $bottom_margin }} {{ $padding_top }}">
   <div class="container">
-    <div class="row {{ $align }}">
-      <div class="col-xl-6">
+    <div class="row {{ $align }} {{ $no_gutters }}">
+
+      @php
+      if ( get_field('smaller_columns') === 'both-columns' ) {
+        @endphp
+        <div class="col-xl-5">
+        @php
+      } else if (get_field('smaller_columns') === 'left-column-small' ) {
+        @endphp
+        <div class="col-xl-5">
+        @php
+      } else if (get_field('smaller_columns ') === 'right-column-small' ) {
+        @endphp
+        <div class="col-xl-6">
+        @php
+      } else {
+        @endphp
+        <div class="col-xl-6">
+        @php
+      }
+      @endphp
+
+
         @php
           if( have_rows('content_left') ):
             while ( have_rows('content_left') ) : the_row();
@@ -89,8 +116,33 @@
           endif;
         @endphp
 
-      </div>
-      <div class="col-xl-6">
+        @php
+        if (get_field('smaller_columns') === 'both-columns' ) {
+          @endphp
+          </div>
+          <div class="col-xl-1"></div>
+          <div class="col-xl-5">
+          @php
+        } else if (get_field('smaller_columns') === 'left-column-small' ) {
+          @endphp
+          </div>
+          <div class="col-xl-1"></div>
+          <div class="col-xl-6">
+          @php
+        } else if (get_field('smaller_columns') === 'right-column-small' ) {
+          @endphp
+          </div>
+          <div class="col-xl-1"></div>
+          <div class="col-xl-5">
+          @php
+        } else {
+          @endphp
+          </div>
+          <div class="col-xl-6">
+          @php
+        }
+        @endphp
+
         @php
           if( have_rows('content_right') ):
             while ( have_rows('content_right') ) : the_row();
@@ -141,6 +193,7 @@
               // Do something...
           endif;
         @endphp
+
       </div>
     </div>
   </div>

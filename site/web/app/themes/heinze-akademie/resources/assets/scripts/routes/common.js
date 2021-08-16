@@ -246,6 +246,34 @@ export default {
      }
 
 
+     // accordion same height magic
+
+    $('.two-column-content').each(function() {
+
+      if ($(this).children().children().children().children('accordion').length !== 0) {
+        console.log('test');
+        $(this).addClass('YEP');
+      }
+    });
+
+    // if ($('.list-teasers')[0] && window.matchMedia('(min-width: 1200px)').matches) {
+    //   var highest = 0;
+    //   $('.list-teasers').each(function() {
+    //     $(this).children('.container').find('.list-teasers__single-container').each(function() {
+    //       var currentHeight = $(this).children('.list-teasers__single').children('.list-teasers__title').height();
+    //
+    //       if (highest < currentHeight) {
+    //         highest = currentHeight;
+    //       }
+    //     });
+    //
+    //     $(this).children('.container').find('.list-teasers__single-container').each(function() {
+    //        $(this).children('.list-teasers__single').children('.list-teasers__title').css('min-height', highest);
+    //     });
+    //   });
+    // }
+
+
     // Youtube pause
     $('#header-video').on('hide.bs.modal', function () {
       $('.video-if').each(function(){

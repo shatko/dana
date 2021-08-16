@@ -13,10 +13,10 @@ if ( !empty(get_field('smaller_image')) || !empty(get_sub_field('smaller_image')
   $smaller_image = '';
 }
 
-if (get_field('bottom_margin')) {
-  $bottom_margin = get_field('bottom_margin');
+if (get_field('settings_bottom_margin')) {
+  $bottom_margin = get_field('settings_bottom_margin');
 } else {
-  $bottom_margin = get_sub_field('bottom_margin');
+  $bottom_margin = get_sub_field('settings_bottom_margin');
 }
 
 if (get_field('background_color')) {

@@ -1,32 +1,32 @@
 .downloads {
   &__links {
     background-color: $black;
-    padding: 110px 0;
+    padding: 110px 0 110px 80px;
     position: relative;
 
     @media only screen and (max-width: 1199px) {
       padding: 60px 15px;
     }
 
-    &::before {
-      content: "";
-      display: block;
-      background-color: $black;
-      position: absolute;
-      height: 100%;
-      width: 100vw;
-      top: 0;
-      left: -100vw;
-
-      @media only screen and (max-width: 1199px) {
-        display: none;
-      }
-    }
+    // &::before {
+    //   content: "";
+    //   display: block;
+    //   background-color: $black;
+    //   position: absolute;
+    //   height: 100%;
+    //   width: 100vw;
+    //   top: 0;
+    //   left: -100vw;
+    //
+    //   @media only screen and (max-width: 1199px) {
+    //     display: none;
+    //   }
+    // }
   }
 
   &__share {
     background-color: $gray-6;
-    padding: 50px 0 70px;
+    padding: 50px 0 70px 80px;
     position: relative;
 
     .shariff {
@@ -41,20 +41,20 @@
       padding: 50px 15px 70px 15px;
     }
 
-    &::before {
-      content: "";
-      display: block;
-      background-color: $gray-6;
-      position: absolute;
-      height: 100%;
-      width: 100vw;
-      top: 0;
-      left: -100vw;
-
-      @media only screen and (max-width: 1199px) {
-        display: none;
-      }
-    }
+    // &::before {
+    //   content: "";
+    //   display: block;
+    //   background-color: $gray-6;
+    //   position: absolute;
+    //   height: 100%;
+    //   width: 100vw;
+    //   top: 0;
+    //   left: -100vw;
+    //
+    //   @media only screen and (max-width: 1199px) {
+    //     display: none;
+    //   }
+    // }
 
     h5 {
       color: $white;
@@ -66,6 +66,14 @@
     color: $white;
     text-transform: uppercase;
     margin-bottom: 70px;
+  }
+
+  &__link-wrapper {
+    display: inline-block;
+
+    @media only screen and (min-width: 1199px) {
+      min-width: 800px;
+    }
   }
 
   &__download-pdf-first {

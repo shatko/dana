@@ -11,9 +11,9 @@
                 $item = get_sub_field('item');
                 $file_size = round(filesize( get_attached_file( $item -> ID )) / 1024 / 1024, 1);
                 @endphp
-                  <div>
+                  <div class="downloads__link-wrapper">
                     <a class="downloads__download-pdf-first" href="@php echo wp_get_attachment_url($item -> ID); @endphp" download></a>
-                    <a class="downloads__download-pdf" href="@php echo wp_get_attachment_url($item -> ID); @endphp"><span class="downloads__download-title">@php echo $item -> post_title; @endphp</span><span class="downloads__download-size">@php echo $file_size; @endphp MB PDF</span></a>
+                    <a class="downloads__download-pdf" target="_blank" href="@php echo wp_get_attachment_url($item -> ID); @endphp"><span class="downloads__download-title">@php echo $item -> post_title; @endphp</span><span class="downloads__download-size">@php echo $file_size; @endphp MB PDF</span></a>
                   </div>
                 @php
               endwhile;

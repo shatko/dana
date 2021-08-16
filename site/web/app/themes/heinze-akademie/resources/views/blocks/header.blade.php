@@ -64,11 +64,17 @@
           @php
             if(!empty($title)) {
               @endphp
-              <h1 class="header-ce__title {{ $title_smaller }}">{{ $title  }}</h1>
+              <h1 class="header-ce__title {{ $title_smaller }}">{!! $title !!}</h1>
               @php
             }
           @endphp
-          <h4 class="header-ce__subtitle {{ $title_smaller }}">{{ $subtitle }}</h4>
+          @php
+            if (!empty($subtitle)) {
+              @endphp
+              <h4 class="header-ce__subtitle {{ $title_smaller }}">{{ $subtitle }}</h4>
+              @php
+            }
+          @endphp
           <div class="header-ce__text">@php echo get_field('text'); @endphp</div>
 
 
